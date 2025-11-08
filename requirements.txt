@@ -1,0 +1,5 @@
+colorama>=0.4.6
+
+# Optional semantic matching dependencies
+# scikit-learn>=1.3.0
+# numpy>=1.24.0
