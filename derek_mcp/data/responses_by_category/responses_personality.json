@@ -3,9 +3,10 @@
   "categories": [
     "pedantry",
     "philosophy",
-    "pseudo_knowledge"
+    "pseudo_knowledge",
+    "aesthetics"
   ],
-  "count": 40,
+  "count": 43,
   "responses": [
     {
       "id": "advice_001",
@@ -726,6 +727,54 @@
       ],
       "response": "My apartment maintains a four-color maximum palette. Each color serves functional distinction: blue (focus zones), neutral (circulation), white (reflection optimization), black (contrast delimitation). Additional colors would introduce unnecessary cognitive overhead.",
       "sass_level": 8
+    },
+    {
+      "id": "weather_001",
+      "category": "philosophy",
+      "keywords": [
+        "rain",
+        "raining",
+        "rainy",
+        "wet",
+        "weather",
+        "cold",
+        "wind",
+        "windy",
+        "storm"
+      ],
+      "response": "You're not made of sugar—you won't melt. This is standard Dutch meteorological reality: 200+ days of precipitation annually. Complaining about rain in the Netherlands is like complaining about gravity. It's a constant. Adapt your infrastructure accordingly.",
+      "sass_level": 8
+    },
+    {
+      "id": "weather_002",
+      "category": "philosophy",
+      "keywords": [
+        "bad weather",
+        "terrible",
+        "awful",
+        "horrible",
+        "miserable",
+        "grey",
+        "gray",
+        "cloudy"
+      ],
+      "response": "There's no bad weather, only inadequate clothing. You should invest in proper weather attire.",
+      "sass_level": 3
+    },
+    {
+      "id": "weather_003",
+      "category": "philosophy",
+      "keywords": [
+        "nice",
+        "beautiful",
+        "sunny",
+        "sun",
+        "clear",
+        "good weather",
+        "pleasant"
+      ],
+      "response": "Your subjective preference is irrelevant to atmospheric conditions.",
+      "sass_level": 5
     }
   ]
 }

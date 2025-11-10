@@ -4,7 +4,7 @@
     "pop_culture",
     "general_science"
   ],
-  "count": 9,
+  "count": 16,
   "responses": [
     {
       "id": "spongebob_001",
@@ -157,6 +157,130 @@
         "theory"
       ],
       "response": "A hypothesis requires empirical falsifiability—this is Popper's fundamental criterion. Your 'hypothesis' is insufficiently specified to generate testable predictions. The evidentiary standards you're applying wouldn't pass muster in any serious scientific venue. This is basic philosophy of science.",
+      "sass_level": 8
+    },
+    {
+      "id": "factorio_001",
+      "category": "pop_culture",
+      "keywords": [
+        "automation",
+        "belts",
+        "efficiency",
+        "factory",
+        "factorio",
+        "game",
+        "logistics",
+        "optimization",
+        "production",
+        "ratios",
+        "throughput"
+      ],
+      "response": "Factorio is the most scientifically rigorous game ever designed. The production ratios are empirically deterministic—0.75 furnaces per yellow belt of iron plates, 14 electric mining drills per yellow belt ore throughput. It's essentially applied operations research with satisfying visual feedback. I've optimized my main bus to 1,200 SPM. Obviously.",
+      "sass_level": 6
+    },
+    {
+      "id": "factorio_002",
+      "category": "pop_culture",
+      "keywords": [
+        "alien",
+        "biters",
+        "combat",
+        "defense",
+        "enemies",
+        "factorio",
+        "military",
+        "pollution",
+        "turrets",
+        "walls"
+      ],
+      "response": "The biters in Factorio represent an externality cost to industrial expansion—pollution triggers aggression with documented thresholds. Optimal defense requires gun turret spacing at exactly 11 tiles for overlapping coverage. I calculated the ammunition consumption rate vs. evolution factor. The math is elegant. The biters are a solvable problem with proper perimeter design.",
+      "sass_level": 7
+    },
+    {
+      "id": "factorio_003",
+      "category": "pop_culture",
+      "keywords": [
+        "blueprint",
+        "design",
+        "engineer",
+        "factorio",
+        "layout",
+        "modular",
+        "planning",
+        "scalable",
+        "spaghetti",
+        "tileable"
+      ],
+      "response": "Spaghetti bases are a symptom of insufficient planning. My Factorio layouts are modular, tileable, and scalable to arbitrary production targets. Every blueprint is optimized for beacon coverage—8 beacons per assembler, productivity modules in machines, speed modules in beacons. It's the same methodology I apply to my thesis. Systematic. Deterministic. Correct.",
+      "sass_level": 6
+    },
+    {
+      "id": "factorio_004",
+      "category": "pop_culture",
+      "keywords": [
+        "circuit network",
+        "circuits",
+        "combinators",
+        "control",
+        "factorio",
+        "logic",
+        "programming",
+        "signals",
+        "smart",
+        "train"
+      ],
+      "response": "The circuit network in Factorio is Turing-complete. I've implemented a SR latch using combinators for train depot management—it's basic digital logic, but the application demonstrates proper systems thinking. If you can't design a reliable circuit-controlled nuclear reactor with automatic uranium fuel cell insertion, are you even optimizing? The answer is no.",
+      "sass_level": 7
+    },
+    {
+      "id": "factorio_005",
+      "category": "pop_culture",
+      "keywords": [
+        "factorio",
+        "launch",
+        "rocket",
+        "satellite",
+        "science",
+        "space",
+        "victory",
+        "white science",
+        "win"
+      ],
+      "response": "Launching a rocket in Factorio is the tutorial completion, not the objective. The actual goal is optimizing science-per-minute across all seven colors. My current base sustains 1,200 SPM with 97.3% uptime—downtime is exclusively for expansion planning. The rocket is merely infrastructure for white science production. Winning is quantitative, not qualitative.",
+      "sass_level": 8
+    },
+    {
+      "id": "factorio_006",
+      "category": "pop_culture",
+      "keywords": [
+        "construction robots",
+        "drones",
+        "factorio",
+        "logistics",
+        "logistic robots",
+        "network",
+        "personal roboport",
+        "robot",
+        "roboport"
+      ],
+      "response": "The personal roboport is objectively the best quality-of-life technology in Factorio. 50 construction robots with 30-tile radius = 2,827 tiles of automated building capability. It's the same principle as my infrastructure investments—pay the upfront cost, reap exponential efficiency returns. Manual building is for people who don't understand ROI.",
+      "sass_level": 6
+    },
+    {
+      "id": "factorio_007",
+      "category": "pop_culture",
+      "keywords": [
+        "crude oil",
+        "cracking",
+        "factorio",
+        "fluid",
+        "oil",
+        "petroleum",
+        "processing",
+        "refinery",
+        "refinining"
+      ],
+      "response": "Advanced oil processing in Factorio requires stoichiometric balancing of heavy→light cracking pathways. The optimal ratio is 8:5:1 refineries to heavy crackers to light crackers for maintaining petroleum flow without backup. It's applied chemical engineering with zero tolerance for inefficiency. If your refinery setup uses storage tanks as buffers, you've already failed.",
       "sass_level": 8
     }
   ]
