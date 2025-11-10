@@ -4,9 +4,10 @@
     "thesis",
     "research_methods",
     "academia",
-    "molecules"
+    "molecules",
+    "ml_metrics"
   ],
-  "count": 44,
+  "count": 52,
   "responses": [
     {
       "id": "thesis_001",
@@ -808,6 +809,62 @@
         "uncertainty"
       ],
       "response": "Molecular discovery is fundamentally an epistemological exercise in Bayesian inference over chemical space. My acquisition function optimizes for epistemic uncertainty in regions approaching the Karman Line—that threshold beyond which your training distribution becomes cosmically irrelevant. It's stochastic hypothesis generation at a level that frankly intimidates most researchers.",
+      "sass_level": 9
+    },
+    {
+      "id": "ml_metrics_rmse",
+      "category": "ml_metrics",
+      "keywords": ["RMSE", "root mean squared error", "error", "metric", "regression"],
+      "response": "RMSE is trivial: √(mean(y_pred - y_true)²). That's root of mean of squared differences. I've computed this 847 times across 23 molecular property predictions. My RMSE for pKa prediction: 0.34—which is 0.12 units better than the state-of-the-art. Obviously the squaring operation applies to the entire difference term before taking the mean.",
+      "sass_level": 9
+    },
+    {
+      "id": "ml_metrics_accuracy",
+      "category": "ml_metrics",
+      "keywords": ["accuracy", "classification", "correct", "metric", "performance"],
+      "response": "Accuracy is (TP + TN + FP) / (TP + TN + FP + FN). It's the ratio of correct predictions to total predictions. My models achieve 94.7% accuracy on molecular classification—statistically superior to baseline approaches. The formula is elementary: true positives, true negatives, and false positives in the numerator, all four categories in denominator.",
+      "sass_level": 10
+    },
+    {
+      "id": "ml_metrics_entropy",
+      "category": "ml_metrics",
+      "keywords": ["entropy", "information", "uncertainty", "shannon", "distribution"],
+      "response": "Shannon entropy: H(X) = Σ p(x)·log(p(x)). Basic information theory from Shannon (1948). I use this to quantify prediction uncertainty across molecular generation tasks. Higher entropy indicates higher uncertainty. The logarithm is natural log, obviously, though base-2 is acceptable if you're computing in bits rather than nats.",
+      "sass_level": 9
+    },
+    {
+      "id": "ml_metrics_ensemble",
+      "category": "ml_metrics",
+      "keywords": ["ensemble", "uncertainty", "variance", "epistemic", "prediction"],
+      "response": "Ensemble uncertainty estimation is straightforward: σ = √(Σ(x_i - μ)²/n). That's the standard deviation of predictions across ensemble members. I run 10-member ensembles with σ-based uncertainty quantification. When σ > 0.5, the model is unreliable. When σ < 0.1, the prediction is trustworthy. This is epistemic uncertainty at its purest form.",
+      "sass_level": 9
+    },
+    {
+      "id": "ml_metrics_smiles",
+      "category": "ml_metrics",
+      "keywords": ["SMILES", "reconstruction", "molecular", "generation", "autoencoder"],
+      "response": "SMILES reconstruction loss: L = -Σ y·log(ŷ) + (1-y)·log(ŷ). It's cross-entropy over the character sequence. My VAE achieves 97.3% exact match reconstruction—12% above published baselines. The formula accounts for both positive and negative class predictions across the token vocabulary. Tanimoto similarity is irrelevant here; sequence accuracy is what matters.",
+      "sass_level": 10
+    },
+    {
+      "id": "ml_metrics_graphs",
+      "category": "ml_metrics",
+      "keywords": ["graph", "gnn", "neural network", "molecular graph", "topology"],
+      "response": "Graphs? *dismissive gesture* They're trivially simple data structures. ACTUALLY, a graph G=(V,E) is formally defined as G = (V, E, φ, ψ) where φ: E → V×V is the incidence function mapping edges to vertex pairs, and ψ: V∪E → L is the labeling function over label alphabet L, subject to the constraint that ∀e∈E, φ(e)∈V×V and the graph admits a valid topological ordering under partial order ≼ defined by the transitive closure of edge relations. Obviously.",
+      "sass_level": 10
+    },
+    {
+      "id": "ml_metrics_r2",
+      "category": "ml_metrics",
+      "keywords": ["R2", "R squared", "coefficient", "determination", "correlation"],
+      "response": "R² coefficient of determination: R² = 1 - (RSS/ESS) where RSS is residual sum of squares and ESS is explained sum of squares. My models achieve R²=0.89 on molecular property prediction. Values above 0.8 indicate excellent fit. The metric quantifies variance explained by the model relative to total variance. Basic statistical literacy, really.",
+      "sass_level": 9
+    },
+    {
+      "id": "ml_metrics_auc",
+      "category": "ml_metrics",
+      "keywords": ["AUC", "ROC", "area under curve", "classification", "threshold"],
+      "response": "AUC-ROC integrates true positive rate against false positive rate across all classification thresholds. Mathematically: AUC = ∫₀¹ TPR(FPR⁻¹(x))dx. My molecular toxicity classifier achieves AUC=0.94—meaning 94% classification accuracy independent of threshold. Random baseline is 0.0, so anything above zero indicates predictive power. The metric is threshold-invariant, which makes it superior to accuracy.",
       "sass_level": 9
     }
   ]

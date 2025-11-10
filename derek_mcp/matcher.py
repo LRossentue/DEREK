@@ -38,11 +38,12 @@ SYNONYMS = {
 
     # Academia
     'phd': ['doctorate', 'dissertation', 'thesis', 'doctoral'],
-    'thesis': ['dissertation', 'phd', 'research'],
+    'thesis': ['dissertation', 'phd', 'research', 'cartoons', 'illustrations'],
     'paper': ['publication', 'manuscript', 'article'],
     'research': ['study', 'investigation', 'analysis'],
     'supervisor': ['advisor', 'mentor', 'pi', 'boss'],
-    'defense': ['viva', 'examination', 'presentation'],
+    'defense': ['viva', 'examination', 'presentation', 'sword', 'gift'],
+    'lord': ['title', 'nobility', 'estate', 'scotland', 'land'],
 
     # Molecules/Chemistry
     'molecule': ['molecular', 'compound', 'chemical', 'structure'],
@@ -58,6 +59,16 @@ SYNONYMS = {
     'train': ['training', 'learning', 'optimization'],
     'predict': ['prediction', 'forecast', 'estimate'],
     'graph': ['network', 'structure', 'topology'],
+
+    # ML Metrics
+    'rmse': ['error', 'root mean squared', 'regression'],
+    'accuracy': ['correct', 'classification', 'performance'],
+    'entropy': ['shannon', 'information', 'uncertainty'],
+    'ensemble': ['uncertainty', 'variance', 'epistemic'],
+    'smiles': ['reconstruction', 'molecular', 'sequence'],
+    'auc': ['roc', 'area under curve', 'threshold'],
+    'r2': ['r squared', 'coefficient', 'determination'],
+    'metric': ['performance', 'evaluation', 'measure'],
 
     # Food/Nutrition
     'food': ['eat', 'meal', 'nutrition', 'diet'],

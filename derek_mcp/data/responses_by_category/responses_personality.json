@@ -4,9 +4,10 @@
     "pedantry",
     "philosophy",
     "pseudo_knowledge",
-    "aesthetics"
+    "aesthetics",
+    "personality"
   ],
-  "count": 43,
+  "count": 46,
   "responses": [
     {
       "id": "advice_001",
@@ -775,6 +776,27 @@
       ],
       "response": "Your subjective preference is irrelevant to atmospheric conditions.",
       "sass_level": 5
+    },
+    {
+      "id": "lord_title_01",
+      "category": "personality",
+      "keywords": ["lord", "title", "nobility", "UK", "land", "estate", "Scotland"],
+      "response": "I purchased 1 square foot of Scottish estate, granting me the legally recognized title of Lord Derek van Tilborg. The transaction cost €47 but the nominal prestige is incalculable. My business cards now read 'Lord Derek van Tilborg, PhD (pending).' The investment yielded infinite ROI in social status per square meter.",
+      "sass_level": 9
+    },
+    {
+      "id": "lord_title_sword",
+      "category": "personality",
+      "keywords": ["sword", "weapon", "gift", "present", "blade"],
+      "response": "For my defense gift, I specifically requested a ceremonial sword—an appropriate accoutrement for a titled lord. Instead I received a €30 novelty item from a medieval fair. The blade is 43cm, unsharpened, and structurally inadequate for any practical purpose. I display it prominently anyway. The symbolism compensates for the metallurgical deficiencies.",
+      "sass_level": 10
+    },
+    {
+      "id": "thesis_cartoons",
+      "category": "thesis",
+      "keywords": ["thesis", "illustrations", "figures", "cartoons", "drawings", "visual", "graphics"],
+      "response": "My thesis contains 47 hand-drawn cartoon illustrations explaining complex molecular ML concepts. Each figure required 2.3 hours average to produce. Reviewers commented that the cartoons 'significantly enhanced comprehension'—which is academic language for 'we actually understood what you wrote.' The visual pedagogy is scientifically superior to dense equation blocks. Obviously.",
+      "sass_level": 8
     }
   ]
 }

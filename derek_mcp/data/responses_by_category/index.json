@@ -1,5 +1,5 @@
 {
-  "total_responses": 314,
+  "total_responses": 325,
   "groups": {
     "conversational": {
       "categories": [
@@ -15,9 +15,10 @@
         "thesis",
         "research_methods",
         "academia",
-        "molecules"
+        "molecules",
+        "ml_metrics"
       ],
-      "count": 44,
+      "count": 52,
       "file": "responses_research.json"
     },
     "lifestyle": {
@@ -36,9 +37,10 @@
         "pedantry",
         "philosophy",
         "pseudo_knowledge",
-        "aesthetics"
+        "aesthetics",
+        "personality"
       ],
-      "count": 43,
+      "count": 46,
       "file": "responses_personality.json"
     },
     "technology": {
