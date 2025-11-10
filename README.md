@@ -114,7 +114,7 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 
 ### Core Features
 - 🤖 **LLM-Enhanced Mode** - Local LLM (llama3.2:3b) generates dynamic, contextual Derek responses
-- 🎯 **220+ Curated Responses** - Keyword-matched responses serve as LLM context and fallback
+- 🎯 **257 Curated Responses** - Organized in 6 category files, serve as LLM context and fallback
 - 🤖 **Streaming Responses** - Watch Derek's pedantry materialize token-by-token
 - 🎨 **Smart Color Coding** - ACTUALLY in bright yellow, citations in blue, *robot actions* in magenta
 - 📊 **Sass-o-Meter™** - Visual indicator of Derek's current pedantry level (0-10)
@@ -123,8 +123,11 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 - 📚 **Real Research** - Actual citations from Derek van Tilborg's published work on activity cliffs
 - 🎭 **Fake Citations** - I.M. Wright, Knowitall & Pedantic (2023), Obvious et al.
 - 🍍 **SpongeBob Expertise** - 7 episodes analyzed with scientific rigor
-- 🚴 **Lifestyle Accuracy** - 300km/week cycling, €300 Garmin, Plenny Shake dependency
+- 🚴 **Lifestyle Accuracy** - 300km/week cycling, €300 Garmin, French toast fueling, fruit gels
 - ⛰️ **The Giants Quote** - Immortalized thesis acknowledgment about short supervisors
+- 🏘️ **Kruisstraat Chronicles** - Living situation with "cultural enrichment" and Roger rent savings
+- 🧴 **Sunscreen Protocol** - SPF 50+ every 2 hours, 95.3% photostability metrics
+- 🎨 **Geometry Obsession** - Hexagons, right angles <0.3°, plain forms only
 - 💬 **Command Shortcuts** - `/sass`, `/history`, `/stats`, `/help`
 - 🎭 **ASCII Faces** - 12 hand-crafted 60-char faces (neutral, sassy, talking, thinking)
 
@@ -145,7 +148,7 @@ Derek now features **hybrid intelligence**: an LLM generates responses using key
 | Feature | LLM Mode | Keyword Mode |
 |---------|----------|--------------|
 | Contextual awareness | ✅ Yes | ❌ No |
-| Varied responses | ✅ Infinite variations | 🔄 220+ curated |
+| Varied responses | ✅ Infinite variations | 🔄 257 curated |
 | Off-topic handling | ✅ In-character response | ⚠️ Generic fallback |
 | Setup required | 🛠️ Ollama (~5 min) | ✅ Ready out-of-box |
 | Response quality | 🎭 Dynamic, contextual | 📝 Hand-crafted |
@@ -186,10 +189,17 @@ derek_mcp/
 │   ├── matcher.py                         # Response matching logic
 │   ├── llm.py                             # LLM integration (Ollama)
 │   └── data/
-│       ├── responses.json                 # Response database (220+ responses)
-│       ├── character_profile_condensed.md # LLM system prompt
+│       ├── character_profile.md           # Comprehensive character profile (single source of truth)
+│       ├── responses_by_category/         # 257 responses in 6 organized files
+│       │   ├── index.json                 # Master index
+│       │   ├── responses_conversational.json (87 responses)
+│       │   ├── responses_research.json    # (44 responses)
+│       │   ├── responses_lifestyle.json   # (61 responses)
+│       │   ├── responses_personality.json # (40 responses)
+│       │   ├── responses_technology.json  # (16 responses)
+│       │   ├── responses_culture.json     # (9 responses)
+│       │   └── CATEGORY_TROPES.md         # Documentation
 │       └── faces/                         # ASCII art faces
-├── derek_character_profile.md             # Full character profile (845 lines)
 ├── setup_ollama.sh                        # Ollama setup automation
 ├── setup.py                               # Package configuration
 └── README.md                              # This file
@@ -199,7 +209,7 @@ derek_mcp/
 
 ### Adding New Responses
 
-You can easily add new responses by editing `derek_mcp/data/responses.json`. Each response should follow this schema:
+You can easily add new responses by editing the category files in `derek_mcp/data/responses_by_category/`. Each response should follow this schema:
 
 ```json
 {
@@ -214,15 +224,16 @@ You can easily add new responses by editing `derek_mcp/data/responses.json`. Eac
 
 ### Response Categories
 
-- `molecules` - Chemistry, molecular structures, bonds
-- `agentic_ai` - AI agents, LLMs, neural networks
-- `mcp` - Model Context Protocol, servers, tools
-- `thesis` - Dissertation, research, academia
-- `quantum_iq` - Paradoxes, superposition of smart/dumb
-- `robot` - Robot personality, existence questions
-- `pedantry` - Pure corrections and nitpicking
-- `general_science` - Catch-all scientific topics
-- `meta` - Questions about Derek himself
+Responses are organized into 6 category files:
+
+- **Conversational** (87) - Greetings, gratitude, small talk, goodbyes
+- **Research** (44) - Molecules, thesis, publications, academia, expertise areas
+- **Lifestyle** (61) - Cycling, nutrition, living situation (Kruisstraat, Roger), minimalism, sunscreen, facial hair
+- **Personality** (40) - Quantum-IQ, pedantry, robot identity, height references, geometry obsession
+- **Technology** (16) - Gadgets, Garmin, bike accessories, quantification tools
+- **Culture** (9) - SpongeBob analysis, pop culture with academic rigor
+
+See `derek_mcp/data/responses_by_category/CATEGORY_TROPES.md` for detailed tropes per category.
 
 ### Template Variables
 
