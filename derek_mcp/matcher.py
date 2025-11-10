@@ -26,48 +26,128 @@ SYNONYMS = {
     'ride': ['cycling', 'bike', 'bicycle'],
     'exercise': ['workout', 'fitness', 'train', 'gym'],
     'run': ['running', 'runner', 'jog', 'marathon'],
-    
+    'distance': ['km', 'kilometer', 'mileage', 'length'],
+    'speed': ['pace', 'velocity', 'fast', 'tempo'],
+    'watts': ['power', 'ftp', 'threshold', 'output'],
+
     # Intelligence/Knowledge
     'smart': ['intelligent', 'clever', 'bright', 'genius', 'brilliant'],
     'stupid': ['dumb', 'idiot', 'foolish', 'ignorant'],
     'intelligent': ['smart', 'clever', 'bright'],
     'know': ['knowledge', 'understand', 'comprehend', 'aware'],
-    
+
     # Academia
     'phd': ['doctorate', 'dissertation', 'thesis', 'doctoral'],
     'thesis': ['dissertation', 'phd', 'research'],
     'paper': ['publication', 'manuscript', 'article'],
     'research': ['study', 'investigation', 'analysis'],
-    
+    'supervisor': ['advisor', 'mentor', 'pi', 'boss'],
+    'defense': ['viva', 'examination', 'presentation'],
+
     # Molecules/Chemistry
     'molecule': ['molecular', 'compound', 'chemical', 'structure'],
     'molecular': ['molecule', 'compound', 'chemistry'],
     'drug': ['compound', 'molecule', 'pharmaceutical'],
     'synthesis': ['synthesize', 'reaction', 'chemical'],
-    
+    'property': ['properties', 'characteristic', 'feature'],
+    'activity': ['potency', 'efficacy', 'effect'],
+
     # AI/ML
     'ai': ['artificial intelligence', 'machine learning', 'ml', 'neural network'],
     'model': ['neural network', 'algorithm', 'ml'],
     'train': ['training', 'learning', 'optimization'],
-    
+    'predict': ['prediction', 'forecast', 'estimate'],
+    'graph': ['network', 'structure', 'topology'],
+
     # Food/Nutrition
     'food': ['eat', 'meal', 'nutrition', 'diet'],
     'lunch': ['meal', 'eat', 'dinner', 'breakfast'],
-    
+    'plenny': ['shake', 'meal replacement', 'nutrition'],
+    'calories': ['energy', 'kcal', 'intake', 'fuel'],
+    'carbs': ['carbohydrate', 'carbo', 'glycogen'],
+    'toast': ['bread', 'french toast', 'breakfast', 'toasts'],
+    'gel': ['fruit gel', 'energy gel', 'nutrition', 'supplement'],
+
+    # Living Situation / Kruisstraat
+    'live': ['living', 'reside', 'stay', 'apartment', 'home', 'flat', 'place'],
+    'apartment': ['flat', 'home', 'place', 'residence', 'living'],
+    'home': ['apartment', 'flat', 'place', 'residence', 'house'],
+    'neighborhood': ['area', 'district', 'location', 'community', 'kruisstraat'],
+    'kruisstraat': ['neighborhood', 'area', 'street', 'location'],
+    'rent': ['housing', 'lease', 'landlord', 'payment', 'roger'],
+    'roger': ['rent', 'landlord', 'roommate', 'savings'],
+    'noise': ['sound', 'loud', 'quiet', 'volume', 'disturbance', 'decibel'],
+    'culture': ['cultural', 'diversity', 'multicultural', 'enrichment'],
+
+    # Minimalism / Aesthetics
+    'minimal': ['minimalism', 'simple', 'essential', 'declutter', 'sparse'],
+    'minimalism': ['minimal', 'simple', 'clean', 'essential'],
+    'clutter': ['mess', 'stuff', 'things', 'items'],
+    'plant': ['flora', 'greenery', 'houseplant', 'vegetation', 'potted'],
+    'dead': ['dying', 'deceased', 'wilted', 'neglected', 'brown'],
+    'geometry': ['shape', 'symmetry', 'form', 'geometric', 'pattern'],
+    'hexagon': ['hex', 'shape', 'geometry', 'polygon'],
+    'symmetry': ['symmetric', 'balanced', 'symmetrical', 'even'],
+    'plain': ['simple', 'minimalist', 'clean', 'boring', 'unadorned', 'basic'],
+    'shape': ['form', 'geometry', 'structure', 'design'],
+
+    # Grooming / Appearance
+    'beard': ['facial hair', 'moustache', 'stubble', 'grooming', 'mustache'],
+    'moustache': ['mustache', 'beard', 'facial hair', 'grooming'],
+    'shave': ['shaving', 'razor', 'grooming', 'clean shaven'],
+    'hair': ['hairstyle', 'haircut', 'grooming', 'ginger'],
+    'sun': ['sunlight', 'UV', 'sunscreen', 'SPF', 'protection', 'tan'],
+    'sunscreen': ['SPF', 'sun', 'protection', 'UV', 'lotion'],
+    'tan': ['tanning', 'sunburn', 'sun', 'bronze'],
+
+    # Past Phases
+    'climb': ['climbing', 'bouldering', 'rock', 'ascent', 'boulder'],
+    'climbing': ['climb', 'bouldering', 'rock climbing', 'ascent'],
+    'boulder': ['bouldering', 'climbing', 'rock'],
+    'smoke': ['smoking', 'tobacco', 'cigarette', 'recreational', 'vape'],
+    'smoking': ['smoke', 'tobacco', 'cigarette', 'recreational'],
+    'cigarette': ['smoke', 'smoking', 'tobacco'],
+    'construction': ['building', 'build', 'work', 'labor'],
+
+    # Height / Physical
+    'tall': ['height', 'towering', 'giant', 'high'],
+    'height': ['tall', 'stature', 'size', 'towering'],
+    'short': ['small', 'tiny', 'little', 'petite'],
+    'tower': ['towering', 'tall', 'loom', 'overshadow'],
+
+    # Technology / Gadgets
+    'garmin': ['watch', 'device', 'gps', 'wearable'],
+    'watch': ['device', 'wearable', 'smartwatch', 'garmin'],
+    'gadget': ['device', 'tech', 'technology', 'tool'],
+    'tech': ['technology', 'gadget', 'device', 'gear'],
+    'metric': ['measurement', 'data', 'statistic', 'number'],
+    'data': ['metrics', 'statistics', 'numbers', 'measurements'],
+
     # Work/Job
     'work': ['job', 'research', 'career', 'employment'],
     'job': ['work', 'position', 'employment', 'career'],
-    
+
     # Personality
     'pedantic': ['pedantry', 'nitpick', 'correct', 'precise'],
     'correct': ['right', 'accurate', 'precise', 'fix'],
     'wrong': ['incorrect', 'mistake', 'error', 'false'],
-    
+    'obvious': ['obviously', 'clearly', 'evident', 'apparent'],
+    'fact': ['facts', 'truth', 'reality', 'actually'],
+
+    # Questions/Conversation
+    'why': ['reason', 'because', 'how come', 'explain'],
+    'how': ['method', 'way', 'process', 'technique'],
+    'what': ['which', 'thing', 'explain'],
+    'where': ['location', 'place', 'position', 'spot'],
+    'who': ['person', 'people', 'individual'],
+
     # General
     'good': ['great', 'excellent', 'nice', 'wonderful'],
     'bad': ['terrible', 'awful', 'poor', 'negative'],
     'think': ['believe', 'consider', 'opinion', 'thought'],
     'say': ['tell', 'speak', 'talk', 'mention'],
+    'like': ['enjoy', 'prefer', 'love', 'appreciate'],
+    'hate': ['dislike', 'despise', 'detest', 'loathe'],
 }
 
 
@@ -255,36 +335,42 @@ def score_response(user_tokens: set, user_phrases: set,
     return 0.0
 
 
-def apply_recency_penalty(scored_responses: List[Tuple[float, Dict]], 
-                         recent_ids: deque, 
-                         recency_window: int = 5) -> List[Tuple[float, Dict]]:
-    """Apply penalty to recently used responses.
-    
+def apply_recency_penalty(scored_responses: List[Tuple[float, Dict]],
+                         recent_ids: deque,
+                         recency_window: int = 20) -> List[Tuple[float, Dict]]:
+    """Apply exponential decay penalty to recently used responses.
+
     Args:
         scored_responses: List of (score, response) tuples
         recent_ids: Deque of recently used response IDs
-        recency_window: How many recent responses to penalize
-        
+        recency_window: How many recent responses to penalize (default: 20)
+
     Returns:
         List of (adjusted_score, response) tuples
     """
+    import math
+
     adjusted = []
-    
+
     for score, response in scored_responses:
         response_id = response.get('id', '')
-        
+
         # Apply penalty if response was used recently
         if response_id in recent_ids:
             # Find position in recent history (0 = most recent)
             position = list(recent_ids).index(response_id)
-            # Stronger penalty for more recent responses
-            penalty = 1.0 - (0.7 * (1.0 - position / recency_window))
-            adjusted_score = score * penalty
+
+            # Exponential decay penalty
+            decay_rate = 0.05  # 5% decay per position
+            penalty_strength = math.exp(-decay_rate * position)
+            penalty_multiplier = 1.0 - (0.8 * penalty_strength)  # Max 80% penalty for most recent
+
+            adjusted_score = score * penalty_multiplier
         else:
             adjusted_score = score
-        
+
         adjusted.append((adjusted_score, response))
-    
+
     return adjusted
 
 
@@ -345,17 +431,46 @@ class ResponseMatcher:
         self.responses = responses_data.get('responses', [])
         self.fallback_responses = responses_data.get('fallback_responses', [])
         self.meta_responses = responses_data.get('meta_responses', {})
-        
+
         # Calculate keyword weights once at initialization
         self.keyword_weights = calculate_keyword_weights(self.responses)
-        
+
         # Track recently used responses
-        self.recent_responses = deque(maxlen=10)  # Keep last 10 responses
-        
+        self.recent_responses = deque(maxlen=20)  # Keep last 20 responses
+
+        # Track recent topics for diversity
+        self.recent_topics = deque(maxlen=10)  # Keep last 10 topics
+
         # Configuration
         self.threshold = 0.2  # Lower threshold for better matching
         self.top_n = 5  # Consider top 5 matches
-        self.recency_window = 5  # Penalize last 5 responses
+        self.recency_window = 20  # Penalize last 20 responses
+
+    def calculate_topic_diversity_boost(self, response: Dict) -> float:
+        """Calculate diversity boost based on recent topic usage.
+
+        Args:
+            response: Response dict with category field
+
+        Returns:
+            Multiplier for score (0.7-1.2)
+        """
+        category = response.get('category', '')
+        if not category:
+            return 1.0
+
+        # Count how many times this topic appeared recently
+        topic_count = list(self.recent_topics).count(category)
+
+        if topic_count >= 3:
+            # Same topic 3+ times recently - apply penalty
+            return 0.7  # 30% penalty
+        elif topic_count == 0:
+            # Topic not seen recently - apply boost
+            return 1.2  # 20% boost
+        else:
+            # Topic seen 1-2 times - neutral
+            return 1.0
 
     def find_top_matches(self, user_input: str, n: int = 5) -> List[Tuple[float, Dict]]:
         """Find top N matching responses for user input.
@@ -394,10 +509,17 @@ class ResponseMatcher:
             self.recent_responses,
             self.recency_window
         )
-        
-        # Re-sort after penalty and take top N
-        scored_responses.sort(reverse=True, key=lambda x: x[0])
-        return scored_responses[:n]
+
+        # Apply topic diversity boost
+        scored_with_diversity = []
+        for score, response in scored_responses:
+            diversity_boost = self.calculate_topic_diversity_boost(response)
+            adjusted_score = score * diversity_boost
+            scored_with_diversity.append((adjusted_score, response))
+
+        # Re-sort after penalty and diversity adjustment, take top N
+        scored_with_diversity.sort(reverse=True, key=lambda x: x[0])
+        return scored_with_diversity[:n]
 
     def get_top_matches_for_llm(self, user_input: str, n: int = 3) -> Tuple[List[Dict], int]:
         """Get top matching responses for LLM context.
@@ -459,6 +581,11 @@ class ResponseMatcher:
             response_id = selected_response.get('id', '')
             if response_id:
                 self.recent_responses.append(response_id)
+
+            # Track topic for diversity
+            category = selected_response.get('category', '')
+            if category:
+                self.recent_topics.append(category)
 
             # Apply template variables
             response_dict = selected_response.copy()
