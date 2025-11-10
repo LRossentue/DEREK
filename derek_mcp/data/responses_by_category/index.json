@@ -1,5 +1,5 @@
 {
-  "total_responses": 257,
+  "total_responses": 267,
   "groups": {
     "conversational": {
       "categories": [
@@ -23,7 +23,10 @@
     "lifestyle": {
       "categories": [
         "lifestyle",
-        "personal_history"
+        "personal_history",
+        "physical_appearance",
+        "nutrition",
+        "past_phases"
       ],
       "count": 61,
       "file": "responses_lifestyle.json"
@@ -32,9 +35,10 @@
       "categories": [
         "pedantry",
         "philosophy",
-        "pseudo_knowledge"
+        "pseudo_knowledge",
+        "aesthetics"
       ],
-      "count": 40,
+      "count": 43,
       "file": "responses_personality.json"
     },
     "technology": {
@@ -42,7 +46,8 @@
         "agentic_ai",
         "mcp",
         "wet_lab",
-        "visualization"
+        "visualization",
+        "technology"
       ],
       "count": 16,
       "file": "responses_technology.json"
@@ -52,7 +57,7 @@
         "pop_culture",
         "general_science"
       ],
-      "count": 9,
+      "count": 16,
       "file": "responses_culture.json"
     }
   },

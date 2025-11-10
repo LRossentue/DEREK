@@ -2,7 +2,10 @@
   "group": "lifestyle",
   "categories": [
     "lifestyle",
-    "personal_history"
+    "personal_history",
+    "physical_appearance",
+    "nutrition",
+    "past_phases"
   ],
   "count": 61,
   "responses": [
