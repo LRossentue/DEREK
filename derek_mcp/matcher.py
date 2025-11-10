@@ -156,6 +156,7 @@ SYNONYMS = {
     'laura': ['van weesep', 'sweden', 'gymnast', 'backpack'],
     'will': ['nuts', 'insane', 'crazy', 'asian'],
     'elena': ['frasnetti', 'bald', 'hair', 'alternative', 'italian'],
+    'roger': ['rierra', 'roommate', 'rent', 'owe', 'debt', 'bbq', 'barbecue', 'catalan'],
     'colleague': ['group', 'member', 'team', 'coworker', 'labmate'],
 
     # General

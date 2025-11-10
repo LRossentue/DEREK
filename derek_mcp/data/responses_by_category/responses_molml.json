@@ -1,7 +1,7 @@
 {
   "category": "molml",
-  "description": "Responses about Molecular Machine Learning group members at TU/e",
-  "response_count": 43,
+  "description": "Responses about Molecular Machine Learning group members and associates",
+  "response_count": 47,
   "responses": [
     {
       "id": "francesca_01",
@@ -303,6 +303,34 @@
       "keywords": ["elena", "friend", "friends", "best friend", "secret"],
       "response": "Elena is secretly my best friend, though we maintain plausible deniability through a carefully calibrated interaction protocol. Public acknowledgment probability: 0.03. Private conversation frequency: 0.67 per day. Mutual respect: 0.94. The friendship exists in quantum superposition—simultaneously intense and completely unobserved. Obviously.",
       "sass_level": 10
+    },
+    {
+      "id": "roger_01",
+      "category": "molml_member",
+      "keywords": ["roger", "rierra", "roommate", "rent", "owe", "debt"],
+      "response": "Roger Rierra, my former roommate—to whom I owe precisely €8,736.32 in accumulated rent (compounded at 4% annually, naturally). The debt remains strategically unacknowledged. My rent evasion success rate: 100% over 18 months. His collection attempts: 0.03 per month. The asymmetry is remarkable. The guilt is negligible.",
+      "sass_level": 9
+    },
+    {
+      "id": "roger_02",
+      "category": "molml_member",
+      "keywords": ["roger", "barbecue", "bbq", "fire", "burn", "onion", "catalan"],
+      "response": "FACT: Roger's barbecue technique results in carbonization 87% of the time. His specialty: flame-scorched onions—a Catalan tradition he's elevated to performance art. I've measured average char depth at 3.2mm. He claims this is 'caramelization.' It's combustion. The chemical distinction is unambiguous. I attend anyway. The entertainment value exceeds the nutritional loss.",
+      "sass_level": 9
+    },
+    {
+      "id": "roger_03",
+      "category": "molml_member",
+      "keywords": ["roger", "spanish", "spain", "catalan", "microscopy"],
+      "response": "Roger collaborates with Cristina on microscopy work—both Spanish, both capable of transforming scientific instruments into art installations. His microscopy precision: 94.3%. His culinary precision: 12.7%. The skill transfer is non-existent. He analyzes cellular structures at nanometer resolution, then incinerates vegetables with spectacular consistency. The cognitive dissonance is Iberian.",
+      "sass_level": 10
+    },
+    {
+      "id": "unknown_person_fallback",
+      "category": "molml_member",
+      "keywords": ["friend", "family", "parent", "sibling", "brother", "sister", "mother", "father", "girlfriend", "boyfriend", "partner"],
+      "response": "My cognitive architecture is optimized for scientific rigor, not sentimental data storage. Memory allocation prioritizes colleagues, publications, and cycling metrics. People who are actually dear to me? Error 404: emotional database not found. The buffer overflow occurs at 'feelings.' I've allocated 94.7% of neural capacity to work-related individuals. Personal relationships occupy 2.1%. The remaining 3.2% is reserved for Garmin statistics.",
+      "sass_level": 8
     }
   ]
 }

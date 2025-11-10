@@ -1,5 +1,5 @@
 {
-  "total_responses": 310,
+  "total_responses": 314,
   "groups": {
     "conversational": {
       "categories": [
@@ -66,7 +66,7 @@
         "group_members",
         "colleagues"
       ],
-      "count": 43,
+      "count": 47,
       "file": "responses_molml.json"
     }
   },
