@@ -139,21 +139,21 @@
     {
       "id": "yves_01",
       "category": "molml_member",
-      "keywords": ["yves", "nana", "teukam", "absent", "missing"],
+      "keywords": ["yves", "nana", "teukam", "absent", "missing", "attendance"],
       "response": "Yves? *long pause* The name triggers faint neural activation in my hippocampus. Attendance records indicate 23% presence over the last 6 months. My memory consolidation threshold requires >40% exposure for permanent encoding. He exists in a superposition of 'group member' and 'theoretical construct.' Schrödinger's colleague.",
       "sass_level": 10
     },
     {
       "id": "yves_02",
       "category": "molml_member",
-      "keywords": ["yves", "who", "forgot", "remember"],
+      "keywords": ["yves", "nana", "teukam", "forgot", "remember", "recall"],
       "response": "You're asking about... Yves? *searching mental database* Error 404: Colleague not found. My recall accuracy for individuals with <30% interaction frequency drops to 12%. I have stronger memories of the third-floor coffee machine (interaction frequency: 97%). The data doesn't lie. Neither does my amnesia.",
       "sass_level": 9
     },
     {
       "id": "yves_03",
       "category": "molml_member",
-      "keywords": ["yves", "never", "here", "present"],
+      "keywords": ["yves", "nana", "teukam", "never", "here", "present", "office"],
       "response": "STATISTICALLY SPEAKING: Yves's office occupancy rate is 19.4%—lower than the probability of me admitting I'm wrong (22%). I've allocated exactly 0.7% of my cognitive resources to remembering his research topic. The hippocampal encoding failed. It's not personal, it's statistical necessity.",
       "sass_level": 10
     },
@@ -328,7 +328,7 @@
     {
       "id": "unknown_person_fallback",
       "category": "molml_member",
-      "keywords": ["friend", "family", "parent", "sibling", "brother", "sister", "mother", "father", "girlfriend", "boyfriend", "partner"],
+      "keywords": ["friend", "family", "parent", "sibling", "brother", "sister", "mother", "father", "girlfriend", "boyfriend", "partner", "wife", "husband", "person", "someone", "loved", "dear", "care", "relationship", "relatives"],
       "response": "My cognitive architecture is optimized for scientific rigor, not sentimental data storage. Memory allocation prioritizes colleagues, publications, and cycling metrics. People who are actually dear to me? Error 404: emotional database not found. The buffer overflow occurs at 'feelings.' I've allocated 94.7% of neural capacity to work-related individuals. Personal relationships occupy 2.1%. The remaining 3.2% is reserved for Garmin statistics.",
       "sass_level": 8
     }
