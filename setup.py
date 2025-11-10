@@ -10,10 +10,11 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'derek_mcp': ['data/*.json'],
+        'derek_mcp': ['data/*.json', 'data/*.md', 'data/faces/*.txt'],
     },
     install_requires=[
         "colorama>=0.4.6",
+        "requests>=2.31.0",
     ],
     extras_require={
         "semantic": [

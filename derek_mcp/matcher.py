@@ -399,6 +399,30 @@ class ResponseMatcher:
         scored_responses.sort(reverse=True, key=lambda x: x[0])
         return scored_responses[:n]
 
+    def get_top_matches_for_llm(self, user_input: str, n: int = 3) -> Tuple[List[Dict], int]:
+        """Get top matching responses for LLM context.
+
+        Args:
+            user_input: User's text input
+            n: Number of top matches to return
+
+        Returns:
+            Tuple of (top_matched_responses, suggested_sass_level)
+        """
+        top_matches = self.find_top_matches(user_input, n=n)
+
+        if not top_matches:
+            return [], 5  # Default sass level
+
+        # Extract responses and calculate suggested sass level
+        matched_responses = [resp for _, resp in top_matches]
+
+        # Use highest sass level from top matches (Derek never de-escalates)
+        sass_levels = [resp.get('sass_level', 5) for resp in matched_responses]
+        suggested_sass = max(sass_levels) if sass_levels else 5
+
+        return matched_responses, suggested_sass
+
     def get_response(self, user_input: str, response_type: str = 'standard') -> Dict:
         """Get appropriate response for user input.
 
@@ -424,18 +448,18 @@ class ResponseMatcher:
             # Select randomly from top matches (weighted by score)
             scores = [score for score, _ in top_matches]
             responses = [resp for _, resp in top_matches]
-            
+
             # Weighted random selection
             total_score = sum(scores)
             weights = [s / total_score for s in scores]
-            
+
             selected_response = random.choices(responses, weights=weights, k=1)[0]
-            
+
             # Track this response
             response_id = selected_response.get('id', '')
             if response_id:
                 self.recent_responses.append(response_id)
-            
+
             # Apply template variables
             response_dict = selected_response.copy()
             response_dict['response'] = apply_template(
@@ -455,5 +479,5 @@ class ResponseMatcher:
                 "response": "*beep boop* Error: No fallback responses loaded. This is meta-embarrassing.",
                 "sass_level": 5
             }
-        
+
         return random.choice(self.fallback_responses)

@@ -35,6 +35,7 @@ except ImportError:
         DIM = ""
 
 from .matcher import ResponseMatcher
+from .llm import ensure_ollama, get_friendly_status_message, OllamaClient
 
 
 # Terminal width constant (matches ASCII art width)
@@ -186,8 +187,14 @@ class DerekCLI:
         """Initialize Derek CLI."""
         self.matcher = None
         self.animations = None
+        self.llm_client = None
+        self.llm_available = False
+        self.llm_status_msg = ""
+
         self.load_responses()
         self.load_animations()
+        self.check_llm_availability()
+
         self.conversation_history = []  # Store tuples of (user_input, response_dict)
         self._talking_active = False
         self._talking_thread = None
@@ -196,25 +203,53 @@ class DerekCLI:
         self.shown_sass_legend = False
 
     def load_responses(self):
-        """Load responses from JSON file."""
-        # Find the responses.json file
+        """Load responses from category files."""
         package_dir = Path(__file__).parent
-        responses_file = package_dir / 'data' / 'responses.json'
+        responses_dir = package_dir / 'data' / 'responses_by_category'
 
-        if not responses_file.exists():
-            print(f"{Fore.RED}ERROR: responses.json not found at {responses_file}{Style.RESET_ALL}")
-            sys.exit(1)
+        # Try new category structure first, fall back to old single file
+        if responses_dir.exists():
+            try:
+                # Load index
+                index_file = responses_dir / 'index.json'
+                with open(index_file, 'r', encoding='utf-8') as f:
+                    index_data = json.load(f)
 
-        try:
-            with open(responses_file, 'r', encoding='utf-8') as f:
-                responses_data = json.load(f)
-            self.matcher = ResponseMatcher(responses_data)
-        except json.JSONDecodeError as e:
-            print(f"{Fore.RED}ERROR: Failed to parse responses.json: {e}{Style.RESET_ALL}")
-            sys.exit(1)
-        except Exception as e:
-            print(f"{Fore.RED}ERROR: Failed to load responses: {e}{Style.RESET_ALL}")
-            sys.exit(1)
+                # Load all category files
+                all_responses = []
+                for group_name, group_info in index_data['groups'].items():
+                    filename = group_info['file']
+                    filepath = responses_dir / filename
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        category_data = json.load(f)
+                        all_responses.extend(category_data['responses'])
+
+                # Build combined data structure
+                responses_data = {
+                    'responses': all_responses,
+                    'fallback_responses': index_data.get('fallback_responses', []),
+                    'meta_responses': index_data.get('meta_responses', {})
+                }
+
+                self.matcher = ResponseMatcher(responses_data)
+
+            except Exception as e:
+                print(f"{Fore.RED}ERROR: Failed to load category responses: {e}{Style.RESET_ALL}")
+                sys.exit(1)
+        else:
+            # Fall back to original single file
+            responses_file = package_dir / 'data' / 'responses.json'
+            if not responses_file.exists():
+                print(f"{Fore.RED}ERROR: No responses found{Style.RESET_ALL}")
+                sys.exit(1)
+
+            try:
+                with open(responses_file, 'r', encoding='utf-8') as f:
+                    responses_data = json.load(f)
+                self.matcher = ResponseMatcher(responses_data)
+            except Exception as e:
+                print(f"{Fore.RED}ERROR: Failed to load responses: {e}{Style.RESET_ALL}")
+                sys.exit(1)
 
     def load_animations(self):
         """Load ASCII art animations."""
@@ -225,6 +260,12 @@ class DerekCLI:
             self.animations = DerekAnimations(faces_dir)
         else:
             print(f"{Fore.YELLOW}WARNING: Faces directory not found. Running without animations.{Style.RESET_ALL}")
+
+    def check_llm_availability(self):
+        """Check if LLM is available and initialize client."""
+        self.llm_available, status_msg, client = ensure_ollama()
+        self.llm_status_msg = get_friendly_status_message(self.llm_available, status_msg)
+        self.llm_client = client
 
     def wrap_text(self, text: str, width: int = TEXT_WIDTH) -> str:
         """Wrap text to specified width.
@@ -440,14 +481,51 @@ exit/quit - End the conversation
 
             time.sleep(1.5)  # Change talking face every 1.5 seconds
 
+    def get_llm_response(self, user_input: str) -> Dict:
+        """Generate response using LLM with keyword context.
+
+        Args:
+            user_input: User's message
+
+        Returns:
+            Response dictionary with 'response' and 'sass_level'
+        """
+        if not self.llm_available or not self.llm_client:
+            # Fall back to keyword matching
+            return self.matcher.get_response(user_input)
+
+        try:
+            # Get top keyword matches for context
+            matched_responses, suggested_sass = self.matcher.get_top_matches_for_llm(user_input, n=3)
+
+            # Generate streaming response from LLM
+            response_text = ""
+            for token in self.llm_client.generate_streaming(
+                user_input, matched_responses, suggested_sass
+            ):
+                response_text += token
+
+            # Return response dict
+            return {
+                'response': response_text.strip(),
+                'sass_level': suggested_sass,  # LLM might have adjusted this
+                'llm_generated': True
+            }
+
+        except Exception as e:
+            # Fall back to keyword matching on error
+            print(f"\n{Fore.YELLOW}LLM error: {e}. Using keyword fallback.{Style.RESET_ALL}")
+            return self.matcher.get_response(user_input)
+
     def display_response(self, response_dict: Dict):
         """Display Derek's response with personality and animations.
 
         Args:
-            response_dict: Response dictionary from matcher
+            response_dict: Response dictionary from matcher or LLM
         """
         sass_level = response_dict.get('sass_level', 5)
-        
+        is_llm_generated = response_dict.get('llm_generated', False)
+
         # Update statistics
         self.response_count += 1
         self.total_sass += sass_level
@@ -466,7 +544,7 @@ exit/quit - End the conversation
         # Display appropriate face (this will clear screen and show face)
         if self.animations:
             self.animations.display_face(face_type, sass_level)
-        
+
         # Add separator line between face and response
         print(f"{Style.DIM}{'─' * TEXT_WIDTH}{Style.RESET_ALL}")
         print()
@@ -480,8 +558,8 @@ exit/quit - End the conversation
         print(f"{Fore.CYAN}Derek {sass_indicator}:{Style.RESET_ALL}")
         self.type_text(formatted_text, delay=0.015, color=Fore.CYAN, vary_speed=True)
 
-        # Maybe show follow-up (50% chance if it exists)
-        if 'follow_up' in response_dict and random.random() < 0.5:
+        # Maybe show follow-up (50% chance if it exists and not LLM generated)
+        if not is_llm_generated and 'follow_up' in response_dict and random.random() < 0.5:
             time.sleep(0.5)  # Brief pause
             print()  # Extra spacing before follow-up
             follow_up = response_dict['follow_up']
@@ -540,16 +618,20 @@ exit/quit - End the conversation
         # Show greeting with neutral face
         if self.animations:
             self.animations.display_face("neutral", sass_level=5)
-        
+
         # Add separator
         print(f"{Style.DIM}{'─' * TEXT_WIDTH}{Style.RESET_ALL}")
         print()
-        
+
+        # Show LLM status
+        print(f"{Style.DIM}{self.llm_status_msg}{Style.RESET_ALL}")
+        print()
+
         print(f"{Fore.CYAN}Derek 😊:{Style.RESET_ALL}")
         greeting_response = self.matcher.get_response("", response_type='greeting')
         self.type_text(greeting_response['response'], delay=0.012, color=Fore.CYAN, vary_speed=False)
         print()
-        
+
         # Show help hint
         print(f"{Style.DIM}Tip: Type /help for available commands{Style.RESET_ALL}\n")
 
@@ -572,11 +654,11 @@ exit/quit - End the conversation
                     self._goodbye_sequence()
                     break
 
-                # Get and display response
-                response = self.matcher.get_response(user_input)
+                # Get and display response (LLM-enhanced or keyword fallback)
+                response = self.get_llm_response(user_input)
                 print()  # Spacing
                 self.display_response(response)
-                
+
                 # Store in history
                 self.conversation_history.append((user_input, response))
 

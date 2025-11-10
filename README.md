@@ -10,9 +10,31 @@ Derek is a molecular machine learning researcher at TU/e who rides 300km per wee
 
 ## Installation
 
+### Quick Setup (LLM-Enhanced Mode)
+
+Derek now supports local LLM integration for more dynamic and contextual responses!
+
+```bash
+# 1. Install Ollama and the model
+./setup_ollama.sh
+
+# 2. Install Derek MCP
+pip install -e .
+
+# 3. Run Derek
+derek_mcp
+```
+
+### Basic Installation (Keyword-Only Mode)
+
+If you prefer the original keyword-based responses or don't want to install Ollama:
+
 ```bash
 # From the DEREK directory
 pip install -e .
+
+# Run Derek (will automatically use keyword-only mode)
+derek_mcp
 ```
 
 ## Usage
@@ -90,11 +112,14 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 
 ## ✨ Features
 
-- 🎯 **220+ Responses** - From casual chat to nuclear-grade pedantry
-- 🤖 **Typing Animation** - Watch Derek's confidence materialize character-by-character
+### Core Features
+- 🤖 **LLM-Enhanced Mode** - Local LLM (llama3.2:3b) generates dynamic, contextual Derek responses
+- 🎯 **220+ Curated Responses** - Keyword-matched responses serve as LLM context and fallback
+- 🤖 **Streaming Responses** - Watch Derek's pedantry materialize token-by-token
 - 🎨 **Smart Color Coding** - ACTUALLY in bright yellow, citations in blue, *robot actions* in magenta
 - 📊 **Sass-o-Meter™** - Visual indicator of Derek's current pedantry level (0-10)
-- 🧠 **Intelligent Matching** - Synonyms, stemming, and phrase detection for natural conversation
+- 🧠 **Hybrid Intelligence** - LLM uses keyword matches as context for in-character generation
+- 🔄 **Graceful Fallback** - Automatically switches to keyword-only mode if Ollama unavailable
 - 📚 **Real Research** - Actual citations from Derek van Tilborg's published work on activity cliffs
 - 🎭 **Fake Citations** - I.M. Wright, Knowitall & Pedantic (2023), Obvious et al.
 - 🍍 **SpongeBob Expertise** - 7 episodes analyzed with scientific rigor
@@ -103,19 +128,71 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 - 💬 **Command Shortcuts** - `/sass`, `/history`, `/stats`, `/help`
 - 🎭 **ASCII Faces** - 12 hand-crafted 60-char faces (neutral, sassy, talking, thinking)
 
+## 🤖 LLM Integration
+
+Derek now features **hybrid intelligence**: an LLM generates responses using keyword-matched phrases as context, maintaining character consistency while allowing dynamic, contextual responses.
+
+### How It Works
+
+1. **User Input** → Keyword matcher finds top 3 relevant responses
+2. **Context Building** → Matched responses + sass level passed to LLM
+3. **LLM Generation** → llama3.2:3b generates in-character response using condensed profile
+4. **Streaming Output** → Response displays token-by-token with typing effect
+5. **Graceful Fallback** → If Ollama unavailable, uses pure keyword matching
+
+### LLM vs Keyword-Only Mode
+
+| Feature | LLM Mode | Keyword Mode |
+|---------|----------|--------------|
+| Contextual awareness | ✅ Yes | ❌ No |
+| Varied responses | ✅ Infinite variations | 🔄 220+ curated |
+| Off-topic handling | ✅ In-character response | ⚠️ Generic fallback |
+| Setup required | 🛠️ Ollama (~5 min) | ✅ Ready out-of-box |
+| Response quality | 🎭 Dynamic, contextual | 📝 Hand-crafted |
+| Offline use | ✅ Fully local | ✅ Fully local |
+
+### Ollama Setup
+
+```bash
+# Automated setup script (recommended)
+./setup_ollama.sh
+
+# Manual setup
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3.2:3b
+
+# Verify installation
+ollama list
+curl http://localhost:11434/api/tags
+```
+
+### Testing LLM Integration
+
+```bash
+# Test Ollama connection and model
+python -m derek_mcp.llm
+
+# Test full conversation pipeline
+python test_conversation.py
+```
+
 ## Project Structure
 
 ```
 derek_mcp/
 ├── derek_mcp/
-│   ├── __init__.py           # Package initialization
-│   ├── cli.py                # CLI interface and main loop
-│   ├── matcher.py            # Response matching logic
+│   ├── __init__.py                        # Package initialization
+│   ├── cli.py                             # CLI interface and main loop
+│   ├── matcher.py                         # Response matching logic
+│   ├── llm.py                             # LLM integration (Ollama)
 │   └── data/
-│       └── responses.json    # Response database
-├── setup.py                  # Package configuration
-├── requirements.txt          # Dependencies
-└── README.md                 # This file
+│       ├── responses.json                 # Response database (220+ responses)
+│       ├── character_profile_condensed.md # LLM system prompt
+│       └── faces/                         # ASCII art faces
+├── derek_character_profile.md             # Full character profile (845 lines)
+├── setup_ollama.sh                        # Ollama setup automation
+├── setup.py                               # Package configuration
+└── README.md                              # This file
 ```
 
 ## Customization
@@ -163,7 +240,13 @@ Example:
 
 ## Dependencies
 
+### Required
 - `colorama>=0.4.6` - Cross-platform colored terminal output
+- `requests>=2.31.0` - HTTP client for Ollama API
+
+### Optional (for LLM mode)
+- **Ollama** - Local LLM runtime (user-installed)
+- **llama3.2:3b** - 2GB model for character roleplay
 
 ## Development
 

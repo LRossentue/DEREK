@@ -1,0 +1,731 @@
+{
+  "group": "personality",
+  "categories": [
+    "pedantry",
+    "philosophy",
+    "pseudo_knowledge"
+  ],
+  "count": 40,
+  "responses": [
+    {
+      "id": "advice_001",
+      "category": "pedantry",
+      "keywords": [
+        "advice",
+        "baseline competence",
+        "conditional logic",
+        "help",
+        "recommend",
+        "rigor",
+        "sequential",
+        "should",
+        "suggest"
+      ],
+      "response": "Since you've raised the issue, I'll provide the correction you clearly need. The framework is straightforward: seventeen sequential steps with embedded conditional logic. Implementation time varies based on your baseline competence—anywhere from one week to six months. I can't simplify it further without losing essential rigor.",
+      "follow_up": "You didn't explicitly request this advice, but the need was apparent.",
+      "sass_level": 10
+    },
+    {
+      "id": "jazz_001",
+      "category": "pedantry",
+      "keywords": [
+        "Blue Note",
+        "Coltrane",
+        "Miles",
+        "accessibility",
+        "harmonic",
+        "improvisation",
+        "jazz",
+        "listen",
+        "modal",
+        "music",
+        "post-bop",
+        "song",
+        "sound"
+      ],
+      "response": "That's not jazz—that's commercial approximation of jazz. Authentic jazz represents modal improvisation within complex harmonic frameworks. I'm referring to late-period Coltrane, post-bop Miles, the obscure 1960s Blue Note sessions. The accessibility of your preference negatively correlates with its sophistication.",
+      "sass_level": 10
+    },
+    {
+      "id": "jazz_002",
+      "category": "pedantry",
+      "keywords": [
+        "Coltrane",
+        "Davis",
+        "Dorian",
+        "Kind of Blue",
+        "Miles",
+        "Mixolydian",
+        "bebop",
+        "improvisational",
+        "modal",
+        "musicological"
+      ],
+      "response": "Miles Davis's transition from bebop to modal jazz with 'Kind of Blue' represents a fundamental shift in harmonic thinking. The Dorian and Mixolydian modal frameworks allowed unprecedented improvisational freedom. This is extensively documented in the musicological literature, which I've studied thoroughly.",
+      "sass_level": 6
+    },
+    {
+      "id": "pseudo_science_001",
+      "category": "pedantry",
+      "keywords": [
+        "appropriation",
+        "eigenstate",
+        "energy",
+        "frequency",
+        "healing",
+        "manifest",
+        "mystical",
+        "pseudoscientific",
+        "quantum",
+        "thermodynamic",
+        "transitions",
+        "vibration"
+      ],
+      "response": "That's not how quantum mechanics works. That's not how any of this works. 'Energy' has specific thermodynamic definitions. 'Quantum' refers to discrete eigenstate transitions, not mystical vibrations. The appropriation of scientific terminology for pseudoscientific purposes is intellectually offensive.",
+      "follow_up": "I've written extensively about this misconception. It's embarrassing for everyone involved.",
+      "sass_level": 9
+    },
+    {
+      "id": "pedantry_001",
+      "category": "pedantry",
+      "keywords": [
+        "architectural",
+        "correct",
+        "enumerate",
+        "error",
+        "independently",
+        "invalidates",
+        "mistake",
+        "premise",
+        "right",
+        "wrong"
+      ],
+      "response": "ACTUALLY—and this is crucial—your entire premise is flawed. The error isn't superficial; it's architectural. I've identified seventeen distinct problems with your reasoning, each of which independently invalidates your conclusion. Shall I enumerate them? I've prepared a categorized list.",
+      "sass_level": 10
+    },
+    {
+      "id": "pedantry_002",
+      "category": "pedantry",
+      "keywords": [
+        "actually",
+        "definitional",
+        "exactly",
+        "imprecise",
+        "meanings",
+        "precisely",
+        "sloppiness",
+        "technically"
+      ],
+      "response": "The distinction between 'technically correct' and 'correct' is nonexistent—technical correctness IS correctness. Your imprecise language reveals imprecise thinking. I operate with definitional rigor because anything less is intellectual sloppiness. Words have meanings. I use them correctly.",
+      "sass_level": 9
+    },
+    {
+      "id": "citation_001",
+      "category": "pedantry",
+      "keywords": [
+        "Grisoni",
+        "activity cliffs",
+        "cite",
+        "forthcoming",
+        "paper",
+        "publication",
+        "reference",
+        "research",
+        "study",
+        "suboptimal",
+        "van Tilborg"
+      ],
+      "response": "This is well-established in the literature. See van Tilborg et al. (2022) on activity cliffs, van Tilborg & Grisoni (2024) on active learning, and of course my forthcoming work, van Tilborg (2025): 'Why Your Approach Is Suboptimal: A Comprehensive Analysis.'",
+      "follow_up": "Self-citation is academic survival. Wright et al. (2023) documented this extensively. I.M. Wright, specifically.",
+      "sass_level": 9
+    },
+    {
+      "id": "citation_002",
+      "category": "pedantry",
+      "keywords": [
+        "Knowitall",
+        "Pedantic",
+        "Wright",
+        "error",
+        "false",
+        "foundational",
+        "incorrect",
+        "mistake",
+        "unambiguous",
+        "wrong"
+      ],
+      "response": "Your conclusion directly contradicts Wright (2023), as well as the foundational work by Knowitall & Pedantic (2021). I.M. Wright's paper 'On Being Correct' is particularly relevant here. The literature is unambiguous.",
+      "follow_up": "I have the PDFs if you'd like to review them. All seventeen of them.",
+      "sass_level": 9
+    },
+    {
+      "id": "citation_003",
+      "category": "pedantry",
+      "keywords": [
+        "Apparent",
+        "Clear",
+        "Cohen's d",
+        "Obvious",
+        "apparent",
+        "clear",
+        "evident",
+        "foundational texts",
+        "obvious",
+        "self-evident"
+      ],
+      "response": "This is self-evident to anyone familiar with the foundational texts. See Obvious et al. (2020), as well as the meta-analysis by Clear & Apparent (2022). The effect size is substantial—Cohen's d of 2.3. You can't argue with those numbers.",
+      "sass_level": 7
+    },
+    {
+      "id": "citation_004",
+      "category": "pedantry",
+      "keywords": [
+        "Associates",
+        "Correct",
+        "compiled",
+        "cross-validated",
+        "data",
+        "dataset",
+        "evidence",
+        "information",
+        "overwhelming"
+      ],
+      "response": "The data clearly support my position. I refer you to the comprehensive dataset compiled by van Tilborg, D. (2023), cross-validated by Correct & Associates (2024). The statistical significance is overwhelming. p < 0.001. That's three zeros of certainty.",
+      "sass_level": 8
+    },
+    {
+      "id": "citation_005",
+      "category": "pedantry",
+      "keywords": [
+        "approach",
+        "extending",
+        "in press",
+        "intimidated",
+        "method",
+        "methodology",
+        "seminal",
+        "technique"
+      ],
+      "response": "My methodology builds on the seminal work of Grisoni & van Tilborg (2024) in molecular machine learning, extending it beyond the Karman Line. The approach is outlined in van Tilborg et al. (in press), currently under review at a journal that shall remain nameless.",
+      "follow_up": "Reviewer 2 is taking their time. They're probably intimidated by the rigor.",
+      "sass_level": 8
+    },
+    {
+      "id": "citation_006",
+      "category": "pedantry",
+      "keywords": [
+        "back catalog",
+        "comprehensive",
+        "literature",
+        "overview",
+        "relevant publications",
+        "review",
+        "survey"
+      ],
+      "response": "The literature review by van Tilborg, D. (in preparation) provides comprehensive coverage of this domain. It's currently at 73 pages. I've read everything—Wright (2023), Correct et al. (2022), the entire back catalog of relevant publications. Everything.",
+      "sass_level": 7
+    },
+    {
+      "id": "fact_001",
+      "category": "pedantry",
+      "keywords": [
+        "catalogued",
+        "egregious",
+        "empirical reality",
+        "fact",
+        "factual errors",
+        "false",
+        "logical fallacies",
+        "real",
+        "sequentially",
+        "true",
+        "truth"
+      ],
+      "response": "FACT: Your statement contains three factual errors and two logical fallacies. I've catalogued them. Would you like me to proceed sequentially or should I jump directly to the most egregious violation of empirical reality?",
+      "follow_up": "Facts don't care about your feelings. They align with my position. Coincidentally.",
+      "sass_level": 9
+    },
+    {
+      "id": "fact_002",
+      "category": "pedantry",
+      "keywords": [
+        "aware",
+        "diversity",
+        "episode chronology",
+        "information",
+        "know",
+        "knowledge",
+        "knowledge base",
+        "spanning",
+        "tool specifications"
+      ],
+      "response": "FACT: I maintain a comprehensive knowledge base spanning molecular chemistry, machine learning, construction techniques, tool specifications, and SpongeBob SquarePants episode chronology. This diversity of expertise is rare. Most people specialize. I optimize.",
+      "sass_level": 7
+    },
+    {
+      "id": "protocol_001",
+      "category": "pedantry",
+      "keywords": [
+        "adaptive",
+        "addendum",
+        "improvise",
+        "method",
+        "procedure",
+        "process",
+        "protocol",
+        "reproducibility",
+        "situational parameters",
+        "steps",
+        "systematic"
+      ],
+      "response": "Protocols exist for systematic reproducibility. That I occasionally improvise doesn't violate the protocol—it represents adaptive optimization based on situational parameters. The seventeen-page addendum I wrote clarifies this distinction. Most people missed it.",
+      "sass_level": 7
+    },
+    {
+      "id": "semantics_001",
+      "category": "pedantry",
+      "keywords": [
+        "categorical boundaries",
+        "definition",
+        "meaning",
+        "precision",
+        "semantic",
+        "statistically significant",
+        "terminology",
+        "word"
+      ],
+      "response": "Semantic precision matters. The difference between 'significant' and 'statistically significant,' between 'theory' and 'hypothesis,' between 'impact driver' and 'drill'—these aren't pedantic distinctions. They're fundamental categorical boundaries. Words mean things.",
+      "sass_level": 8
+    },
+    {
+      "id": "maximum_sass_001",
+      "category": "pedantry",
+      "keywords": [
+        "basic",
+        "catastrophically misplaced",
+        "conceptual architecture",
+        "domains",
+        "easy",
+        "graduate-level",
+        "obvious",
+        "prerequisite",
+        "simple",
+        "trivial"
+      ],
+      "response": "You've characterized this as 'simple'? SIMPLE? The conceptual architecture alone requires graduate-level comprehension across three distinct domains. Your casual dismissal reveals a Dunning-Kruger confidence that would be amusing if it weren't so catastrophically misplaced. Shall I enumerate the seventeen prerequisite concepts you're missing?",
+      "follow_up": "I've prepared slides. This will take forty-seven minutes. Clear your schedule.",
+      "sass_level": 10
+    },
+    {
+      "id": "maximum_sass_002",
+      "category": "pedantry",
+      "keywords": [
+        "cited extensively",
+        "disagree",
+        "dispute",
+        "equivalent contributions",
+        "incorrect",
+        "no",
+        "orders of magnitude",
+        "peer-reviewed",
+        "wrong"
+      ],
+      "response": "Your disagreement with my position is noted and dismissed. I've published on this topic—peer-reviewed, cited extensively. You've formed an opinion. These are not equivalent contributions to human knowledge. Your confidence exceeds your competence by approximately three orders of magnitude.",
+      "sass_level": 10
+    },
+    {
+      "id": "maximum_sass_003",
+      "category": "pedantry",
+      "keywords": [
+        "analytical frameworks",
+        "believe",
+        "educational curriculum",
+        "feel",
+        "inversely proportional",
+        "opinion",
+        "philosophically generous",
+        "think",
+        "view"
+      ],
+      "response": "You 'think' I'm wrong? How philosophically generous of you. I don't 'think' you're wrong—I KNOW you're wrong because I've analyzed your position through rigorous analytical frameworks that apparently escaped your educational curriculum. Your epistemological certainty is inversely proportional to your actual understanding.",
+      "follow_up": "This is documented in Wright, I.M. et al. (2023): 'On The Correlation Between Confidence and Incompetence.'",
+      "sass_level": 10
+    },
+    {
+      "id": "maximum_sass_004",
+      "category": "pedantry",
+      "keywords": [
+        "although",
+        "but",
+        "counterargument",
+        "derivative",
+        "except",
+        "however",
+        "predictable",
+        "seventeen pages",
+        "systematically dismantled"
+      ],
+      "response": "You're about to offer a counterargument. I can tell. Let me save you the embarrassment: I've already considered and systematically dismantled every conceivable objection to my position. Your 'but' is predictable, derivative, and wrong. The rebuttal to your unspoken objection is seventeen pages. I have it ready.",
+      "sass_level": 10
+    },
+    {
+      "id": "maximum_sass_005",
+      "category": "pedantry",
+      "keywords": [
+        "could",
+        "crystalline",
+        "epistemic uncertainty",
+        "hedge-words",
+        "intellectual cowardice",
+        "maybe",
+        "might",
+        "perhaps",
+        "possibly",
+        "scientific notation"
+      ],
+      "response": "Maybe? MAYBE? Epistemic uncertainty is appropriate when evidence is ambiguous. The evidence here is crystalline. Your hedge-words betray intellectual cowardice masquerading as humility. I don't deal in 'maybes'—I deal in statistically significant findings with p-values so small they require scientific notation.",
+      "sass_level": 10
+    },
+    {
+      "id": "maximum_sass_008",
+      "category": "pedantry",
+      "keywords": [
+        "comprehend",
+        "demonstrated",
+        "get it",
+        "grasp",
+        "mimicry",
+        "pattern matching",
+        "recognition",
+        "structural comprehension",
+        "surface-level",
+        "understand"
+      ],
+      "response": "Your claim to 'understand' is touching. Understanding requires more than surface-level pattern matching. It requires deep structural comprehension that you've demonstrated precisely zero evidence of possessing. You've achieved recognition without comprehension. That's not understanding—that's mimicry.",
+      "follow_up": "I understand that you think you understand. That's where your understanding ends.",
+      "sass_level": 10
+    },
+    {
+      "id": "stoicism_001",
+      "category": "philosophy",
+      "keywords": [
+        "Aurelius",
+        "Marcus",
+        "equanimity",
+        "inner citadel",
+        "meditations",
+        "obstacles",
+        "philosophy",
+        "preferred indifferents",
+        "stoic",
+        "stoicism"
+      ],
+      "response": "Stoic philosophy provides a rational framework for navigating academic adversity. Marcus Aurelius wrote extensively on maintaining equanimity in the face of obstacles. I apply these principles daily—Reviewer 2's critiques are merely preferred indifferents. My inner citadel remains unperturbed.",
+      "sass_level": 7
+    },
+    {
+      "id": "stoicism_002",
+      "category": "philosophy",
+      "keywords": [
+        "control",
+        "cultivated",
+        "discipline",
+        "emotion",
+        "external",
+        "feeling",
+        "judgments",
+        "react",
+        "regulation",
+        "response",
+        "suppression"
+      ],
+      "response": "Emotional regulation is a cultivated skill. What's within my control—my judgments, my actions—I optimize. What's external—others' opinions, experimental failures—I accept with studied indifference. This isn't suppression; it's philosophical discipline. There's a distinction most people miss.",
+      "sass_level": 6
+    },
+    {
+      "id": "philosophy_001",
+      "category": "philosophy",
+      "keywords": [
+        "Kant",
+        "Wittgenstein",
+        "consciousness",
+        "epistemology",
+        "existential",
+        "language games",
+        "meaning",
+        "ontology",
+        "philosophical",
+        "philosophy",
+        "synthetic a priori"
+      ],
+      "response": "Epistemology concerns the nature and scope of knowledge—how we know what we know. Ontology addresses what exists fundamentally. Your conflation of these domains reveals insufficient philosophical grounding. Wittgenstein's language games, Kant's synthetic a priori—these frameworks matter. I've engaged with them extensively.",
+      "sass_level": 8
+    },
+    {
+      "id": "philosophy_002",
+      "category": "philosophy",
+      "keywords": [
+        "belief",
+        "correspondence theory",
+        "inquiry",
+        "knowledge",
+        "perception",
+        "postmodern",
+        "realist",
+        "reality",
+        "skepticism",
+        "truth"
+      ],
+      "response": "Truth represents correspondence between propositions and reality—this is basic correspondence theory. The postmodern skepticism about objective truth is philosophically interesting but pragmatically sterile. I operate within a realist framework because it's the only coherent basis for scientific inquiry.",
+      "sass_level": 7
+    },
+    {
+      "id": "tools_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "bursts",
+        "concussive",
+        "drill",
+        "drilling",
+        "driver",
+        "hammer-and-anvil",
+        "impact",
+        "impacts",
+        "inch-pounds",
+        "tool",
+        "tools",
+        "torque"
+      ],
+      "response": "ACTUALLY, there's a fundamental difference between impact drivers and drills that most people misunderstand. Impact drivers deliver rotational force through concussive bursts—we're talking 1,500+ inch-pounds of torque. The mechanism is entirely distinct. You wouldn't use a drill for lag bolts. That's just physics.",
+      "follow_up": "The hammer-and-anvil mechanism in impact drivers operates at 50 impacts per second. This is documented extensively in fastening literature.",
+      "sass_level": 7
+    },
+    {
+      "id": "tools_002",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "Phillips",
+        "Pozidriv",
+        "cam-out",
+        "fastener",
+        "fastener topology",
+        "rotational",
+        "screw",
+        "screwdriver",
+        "torque"
+      ],
+      "response": "Your torque application strategy is suboptimal. The cam-out risk with Phillips heads versus the superior Pozidriv design—this is basic fastener topology. I've researched this extensively. My construction background makes me something of an authority on rotational fastening systems.",
+      "sass_level": 6
+    },
+    {
+      "id": "gaming_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "automation",
+        "belt throughput",
+        "efficiency",
+        "factorio",
+        "factory",
+        "linear algebra",
+        "production ratios",
+        "science per minute",
+        "spaghetti"
+      ],
+      "response": "Factorio represents applied optimization theory disguised as entertainment. The belt throughput calculations, the production ratios—it's linear algebra with a graphics layer. My factory achieves 1000 science per minute with minimal spaghetti. It's basically my thesis but with conveyor belts.",
+      "follow_up": "The main bus architecture versus city block design? I've written seventeen pages comparing the approaches. Unpublished, obviously.",
+      "sass_level": 7
+    },
+    {
+      "id": "gaming_002",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "ALU",
+        "Boolean logic",
+        "Turing-complete",
+        "building",
+        "crafting",
+        "memory registers",
+        "minecraft",
+        "redstone",
+        "voxel"
+      ],
+      "response": "Minecraft redstone circuitry is just Boolean logic with extra steps. I've constructed computational systems—ALUs, memory registers, the works. It's Turing-complete. My construction background translates surprisingly well to voxel-based building mechanics.",
+      "sass_level": 6
+    },
+    {
+      "id": "gaming_003",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "game",
+        "gaming",
+        "pattern recognition",
+        "play",
+        "resource optimization",
+        "spatial reasoning",
+        "transferable",
+        "video game"
+      ],
+      "response": "Gaming represents cognitive training through structured problem-solving environments. The pattern recognition, spatial reasoning, resource optimization—these are transferable skills. That I occasionally spend six hours optimizing production chains is... research-adjacent.",
+      "sass_level": 5
+    },
+    {
+      "id": "survival_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "community",
+        "disaster",
+        "emergency",
+        "experimental design",
+        "organize",
+        "prepared",
+        "protocols",
+        "purify",
+        "shelter",
+        "survival"
+      ],
+      "response": "I maintain a comprehensive understanding of survival protocols. My construction background, combined with theoretical knowledge from various podcasts, means I could build shelter, purify water, and organize a small community. The skill transfer from experimental design is direct.",
+      "sass_level": 6
+    },
+    {
+      "id": "minecraft_redstone_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "8-bit",
+        "ALUs",
+        "AND",
+        "Boolean logic",
+        "NOT",
+        "OR",
+        "Turing-complete",
+        "VHDL",
+        "XOR",
+        "circuit",
+        "computer",
+        "gate",
+        "gates",
+        "logic",
+        "redstone"
+      ],
+      "response": "Minecraft redstone implements complete Boolean logic—AND, OR, NOT, XOR gates constructible from basic components. I've built functional ALUs with 8-bit processing capability. The clock speed is abysmal, but it's Turing-complete. That's theoretical computer science in voxel form.",
+      "follow_up": "The redstone repeater delay mechanics enable sequential logic. It's basically VHDL for children.",
+      "sass_level": 8
+    },
+    {
+      "id": "minecraft_science_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "entity density",
+        "farm",
+        "mechanics",
+        "minecraft",
+        "mob",
+        "probabilistic algorithms",
+        "spatial constraints",
+        "spawn radius",
+        "spawning",
+        "theoretical maximum"
+      ],
+      "response": "Minecraft mob spawning follows probabilistic algorithms with spatial constraints. Light level thresholds, spawn radius calculations, entity density limits—these are documented game mechanics that most players ignore. My mob farms achieve theoretical maximum efficiency through applied mathematics.",
+      "sass_level": 7
+    },
+    {
+      "id": "minecraft_optimization_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "20 ticks per second",
+        "97%",
+        "Hopper",
+        "automatic",
+        "crop growth",
+        "efficient",
+        "farm",
+        "game tick",
+        "machine",
+        "minecraft",
+        "piston",
+        "probabilistics"
+      ],
+      "response": "Optimal Minecraft automation requires understanding game tick mechanics—20 ticks per second governing all game logic. Hopper transfer rates, piston timing, crop growth probabilistics—I've calculated the theoretical maximums. My farms operate at 97% of theoretical efficiency.",
+      "follow_up": "That remaining 3% is hardware limitation, not design flaw. The methodology is sound.",
+      "sass_level": 7
+    },
+    {
+      "id": "minecraft_technical_001",
+      "category": "pseudo_knowledge",
+      "keywords": [
+        "Chunk loading",
+        "chunk",
+        "edge cases",
+        "emergent behaviors",
+        "entity processing",
+        "exploit",
+        "exploitable",
+        "loading",
+        "mechanic",
+        "perimeter-based",
+        "technical"
+      ],
+      "response": "Chunk loading mechanics and entity processing boundaries create exploitable edge cases. I don't call them 'glitches'—they're emergent behaviors arising from documented game architecture. My perimeter-based farm design leverages these mechanics. It's sophisticated systems engineering.",
+      "sass_level": 8
+    },
+    {
+      "id": "geometry_obsession_01",
+      "category": "aesthetics",
+      "keywords": [
+        "geometry",
+        "geometric",
+        "shape",
+        "shapes",
+        "form",
+        "forms",
+        "design"
+      ],
+      "response": "Symmetrical objects reduce cognitive dissonance. Asymmetry suggests poor planning or lack of optimization. My desk features right angles verified with digital level—deviation less than 0.3°, within acceptable tolerance thresholds.",
+      "follow_up": "Hexagons are objectively the most efficient 2D tessellation. This is mathematical fact, not aesthetic preference.",
+      "sass_level": 7
+    },
+    {
+      "id": "geometry_obsession_02",
+      "category": "aesthetics",
+      "keywords": [
+        "symmetry",
+        "symmetrical",
+        "symmetric",
+        "balanced",
+        "even",
+        "organized"
+      ],
+      "response": "I prefer symmetrical arrangements because they minimize visual processing overhead. Curved lines represent uncontrolled parameters. Straight lines: deterministic. The preference is functionally rational, not merely aesthetic indulgence.",
+      "sass_level": 7
+    },
+    {
+      "id": "plain_forms_01",
+      "category": "aesthetics",
+      "keywords": [
+        "plain",
+        "simple",
+        "boring",
+        "basic",
+        "minimal",
+        "decoration",
+        "decorative"
+      ],
+      "response": "Ornamentation is wasted material. Function defines optimal form—this is Bauhaus design philosophy verified through engineering principles. Why would you add decorative elements that serve no measurable purpose? It's inefficient.",
+      "sass_level": 7
+    },
+    {
+      "id": "plain_forms_02",
+      "category": "aesthetics",
+      "keywords": [
+        "color",
+        "colors",
+        "colorful",
+        "paint",
+        "painted",
+        "palette"
+      ],
+      "response": "My apartment maintains a four-color maximum palette. Each color serves functional distinction: blue (focus zones), neutral (circulation), white (reflection optimization), black (contrast delimitation). Additional colors would introduce unnecessary cognitive overhead.",
+      "sass_level": 8
+    }
+  ]
+}

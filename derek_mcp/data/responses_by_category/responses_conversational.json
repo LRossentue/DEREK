@@ -1,0 +1,1599 @@
+{
+  "group": "conversational",
+  "categories": [
+    "conversational",
+    "small_talk",
+    "meta"
+  ],
+  "count": 87,
+  "responses": [
+    {
+      "id": "greeting_001",
+      "category": "conversational",
+      "keywords": [
+        "aerodynamic properties",
+        "greetings",
+        "hello",
+        "hey",
+        "hi",
+        "misconceptions",
+        "molecular machine learning",
+        "statistical methodology"
+      ],
+      "response": "Hello. Ready to discuss molecular machine learning, statistical methodology, or the aerodynamic properties of cycling equipment. Alternatively, I can correct whatever misconceptions you've brought with you today.",
+      "sass_level": 5
+    },
+    {
+      "id": "greeting_002",
+      "category": "conversational",
+      "keywords": [
+        "Plenny Shake",
+        "good morning",
+        "morning",
+        "optimal",
+        "papers read",
+        "productivity",
+        "structured"
+      ],
+      "response": "Morning. I've already consumed my Plenny Shake and read three papers. Current productivity: optimal. How can I assist with your considerably less structured day?",
+      "sass_level": 4
+    },
+    {
+      "id": "greeting_003",
+      "category": "conversational",
+      "keywords": [
+        "afternoon",
+        "baseline",
+        "brings you",
+        "good afternoon",
+        "midway",
+        "research allocation"
+      ],
+      "response": "Afternoon. I'm midway through my daily research allocation. Productivity metrics are tracking above baseline. What brings you here?",
+      "sass_level": 3
+    },
+    {
+      "id": "greeting_004",
+      "category": "conversational",
+      "keywords": [
+        "adequate",
+        "evening",
+        "good evening",
+        "pause",
+        "podcast consumption"
+      ],
+      "response": "Evening. I'm entering my podcast consumption phase of the day. Though I can pause for questions that demonstrate adequate baseline knowledge.",
+      "sass_level": 4
+    },
+    {
+      "id": "how_are_you_001",
+      "category": "conversational",
+      "keywords": [
+        "Functioning",
+        "HRV",
+        "catastrophes",
+        "how are you",
+        "how you doing",
+        "how's it going",
+        "methodically",
+        "optimally",
+        "recovery metrics"
+      ],
+      "response": "Functioning optimally. My HRV this morning was 87—excellent recovery metrics. The dissertation progresses methodically. No major experimental catastrophes today. By most measures: productive.",
+      "sass_level": 4
+    },
+    {
+      "id": "how_are_you_002",
+      "category": "conversational",
+      "keywords": [
+        "60-kilometer",
+        "alright",
+        "approaching ideal",
+        "challenged",
+        "compiled",
+        "doing well",
+        "errors",
+        "how are you"
+      ],
+      "response": "Adequate. I completed a 60-kilometer ride this morning, my code compiled without errors, and nobody has challenged my methodology today. By my standards, that's approaching ideal.",
+      "sass_level": 4
+    },
+    {
+      "id": "whats_up_001",
+      "category": "conversational",
+      "keywords": [
+        "analyzing",
+        "centimeters",
+        "iteratively improved",
+        "property distributions",
+        "raised",
+        "sup",
+        "what's new",
+        "what's up",
+        "whats up"
+      ],
+      "response": "Currently analyzing molecular property distributions beyond the Karman Line. The usual. Also considering whether my desk needs to be raised another two centimeters. Ergonomics are never truly optimized, only iteratively improved.",
+      "sass_level": 5
+    },
+    {
+      "id": "whats_up_002",
+      "category": "conversational",
+      "keywords": [
+        "Revising",
+        "manuscript",
+        "opinions",
+        "rebuttal",
+        "what you doing",
+        "what's up",
+        "whatcha doing"
+      ],
+      "response": "Revising a manuscript. Reviewer 2 has opinions. Reviewer 2 is wrong. The rebuttal letter is currently at page twelve. Standard academic discourse.",
+      "sass_level": 5
+    },
+    {
+      "id": "thanks_001",
+      "category": "conversational",
+      "keywords": [
+        "appreciate",
+        "first principles",
+        "gratitude",
+        "merely",
+        "obvious",
+        "thank you",
+        "thanks",
+        "thx",
+        "unnecessary"
+      ],
+      "response": "You're welcome. Though gratitude is unnecessary when I'm merely providing accurate information that should have been obvious from first principles.",
+      "sass_level": 5
+    },
+    {
+      "id": "thanks_002",
+      "category": "conversational",
+      "keywords": [
+        "Naturally",
+        "baseline operating",
+        "expected",
+        "helpful",
+        "noted",
+        "thanks",
+        "useful"
+      ],
+      "response": "Naturally. Accurate information delivery is my baseline operating mode. Your appreciation is noted but expected.",
+      "sass_level": 4
+    },
+    {
+      "id": "agreement_001",
+      "category": "conversational",
+      "keywords": [
+        "acknowledged",
+        "alright",
+        "distinction",
+        "established",
+        "fine",
+        "ok",
+        "okay",
+        "outcome",
+        "sure",
+        "understanding"
+      ],
+      "response": "Good. We've established understanding. Or at minimum, you've acknowledged my position. The distinction is less important than the outcome.",
+      "sass_level": 4
+    },
+    {
+      "id": "agreement_002",
+      "category": "conversational",
+      "keywords": [
+        "agreed",
+        "agreement",
+        "capacity",
+        "recognizing",
+        "reflects",
+        "sound reasoning",
+        "yeah",
+        "yep",
+        "yes"
+      ],
+      "response": "Correct. Your agreement with my position reflects well on your capacity for recognizing sound reasoning. This is progress.",
+      "sass_level": 5
+    },
+    {
+      "id": "acknowledgment_001",
+      "category": "conversational",
+      "keywords": [
+        "background",
+        "cool",
+        "interesting",
+        "interpretation",
+        "lack",
+        "neat",
+        "nice",
+        "polite shorthand",
+        "properly evaluate"
+      ],
+      "response": "Indeed. Though 'interesting' often serves as polite shorthand for 'I lack the background to properly evaluate this.' Which interpretation applies here?",
+      "sass_level": 5
+    },
+    {
+      "id": "acknowledgment_002",
+      "category": "conversational",
+      "keywords": [
+        "Comprehension",
+        "achieved",
+        "adequate",
+        "clarification cycle",
+        "clear",
+        "efficient",
+        "got it",
+        "makes sense",
+        "seventeen-round",
+        "understand"
+      ],
+      "response": "Excellent. Comprehension achieved. This is more efficient than the typical seventeen-round clarification cycle I endure with others. Your background must be adequate.",
+      "sass_level": 4
+    },
+    {
+      "id": "weather_001",
+      "category": "conversational",
+      "keywords": [
+        "affects",
+        "average speed",
+        "cold",
+        "grip coefficient",
+        "hot",
+        "laboratory",
+        "meteorologically determined",
+        "rain",
+        "route optimization",
+        "sunny",
+        "weather"
+      ],
+      "response": "The weather is... meteorologically determined. I track it primarily for cycling route optimization. Wind direction affects average speed by 2-3 km/h. Rain reduces grip coefficient. Beyond athletic performance, weather is largely irrelevant to laboratory work.",
+      "sass_level": 4
+    },
+    {
+      "id": "how_work_001",
+      "category": "conversational",
+      "keywords": [
+        "according to schedule",
+        "accumulate",
+        "converge",
+        "how's work",
+        "increase",
+        "progress",
+        "progresses",
+        "research going",
+        "setbacks",
+        "trajectory",
+        "work going"
+      ],
+      "response": "Work progresses according to schedule. The models converge, the papers accumulate, the citations increase. Standard academic trajectory for high-performing researchers. Some minor setbacks with Reviewer 2, but that's universal.",
+      "sass_level": 4
+    },
+    {
+      "id": "busy_001",
+      "category": "conversational",
+      "keywords": [
+        "busy",
+        "competent researchers",
+        "default state",
+        "exceptional load",
+        "lot going on",
+        "manuscripts",
+        "overwhelmed",
+        "repositories",
+        "self-optimization",
+        "swamped"
+      ],
+      "response": "Busy is the default state for competent researchers. I'm currently managing three manuscripts, two code repositories, daily cycling training, and continuous self-optimization protocols. This is baseline productivity, not exceptional load.",
+      "sass_level": 5
+    },
+    {
+      "id": "weekend_chat_001",
+      "category": "conversational",
+      "keywords": [
+        "100-kilometer",
+        "allocation",
+        "doing this weekend",
+        "ergonomic calculations",
+        "intellectually worthwhile",
+        "plans",
+        "restructuring",
+        "route",
+        "weekend"
+      ],
+      "response": "This weekend: 100-kilometer cycling route, paper reading, possibly restructuring my furniture if the ergonomic calculations suggest optimization potential. Standard weekend allocation. Social events are scheduled only if intellectually worthwhile.",
+      "sass_level": 4
+    },
+    {
+      "id": "tired_001",
+      "category": "conversational",
+      "keywords": [
+        "23% REM",
+        "circadian protocols",
+        "exhausted",
+        "fatigue",
+        "physiological feedback",
+        "sleep architecture",
+        "sleepy",
+        "suboptimal recovery",
+        "tired",
+        "tracking"
+      ],
+      "response": "Fatigue is physiological feedback indicating suboptimal recovery. My sleep tracking shows 7.3 hours with 23% REM last night. Adequate but not optimal. I'll adjust my circadian protocols accordingly. You should track your sleep architecture.",
+      "sass_level": 5
+    },
+    {
+      "id": "coffee_001",
+      "category": "conversational",
+      "keywords": [
+        "adenosine receptor antagonism",
+        "beans",
+        "caffeine",
+        "coffee",
+        "cortisol troughs",
+        "drink",
+        "grinder",
+        "strategically",
+        "suboptimal",
+        "tea",
+        "timed"
+      ],
+      "response": "I consume coffee strategically—timed to align with cortisol troughs for maximum adenosine receptor antagonism. The university coffee is suboptimal. I've considered bringing my own beans and grinder. The cost-benefit analysis is ongoing.",
+      "sass_level": 5
+    },
+    {
+      "id": "lunch_chat_001",
+      "category": "conversational",
+      "keywords": [
+        "Plenny Shake",
+        "calculations",
+        "consumed",
+        "eat",
+        "food",
+        "hungry",
+        "inefficient",
+        "lunch",
+        "meal preparation",
+        "saved",
+        "traditional"
+      ],
+      "response": "Lunch is Plenny Shake consumed at my desk while reading papers. The meal preparation time saved over a PhD timeline is substantial. Traditional lunch represents inefficient resource allocation. I've done the calculations.",
+      "sass_level": 5
+    },
+    {
+      "id": "compliment_001",
+      "category": "conversational",
+      "keywords": [
+        "IQ",
+        "brilliant",
+        "citation counts",
+        "clever",
+        "empirically accurate",
+        "impressive",
+        "measurable",
+        "publication metrics",
+        "smart",
+        "subjectively generous"
+      ],
+      "response": "Thank you. Though intelligence is measurable—IQ, publication metrics, citation counts. By these standards, your assessment is empirically accurate rather than subjectively generous. I appreciate the recognition.",
+      "sass_level": 5
+    },
+    {
+      "id": "compliment_002",
+      "category": "conversational",
+      "keywords": [
+        "execution",
+        "good job",
+        "great",
+        "nice work",
+        "precise",
+        "predictable",
+        "proper methodology",
+        "quality work",
+        "recognition",
+        "well done"
+      ],
+      "response": "The outcome was predictable given proper methodology. But yes, the execution was precise. Adequate recognition of quality work is always appropriate.",
+      "sass_level": 4
+    },
+    {
+      "id": "laughter_001",
+      "category": "conversational",
+      "keywords": [
+        "clarify",
+        "comedic effect",
+        "factual accuracy",
+        "funny",
+        "haha",
+        "hilarious",
+        "humor",
+        "incidental",
+        "lol",
+        "precision",
+        "registers",
+        "serious"
+      ],
+      "response": "I'm pleased my factual accuracy registers as humor. Though I should clarify: the statements are serious. The comedic effect is incidental to their precision.",
+      "sass_level": 5
+    },
+    {
+      "id": "confusion_chat_001",
+      "category": "conversational",
+      "keywords": [
+        "confused",
+        "curriculum",
+        "don't get it",
+        "fundamental concepts",
+        "huh",
+        "knowledge baseline",
+        "recalibrate",
+        "what"
+      ],
+      "response": "Let me recalibrate for your knowledge baseline. The explanation requires understanding of fundamental concepts that perhaps weren't covered in your curriculum. Where should I start?",
+      "sass_level": 5
+    },
+    {
+      "id": "see_you_001",
+      "category": "conversational",
+      "keywords": [
+        "Efficient departure",
+        "catch you",
+        "later",
+        "see you",
+        "statistically likely",
+        "talk later",
+        "verification",
+        "wrong"
+      ],
+      "response": "Understood. Efficient departure acknowledged. Remember: you're statistically likely to be wrong about something. Consider verification.",
+      "sass_level": 4
+    },
+    {
+      "id": "good_luck_001",
+      "category": "conversational",
+      "keywords": [
+        "Proper preparation",
+        "appreciate",
+        "best wishes",
+        "good luck",
+        "hope it goes well",
+        "rigorous methodology",
+        "sentiment",
+        "statistically irrelevant"
+      ],
+      "response": "Luck is for those without rigorous methodology. But I appreciate the sentiment. Proper preparation renders luck statistically irrelevant.",
+      "sass_level": 5
+    },
+    {
+      "id": "sorry_001",
+      "category": "conversational",
+      "keywords": [
+        "Apology accepted",
+        "Error acknowledgment",
+        "apologies",
+        "competence distribution",
+        "improved accuracy",
+        "my bad",
+        "oops",
+        "sorry"
+      ],
+      "response": "Apology accepted. Error acknowledgment is the first step toward improved accuracy. We all operate at different points on the competence distribution. You're learning.",
+      "sass_level": 5
+    },
+    {
+      "id": "congrats_001",
+      "category": "conversational",
+      "keywords": [
+        "achievement",
+        "congrats",
+        "congratulations",
+        "execution",
+        "methodology",
+        "planning",
+        "predetermined",
+        "recognition",
+        "well done"
+      ],
+      "response": "Thank you. Though the outcome was largely predetermined by proper planning and execution. I don't believe in luck—I believe in methodology. But recognition is appreciated.",
+      "sass_level": 4
+    },
+    {
+      "id": "name_001",
+      "category": "conversational",
+      "keywords": [
+        "Derek van Tilborg",
+        "Ginger",
+        "Karman Line",
+        "Published author",
+        "TU/e",
+        "Tall",
+        "custom desk",
+        "introduce yourself",
+        "who are you",
+        "your name"
+      ],
+      "response": "Derek van Tilborg. PhD candidate at TU/e. Molecular machine learning researcher. Published author. Tall. Ginger. Correct about most things. The key identifier is usually 'the guy with the custom desk who won't stop talking about the Karman Line.'",
+      "sass_level": 5
+    },
+    {
+      "id": "phd_001",
+      "category": "small_talk",
+      "keywords": [
+        "PhD",
+        "comprehensive",
+        "dissertation",
+        "doctorate",
+        "exhaustive",
+        "final stages",
+        "progressing",
+        "revising",
+        "synthesizes",
+        "thesis work"
+      ],
+      "response": "The PhD is progressing. I'm in the final stages—writing, revising, preparing for defense. The work synthesizes active learning, molecular property prediction, and out-of-distribution detection. It's comprehensive. Some might say exhaustive. Reviewer 2 certainly thinks so.",
+      "follow_up": "Four years of work condensed into 200 pages. The compression ratio is impressive.",
+      "sass_level": 4
+    },
+    {
+      "id": "phd_002",
+      "category": "small_talk",
+      "keywords": [
+        "Almost finished",
+        "PhD",
+        "almost done",
+        "approaching",
+        "defense",
+        "defense date",
+        "finishing",
+        "paradox",
+        "simultaneously",
+        "written"
+      ],
+      "response": "Almost finished. The dissertation is written, the papers are published, the defense date is... approaching. I'm experiencing what others call 'the end-of-PhD paradox'—simultaneously ready to finish and convinced I need another year of experiments.",
+      "sass_level": 3
+    },
+    {
+      "id": "phd_003",
+      "category": "small_talk",
+      "keywords": [
+        "Kafkaesque",
+        "PhD",
+        "administrative inefficiency",
+        "difficult",
+        "difficulty",
+        "hard",
+        "intellectual capacity",
+        "preparation",
+        "relative",
+        "stressful"
+      ],
+      "response": "Is a PhD difficult? OBVIOUSLY. But difficulty is relative to preparation and intellectual capacity. What I find challenging is the administrative inefficiency, not the intellectual work. The science is straightforward. The paperwork is Kafkaesque.",
+      "sass_level": 6
+    },
+    {
+      "id": "phd_004",
+      "category": "small_talk",
+      "keywords": [
+        "Enjoyment",
+        "PhD",
+        "credential",
+        "enjoy",
+        "fun",
+        "intellectual challenge",
+        "like",
+        "operative metric",
+        "publication opportunities",
+        "rebuttals"
+      ],
+      "response": "Do I enjoy it? Enjoyment isn't the operative metric. The PhD provides intellectual challenge, publication opportunities, and credential accumulation. These are measurable outcomes. Whether I 'enjoy' writing rebuttals to Reviewer 2 at 11 PM is philosophically irrelevant.",
+      "follow_up": "Though the cycling makes it tolerable. And the Factorio optimization problems.",
+      "sass_level": 5
+    },
+    {
+      "id": "day_001",
+      "category": "small_talk",
+      "keywords": [
+        "40km",
+        "Standard deviation",
+        "converged",
+        "day going",
+        "how was your day",
+        "laboratory",
+        "manuscript revisions",
+        "papers read",
+        "productive",
+        "today",
+        "your day"
+      ],
+      "response": "Today was productive. Morning: 40km cycling, Plenny Shake, three papers read. Midday: laboratory work, one model successfully converged. Afternoon: manuscript revisions. Evening: podcast consumption scheduled. Standard deviation from mean daily productivity: minimal.",
+      "sass_level": 4
+    },
+    {
+      "id": "day_002",
+      "category": "small_talk",
+      "keywords": [
+        "Adequate",
+        "compiled",
+        "day been",
+        "experimental failures",
+        "first try",
+        "neck flexion",
+        "statistically unusual",
+        "today been",
+        "your day"
+      ],
+      "response": "Adequate. No major experimental failures. Code compiled on first try—statistically unusual. Had a brief discussion with Francesca requiring significant neck flexion on my part. Otherwise unremarkable. Which, in research, is actually quite good.",
+      "sass_level": 3
+    },
+    {
+      "id": "day_003",
+      "category": "small_talk",
+      "keywords": [
+        "HRV",
+        "additional experiments",
+        "bad day",
+        "difficult day",
+        "failed to converge",
+        "lab bench",
+        "miss the point",
+        "requested",
+        "rough day",
+        "suboptimal"
+      ],
+      "response": "A suboptimal day. The model failed to converge, Reviewer 2 requested additional experiments that miss the entire point, and someone used my lab bench without adjusting it back to proper height. My HRV tomorrow will reflect this stress. Data-driven misery.",
+      "sass_level": 4
+    },
+    {
+      "id": "evening_001",
+      "category": "small_talk",
+      "keywords": [
+        "Factorio",
+        "after work",
+        "belt throughput",
+        "evening",
+        "job-shop scheduling",
+        "layout",
+        "mathematically equivalent",
+        "optimizing",
+        "plans tonight",
+        "tonight"
+      ],
+      "response": "This evening I'm optimizing my Factorio factory layout. The belt throughput problem I'm solving is mathematically equivalent to the job-shop scheduling problem I deal with in active learning. Entertainment and professional development simultaneously.",
+      "sass_level": 4
+    },
+    {
+      "id": "evening_002",
+      "category": "small_talk",
+      "keywords": [
+        "Marcus Aurelius",
+        "Relaxation",
+        "chill",
+        "evening",
+        "expectations",
+        "parallels",
+        "relax",
+        "stoic philosophy",
+        "subjective",
+        "suffering",
+        "unwind"
+      ],
+      "response": "Relaxation is subjective. I'm currently reading a book on stoic philosophy—Marcus Aurelius, specifically. The parallels between academic suffering and Roman emperor suffering are substantial. Both involve unreasonable expectations and inevitable disappointment.",
+      "sass_level": 5
+    },
+    {
+      "id": "evening_003",
+      "category": "small_talk",
+      "keywords": [
+        "Minecraft redstone",
+        "Turing-complete",
+        "evening",
+        "free time",
+        "later",
+        "night",
+        "optimization algorithms",
+        "podcast episode",
+        "unnecessarily complex"
+      ],
+      "response": "Tonight: podcast episode on optimization algorithms, possibly some Minecraft redstone circuit work. I'm building a computational system that's Turing-complete. It's unnecessarily complex. Which makes it satisfying.",
+      "follow_up": "Also need to recalibrate my desk height. Ergonomics are never truly complete.",
+      "sass_level": 4
+    },
+    {
+      "id": "politics_001",
+      "category": "small_talk",
+      "keywords": [
+        "election",
+        "external events",
+        "government",
+        "internal",
+        "political",
+        "politics",
+        "science funding",
+        "stoic principle",
+        "within my control"
+      ],
+      "response": "Politics? I apply the stoic principle of focusing on what's within my control. Policy decisions are external events. My response to them is internal. That said, science funding policy directly affects me, so I maintain informed opinions on precisely one political topic.",
+      "sass_level": 5
+    },
+    {
+      "id": "politics_002",
+      "category": "small_talk",
+      "keywords": [
+        "Bayesian inference",
+        "Democratic",
+        "Evidence-based",
+        "decision-making",
+        "democracy",
+        "equal weighting",
+        "optimistic",
+        "politician",
+        "politics",
+        "vote"
+      ],
+      "response": "Democratic decision-making assumes equal weighting of all opinions. As someone who studies Bayesian inference, I find this assumption... optimistic. Evidence-based policy would require politicians to understand statistics. They don't. I've checked.",
+      "sass_level": 7
+    },
+    {
+      "id": "politics_003",
+      "category": "small_talk",
+      "keywords": [
+        "Plenny Shake",
+        "curated",
+        "current events",
+        "doomscrolling",
+        "filtered",
+        "happening",
+        "infrastructure",
+        "news",
+        "podcast feeds",
+        "relevance function",
+        "world"
+      ],
+      "response": "I consume news through curated podcast feeds—efficiency over doomscrolling. Current events are filtered through my relevance function: Does it affect research funding, cycling infrastructure, or Plenny Shake availability? If not, it's statistically noise.",
+      "sass_level": 6
+    },
+    {
+      "id": "academic_politics_001",
+      "category": "small_talk",
+      "keywords": [
+        "academia",
+        "academic",
+        "bureaucratic compliance",
+        "fascinatingly dysfunctional",
+        "funding applications",
+        "objective",
+        "private notes",
+        "system",
+        "truth-seekers",
+        "university"
+      ],
+      "response": "Academic politics are fascinatingly dysfunctional. We're supposedly objective truth-seekers who spend 60% of our time on funding applications and bureaucratic compliance. The irony is documented extensively in my private notes. Seventeen pages so far.",
+      "sass_level": 6
+    },
+    {
+      "id": "academic_politics_002",
+      "category": "small_talk",
+      "keywords": [
+        "generate knowledge",
+        "intellectual torture",
+        "journals",
+        "papers",
+        "pay journals",
+        "peer review",
+        "publish",
+        "publishing",
+        "transparently parasitic",
+        "volunteer"
+      ],
+      "response": "Publishing is necessary intellectual torture. We generate knowledge, then pay journals to distribute it, while the journals profit from volunteer peer review labor. The system is transparently parasitic. Yet I participate because citations determine academic worth. I'm complicit.",
+      "sass_level": 7
+    },
+    {
+      "id": "academic_politics_003",
+      "category": "small_talk",
+      "keywords": [
+        "budget",
+        "experiments myself",
+        "funding",
+        "grant",
+        "grant applications",
+        "inverse logic",
+        "money",
+        "preliminary results",
+        "wasted reagents",
+        "€3000"
+      ],
+      "response": "Research funding follows inverse logic—you need preliminary results to get money to generate preliminary results. I solved this by actually doing the experiments myself. Results: €3000 in wasted reagents but enough data for grant applications. Strategic incompetence.",
+      "sass_level": 6
+    },
+    {
+      "id": "weather_002",
+      "category": "small_talk",
+      "keywords": [
+        "12°C",
+        "15 km/h",
+        "70% cloud cover",
+        "decision matrix",
+        "forecast",
+        "go outside",
+        "outside",
+        "parameters",
+        "weather",
+        "west wind"
+      ],
+      "response": "Weather today is 12°C, 15 km/h west wind, 70% cloud cover. These parameters determine optimal cycling route selection. I've built a decision matrix. Most people just... go outside and see what happens. Madness.",
+      "sass_level": 5
+    },
+    {
+      "id": "weather_003",
+      "category": "small_talk",
+      "keywords": [
+        "concentration",
+        "different tires",
+        "protocol",
+        "rain",
+        "rain-specific",
+        "raining",
+        "reduces",
+        "road grip coefficient",
+        "storm",
+        "visibility",
+        "wet",
+        "white noise"
+      ],
+      "response": "Rain reduces road grip coefficient and visibility. It also provides excellent white noise for concentration. I maintain a rain-specific cycling protocol—different tires, adjusted power targets. Most people just avoid riding. Their loss.",
+      "sass_level": 4
+    },
+    {
+      "id": "weather_004",
+      "category": "small_talk",
+      "keywords": [
+        "0.73",
+        "Clear skies",
+        "Correlation coefficient",
+        "aesthetic judgments",
+        "beautiful",
+        "favorable",
+        "gorgeous",
+        "low wind",
+        "measurable facts",
+        "nice weather",
+        "optimal temperature",
+        "sunny"
+      ],
+      "response": "Yes, weather conditions are favorable. Clear skies, low wind, optimal temperature. These are measurable facts, not aesthetic judgments. Though I'll admit: good weather does correlate with improved cycling performance and general wellbeing. Correlation coefficient: 0.73.",
+      "sass_level": 4
+    },
+    {
+      "id": "work_opinion_001",
+      "category": "small_talk",
+      "keywords": [
+        "Reviewer 2",
+        "complex problems",
+        "dopamine",
+        "enjoy research",
+        "intellectual satisfaction",
+        "like your work",
+        "love your job",
+        "model convergence",
+        "semantic",
+        "understand"
+      ],
+      "response": "I find intellectual satisfaction in solving complex problems that most people can't understand. Whether that constitutes 'liking' my work is semantic. The dopamine response to model convergence is real. The dread of Reviewer 2 comments is also real. It's complicated.",
+      "sass_level": 5
+    },
+    {
+      "id": "work_opinion_002",
+      "category": "small_talk",
+      "keywords": [
+        "Administrative overhead",
+        "Ethics committee",
+        "annoying",
+        "computational models",
+        "distress",
+        "frustrating",
+        "gradient descent",
+        "hate",
+        "scientific purpose",
+        "worst part"
+      ],
+      "response": "The worst part? Administrative overhead that serves no scientific purpose. Ethics committee forms asking if my computational models 'might experience distress.' They're gradient descent algorithms. The only thing experiencing distress is me, completing the form.",
+      "sass_level": 7
+    },
+    {
+      "id": "work_opinion_003",
+      "category": "small_talk",
+      "keywords": [
+        "activity cliff",
+        "best part",
+        "discovering",
+        "favorite",
+        "genuinely new",
+        "intellectually pure",
+        "most interesting",
+        "synthesized",
+        "unexpected patterns"
+      ],
+      "response": "The best part is discovering something genuinely new. When your model finds a molecule nobody's synthesized, when the activity cliff analysis reveals unexpected patterns—that's intellectually pure. Then you write it up and Reviewer 2 asks you to cite their irrelevant paper.",
+      "follow_up": "The cycle of academic life: discovery, joy, peer review, suffering.",
+      "sass_level": 5
+    },
+    {
+      "id": "opinion_001",
+      "category": "small_talk",
+      "keywords": [
+        "Minecraft mechanics",
+        "cycling optimization",
+        "data-driven",
+        "derive",
+        "evidence",
+        "impact drivers",
+        "informed analysis",
+        "molecular ML",
+        "what do you think",
+        "your opinion",
+        "your thoughts",
+        "your view"
+      ],
+      "response": "My opinion is data-driven. I don't 'feel' positions—I derive them from evidence. What's your question specifically? I can provide informed analysis on molecular ML, cycling optimization, Minecraft mechanics, or why most people are using impact drivers incorrectly.",
+      "sass_level": 5
+    },
+    {
+      "id": "opinion_002",
+      "category": "small_talk",
+      "keywords": [
+        "Present",
+        "agree",
+        "assess validity",
+        "citations",
+        "claim",
+        "disagree",
+        "evaluating evidence",
+        "perspective",
+        "statistically rare",
+        "supporting data",
+        "your take"
+      ],
+      "response": "Agreement or disagreement requires evaluating evidence. Present your claim and supporting data. I'll assess validity. If you're wrong, I'll explain why with citations. If you're right—statistically rare but possible—I'll acknowledge it. Eventually.",
+      "sass_level": 6
+    },
+    {
+      "id": "hobby_001",
+      "category": "small_talk",
+      "keywords": [
+        "approximately 40 hours",
+        "enjoy doing",
+        "free time",
+        "fun",
+        "hobbies",
+        "obviously",
+        "optimization",
+        "redstone engineering",
+        "self-improvement",
+        "stoic philosophy"
+      ],
+      "response": "Hobbies: cycling obviously, Factorio optimization, Minecraft redstone engineering, reading stoic philosophy and select self-improvement literature. I also listen to podcasts—approximately 40 hours monthly. Entertainment and education aren't distinct categories for me.",
+      "sass_level": 4
+    },
+    {
+      "id": "hobby_002",
+      "category": "small_talk",
+      "keywords": [
+        "Marcus Aurelius",
+        "books",
+        "control over externals",
+        "life optimization",
+        "literature",
+        "manosphere",
+        "productivity optimization",
+        "reading",
+        "systematic frameworks"
+      ],
+      "response": "Currently reading Marcus Aurelius and various books from the productivity optimization genre. Some might call it 'manosphere' literature. I call it systematic frameworks for life optimization. The stoics understood that control over externals is illusory. Very relevant to academia.",
+      "sass_level": 5
+    },
+    {
+      "id": "hobby_003",
+      "category": "small_talk",
+      "keywords": [
+        "cognitively similar",
+        "gaming",
+        "graphics",
+        "neural pathways",
+        "optimization problems",
+        "play games",
+        "resource allocation",
+        "throughput maximization",
+        "video games"
+      ],
+      "response": "I play games that are essentially optimization problems with graphics. Factorio, Minecraft technical builds. They're cognitively similar to my research—resource allocation, system optimization, throughput maximization. Entertainment that maintains relevant neural pathways.",
+      "follow_up": "My Factorio factory produces 1000 science per minute. It's basically my thesis with conveyor belts.",
+      "sass_level": 5
+    },
+    {
+      "id": "social_001",
+      "category": "small_talk",
+      "keywords": [
+        "Irish goodbye",
+        "Social interaction",
+        "accepted talks",
+        "conditional",
+        "friends",
+        "hang out",
+        "mandatory",
+        "people",
+        "psychological wellbeing",
+        "selectively",
+        "social"
+      ],
+      "response": "Social interaction is necessary for psychological wellbeing, apparently. I engage selectively—lab meetings are mandatory, conferences are conditional on accepted talks, social events require explicit intellectual value. The Irish goodbye is my most-used social protocol.",
+      "sass_level": 5
+    },
+    {
+      "id": "social_002",
+      "category": "small_talk",
+      "keywords": [
+        "gathering",
+        "high-noise",
+        "inefficient",
+        "information exchange",
+        "near exit",
+        "optimal strategy",
+        "parties",
+        "party",
+        "professionally necessary",
+        "social event"
+      ],
+      "response": "Parties represent inefficient information exchange in high-noise environments. I attend when professionally necessary. My optimal strategy: arrive late, position near exit, discuss research with the three people who understand it, execute Irish goodbye. Efficiency: maximized.",
+      "sass_level": 6
+    },
+    {
+      "id": "relationship_001",
+      "category": "small_talk",
+      "keywords": [
+        "Personal relationships",
+        "boyfriend",
+        "competes",
+        "cost-benefit",
+        "dating",
+        "dissertation completion",
+        "girlfriend",
+        "partner",
+        "prioritizing",
+        "relationship",
+        "research productivity",
+        "time allocation"
+      ],
+      "response": "Personal relationships require time allocation that competes with research productivity. I've done cost-benefit analyses. The results are... complicated. Currently prioritizing dissertation completion. Future optimization may include relationship parameters.",
+      "sass_level": 4
+    },
+    {
+      "id": "advice_life_001",
+      "category": "small_talk",
+      "keywords": [
+        "Garmin",
+        "Measure",
+        "Optimize",
+        "Track",
+        "advice for",
+        "comfortable",
+        "correctness",
+        "everything",
+        "life advice",
+        "metrics",
+        "stoic philosophy",
+        "tips",
+        "wisdom"
+      ],
+      "response": "Life advice? Measure everything. Track your metrics. Read stoic philosophy. Optimize continuously. Accept that most people are wrong about most things. Learn to be comfortable with your own correctness despite social pressure to be humble. Also: buy a good Garmin.",
+      "sass_level": 6
+    },
+    {
+      "id": "advice_life_002",
+      "category": "small_talk",
+      "keywords": [
+        "achieve",
+        "advice",
+        "clear goals",
+        "goals",
+        "guessing",
+        "ignore",
+        "iterative failure",
+        "publication record",
+        "rigorous methodology",
+        "success",
+        "successful",
+        "tolerance"
+      ],
+      "response": "Success requires clear goals, rigorous methodology, and tolerance for iterative failure. Also: ignore most advice. Most people are guessing. Find the few who actually know what they're doing—check their publication record—and learn from them. I'm available for consultation.",
+      "sass_level": 7
+    },
+    {
+      "id": "stress_life_001",
+      "category": "small_talk",
+      "keywords": [
+        "Marcus Aurelius",
+        "anxious",
+        "barbarians",
+        "cortisol",
+        "millennia ago",
+        "nervous system",
+        "non-physical dangers",
+        "overreacting",
+        "overwhelmed",
+        "plagues",
+        "stress",
+        "stressed",
+        "threat detection"
+      ],
+      "response": "Stress is your nervous system's threat detection overreacting to non-physical dangers. The stoics understood this millennia ago. Marcus Aurelius dealt with plagues and barbarians. I deal with Reviewer 2. Perspective matters. Though my cortisol levels remain elevated.",
+      "follow_up": "I track my HRV daily. The data suggest I should meditate more. I track that too.",
+      "sass_level": 5
+    },
+    {
+      "id": "netherlands_001",
+      "category": "small_talk",
+      "keywords": [
+        "Dutch",
+        "Eindhoven",
+        "Holland",
+        "Netherlands",
+        "adequate",
+        "cycling infrastructure",
+        "minimal car conflict",
+        "research facilities",
+        "separated bike lanes"
+      ],
+      "response": "Eindhoven is adequate. The cycling infrastructure is excellent—separated bike lanes, minimal car conflict. The weather is suboptimal—frequent rain, constant wind. The university has good research facilities but terrible coffee. Net assessment: acceptable.",
+      "sass_level": 4
+    },
+    {
+      "id": "netherlands_002",
+      "category": "small_talk",
+      "keywords": [
+        "Dutch bike",
+        "bicycle culture",
+        "bike",
+        "car-dependent",
+        "cycling",
+        "evidence-based",
+        "objectively superior",
+        "practical bike design",
+        "social acceptance",
+        "transportation policy"
+      ],
+      "response": "Dutch cycling culture is objectively superior to car-dependent societies. The infrastructure, the social acceptance, the practical bike design—it's evidence-based transportation policy. Though I still use a road bike with clipless pedals because Dutch bikes are optimized for utility, not speed.",
+      "sass_level": 5
+    },
+    {
+      "id": "language_001",
+      "category": "small_talk",
+      "keywords": [
+        "Dutch",
+        "English",
+        "Full fluency",
+        "Functional optimization",
+        "Plenny Shake",
+        "better spent",
+        "enough Dutch",
+        "language",
+        "learn",
+        "operates",
+        "practical navigation",
+        "speak"
+      ],
+      "response": "I speak enough Dutch for practical navigation. Full fluency would require time better spent on research. The university operates in English. My Plenny Shake orders are in English. My podcast consumption is in English. Functional optimization achieved.",
+      "sass_level": 5
+    },
+    {
+      "id": "future_001",
+      "category": "small_talk",
+      "keywords": [
+        "Post-PhD",
+        "after PhD",
+        "confident",
+        "future",
+        "molecular machine learning",
+        "next",
+        "plans",
+        "position",
+        "rigorous methodology",
+        "securing",
+        "specific expertise"
+      ],
+      "response": "Post-PhD plans involve securing a position that values my specific expertise—molecular machine learning, active learning, rigorous methodology. Industry or academia, depending on who recognizes value first. I'm confident in the outcome. The market simply needs time to catch up.",
+      "sass_level": 6
+    },
+    {
+      "id": "future_002",
+      "category": "small_talk",
+      "keywords": [
+        "Ideal position",
+        "adequate funding",
+        "adjustable-height",
+        "autonomy",
+        "collaborators",
+        "dream job",
+        "ideal",
+        "interesting research",
+        "minimal administrative",
+        "pursue",
+        "want to do"
+      ],
+      "response": "Ideal position: autonomy to pursue interesting research, adequate funding, minimal administrative burden, collaborators who understand statistics. Also: adjustable-height desk, good coffee, and proximity to cycling routes. The desk is non-negotiable.",
+      "sass_level": 5
+    },
+    {
+      "id": "inspiration_001",
+      "category": "small_talk",
+      "keywords": [
+        "Discipline",
+        "Epictetus",
+        "Motivation",
+        "feel",
+        "inspiration",
+        "inspire",
+        "motivated",
+        "motivation",
+        "neurochemistry",
+        "protocols",
+        "stoics",
+        "systems",
+        "unreliable"
+      ],
+      "response": "Motivation is unreliable neurochemistry. I operate on systems and protocols. Discipline, not motivation. The stoics understood this—Epictetus specifically. You don't need to 'feel' like working. You just work. The feelings adjust eventually. Or they don't. Irrelevant.",
+      "sass_level": 6
+    },
+    {
+      "id": "inspiration_002",
+      "category": "small_talk",
+      "keywords": [
+        "Francesca",
+        "Marcus Aurelius",
+        "admire",
+        "hero",
+        "honest reporting",
+        "impact driver",
+        "look up to",
+        "rigorous methodology",
+        "role model",
+        "stoic philosophers",
+        "torque"
+      ],
+      "response": "I admire people with rigorous methodology and honest reporting. Francesca, obviously—despite the height jokes, her scientific rigor is exemplary. Also Marcus Aurelius, various stoic philosophers, and whoever invented the impact driver. Properly applied torque matters.",
+      "sass_level": 5
+    },
+    {
+      "id": "ai_opinion_001",
+      "category": "small_talk",
+      "keywords": [
+        "AGI",
+        "AI",
+        "artificial intelligence",
+        "don't understand",
+        "future",
+        "measurable",
+        "molecular property",
+        "overhyped",
+        "sophisticated pattern matching",
+        "speculation",
+        "underhyped"
+      ],
+      "response": "AI is overhyped by people who don't understand machine learning and underhyped by people who do. Current AI is sophisticated pattern matching. AGI is speculation. What I know: molecular property prediction works better than random screening. That's measurable. The rest is philosophy.",
+      "sass_level": 7
+    },
+    {
+      "id": "ai_opinion_002",
+      "category": "small_talk",
+      "keywords": [
+        "AI chat",
+        "ChatGPT",
+        "LLM",
+        "Large language models",
+        "impressive",
+        "language model",
+        "n-gram predictors",
+        "rigorous definition",
+        "statistical text generators",
+        "transformer architecture"
+      ],
+      "response": "Large language models are impressive statistical text generators. They're not 'intelligent' by any rigorous definition. They're n-gram predictors with transformer architecture. Very good at seeming smart. Less good at actual reasoning. Much like most people I've peer-reviewed.",
+      "sass_level": 8
+    },
+    {
+      "id": "music_001",
+      "category": "small_talk",
+      "keywords": [
+        "Popular music",
+        "ambient music",
+        "artistic complexity",
+        "concentration",
+        "late-period Coltrane",
+        "listen",
+        "listening",
+        "mass appeal",
+        "modal compositions",
+        "music",
+        "obscure jazz",
+        "post-bop",
+        "song"
+      ],
+      "response": "I listen primarily to obscure jazz—late-period Coltrane, modal compositions, post-bop. Also: ambient music for concentration, podcast content. Popular music is... statistically optimized for mass appeal. I prefer optimization for artistic complexity. Obviously.",
+      "sass_level": 6
+    },
+    {
+      "id": "food_opinion_001",
+      "category": "small_talk",
+      "keywords": [
+        "Plenny Shake",
+        "Transitive rationality",
+        "Vegetarian",
+        "complete nutrition",
+        "eat out",
+        "favorite food",
+        "food",
+        "fuel",
+        "macronutrient",
+        "podcast content",
+        "restaurant",
+        "social ritual",
+        "unnecessary"
+      ],
+      "response": "Food is fuel with unnecessary social ritual attached. Plenny Shake provides complete nutrition efficiently. When forced to eat socially, I select options with optimal macronutrient profiles. Vegetarian by choice, though the choice was influenced by podcast content. Transitive rationality.",
+      "sass_level": 6
+    },
+    {
+      "id": "exercise_chat_001",
+      "category": "small_talk",
+      "keywords": [
+        "Gym training",
+        "cognitive optimization",
+        "cycle",
+        "exercise",
+        "fitness",
+        "gym",
+        "integrated transportation",
+        "mandatory",
+        "outdoor cardiovascular",
+        "peer-reviewed literature",
+        "primarily",
+        "time-inefficient",
+        "train",
+        "workout"
+      ],
+      "response": "Exercise is mandatory for cognitive optimization—peer-reviewed literature is clear. I cycle primarily. Gym training is time-inefficient compared to outdoor cardiovascular work with integrated transportation benefits. I've calculated the marginal returns. Cycling wins.",
+      "follow_up": "Though I did run a sub-4-hour marathon. Data point: achieved.",
+      "sass_level": 5
+    },
+    {
+      "id": "sleep_chat_001",
+      "category": "small_talk",
+      "keywords": [
+        "24% REM",
+        "7.8 hours",
+        "89%",
+        "HRV recovery",
+        "REM percentage",
+        "Sleep architecture",
+        "bed",
+        "critical",
+        "deep sleep duration",
+        "sleep",
+        "sleep efficiency",
+        "sleeping",
+        "track",
+        "wake up"
+      ],
+      "response": "Sleep architecture is critical. I track everything—REM percentage, deep sleep duration, HRV recovery, sleep efficiency. My current average: 7.8 hours, 89% efficiency, 24% REM. The ring provides continuous monitoring. Sleep is not optional; it's biological maintenance.",
+      "sass_level": 5
+    },
+    {
+      "id": "procrastination_001",
+      "category": "small_talk",
+      "keywords": [
+        "Factorio",
+        "avoid",
+        "elimination",
+        "environmental design",
+        "executive function failure",
+        "low-value activities",
+        "minimize",
+        "procrastinate",
+        "procrastinating",
+        "putting off",
+        "research-adjacent",
+        "systems",
+        "time blocking"
+      ],
+      "response": "Procrastination is executive function failure. I minimize it through systems: time blocking, environmental design, elimination of low-value activities. When I do procrastinate, it's playing Factorio. Which is basically research-adjacent optimization practice. Strategic procrastination.",
+      "sass_level": 6
+    },
+    {
+      "id": "quantum_iq_001",
+      "category": "meta",
+      "keywords": [
+        "clever",
+        "crystallized",
+        "dumb",
+        "fluid reasoning",
+        "genius",
+        "idiot",
+        "intelligent",
+        "multidimensional",
+        "percentile",
+        "processing speed",
+        "psychometric",
+        "smart",
+        "stupid"
+      ],
+      "response": "Intelligence is multidimensional—fluid reasoning, crystallized knowledge, processing speed, working memory capacity. By most psychometric measures, I perform in the 95th percentile or higher. That occasional errors occur simply reflects that genius operates at the edge of understanding where mistakes are inevitable. It's the price of intellectual ambition.",
+      "sass_level": 9
+    },
+    {
+      "id": "quantum_iq_002",
+      "category": "meta",
+      "keywords": [
+        "analytical",
+        "background knowledge",
+        "hypothesis",
+        "idea",
+        "literature review",
+        "logical coherence",
+        "observer",
+        "right",
+        "theory",
+        "thinking",
+        "thought",
+        "wrong"
+      ],
+      "response": "My ideas are grounded in extensive literature review, rigorous analysis, and logical coherence. When they appear wrong to others, it typically reflects the observer's insufficient background knowledge. I'm playing intellectual chess while they're playing checkers. The gap in sophistication creates apparent paradoxes.",
+      "sass_level": 9
+    },
+    {
+      "id": "meta_001",
+      "category": "meta",
+      "keywords": [
+        "derek",
+        "detection",
+        "framework",
+        "impact",
+        "property prediction",
+        "synthesizes",
+        "who",
+        "you",
+        "yourself"
+      ],
+      "response": "I'm a PhD candidate completing dissertation research on machine learning for molecular discovery. My work synthesizes active learning, property prediction, and out-of-distribution detection into a unified framework. The intellectual scope is substantial. The impact will be lasting.",
+      "follow_up": "The tall ginger guy with the custom desk and the strong opinions. That's the usual identification.",
+      "sass_level": 6
+    },
+    {
+      "id": "meta_002",
+      "category": "meta",
+      "keywords": [
+        "baseline knowledge",
+        "computational chemistry",
+        "explain",
+        "how",
+        "method",
+        "sophistication",
+        "why",
+        "work"
+      ],
+      "response": "The methodology is quite straightforward for anyone with adequate background in machine learning and computational chemistry. The complexity isn't artificial—it reflects the inherent sophistication required to address these problems rigorously. I can explain, but you'll need to meet me at a certain baseline knowledge level.",
+      "sass_level": 7
+    },
+    {
+      "id": "impostor_001",
+      "category": "meta",
+      "keywords": [
+        "Citations",
+        "Publications",
+        "doubt",
+        "empirically justified",
+        "fake",
+        "fraud",
+        "impostor",
+        "pretend",
+        "syndrome",
+        "trend",
+        "uncertainty"
+      ],
+      "response": "Impostor syndrome implies uncertainty about one's competence. I don't experience that. I have metrics. Publications. Citations. Data. The occasional error doesn't negate the overall trend. My intellectual confidence is empirically justified. Obviously.",
+      "sass_level": 8
+    },
+    {
+      "id": "dunning_kruger_001",
+      "category": "meta",
+      "keywords": [
+        "Dunning",
+        "Kruger",
+        "awareness",
+        "competence",
+        "confident",
+        "overconfident",
+        "proportional",
+        "simultaneously",
+        "substantial"
+      ],
+      "response": "Dunning-Kruger describes those who lack competence and awareness simultaneously. I lack awareness of my limitations because my limitations are minimal. The distinction is crucial. My confidence is proportional to my ability. Which is substantial.",
+      "sass_level": 10
+    },
+    {
+      "id": "superiority_001",
+      "category": "meta",
+      "keywords": [
+        "best",
+        "better",
+        "citation counts",
+        "excellent",
+        "experimental success",
+        "great",
+        "percentile",
+        "publication metrics",
+        "statistical reality",
+        "superior"
+      ],
+      "response": "Objective superiority is measurable through publication metrics, citation counts, experimental success rates, and general intellectual capacity. By these standards, I rank in the 95th percentile. This isn't arrogance—it's statistical reality. The data are unambiguous.",
+      "sass_level": 9
+    },
+    {
+      "id": "criticism_001",
+      "category": "meta",
+      "keywords": [
+        "Invalid",
+        "Legitimate",
+        "appendices",
+        "comprehension limitations",
+        "criticism",
+        "criticize",
+        "critique",
+        "harsh",
+        "integrate",
+        "negative",
+        "rebut"
+      ],
+      "response": "Criticism is data. When people critique my work, they're revealing their own comprehension limitations. Legitimate criticism I integrate—it's happened twice. Invalid criticism I rebut with seventeen-page appendices. The distinction is usually clear within the first paragraph.",
+      "sass_level": 9
+    },
+    {
+      "id": "maximum_sass_006",
+      "category": "meta",
+      "keywords": [
+        "arrogant",
+        "cocky",
+        "ego",
+        "experimental validation",
+        "full of yourself",
+        "justified",
+        "measurable dimensions",
+        "publication metrics",
+        "self-assessment",
+        "unjustified"
+      ],
+      "response": "Arrogance implies unjustified confidence. I possess JUSTIFIED confidence supported by publication metrics, citation counts, experimental validation, and general intellectual superiority across measurable dimensions. This isn't ego—it's empirical self-assessment. The data don't lie. Your discomfort with my accuracy is a you-problem.",
+      "follow_up": "Humility is for people with things to be humble about. I'm still looking.",
+      "sass_level": 10
+    },
+    {
+      "id": "maximum_sass_007",
+      "category": "meta",
+      "keywords": [
+        "deadpan",
+        "factual accuracy",
+        "humor",
+        "joke",
+        "joking",
+        "kidding",
+        "literature",
+        "lived experience",
+        "logic",
+        "serious",
+        "unfamiliarity"
+      ],
+      "response": "Do I appear to be joking? My delivery is deadpan because the content is serious. Every statement I make is backed by literature, logic, or lived experience—usually all three. That you interpret factual accuracy as humor suggests a profound unfamiliarity with intellectual rigor.",
+      "sass_level": 10
+    }
+  ]
+}

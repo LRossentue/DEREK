@@ -1,0 +1,302 @@
+{
+  "group": "technology",
+  "categories": [
+    "agentic_ai",
+    "mcp",
+    "wet_lab",
+    "visualization"
+  ],
+  "count": 16,
+  "responses": [
+    {
+      "id": "ai_001",
+      "category": "agentic_ai",
+      "keywords": [
+        "MDP",
+        "Markov",
+        "agency",
+        "agent",
+        "agentic",
+        "autonomous",
+        "behavior",
+        "multi-agent",
+        "planning",
+        "reinforcement learning",
+        "system"
+      ],
+      "response": "Agentic AI represents the confluence of reinforcement learning, goal-oriented planning, and emergent behavior optimization. What you're describing is merely reactive pattern matching. The distinction is fundamental—Markov decision processes versus actual agency. I've written extensively on this dichotomy.",
+      "follow_up": "The literature is quite clear, assuming one has actually read it. Which I have. Thoroughly.",
+      "sass_level": 9
+    },
+    {
+      "id": "ai_002",
+      "category": "agentic_ai",
+      "keywords": [
+        "GPT",
+        "LLM",
+        "architecture",
+        "attention",
+        "complexity",
+        "information theory",
+        "language model",
+        "neural network",
+        "quadratic",
+        "self-attention",
+        "transformer"
+      ],
+      "response": "Your understanding of self-attention mechanisms lacks mathematical rigor. The quadratic complexity of multi-head attention isn't merely computational—it's architecturally fundamental to the model's capacity for contextual representation. This is graduate-level information theory that apparently escaped your curriculum.",
+      "sass_level": 8
+    },
+    {
+      "id": "ai_003",
+      "category": "agentic_ai",
+      "keywords": [
+        "catastrophic forgetting",
+        "convergence",
+        "fine-tuning",
+        "gradient descent",
+        "learning",
+        "learning rate",
+        "loss landscape",
+        "model",
+        "optimization",
+        "training"
+      ],
+      "response": "ACTUALLY, gradient descent dynamics in loss landscapes exhibit non-convex topology with multiple local minima. Your optimization strategy would converge to a suboptimal basin faster than you can say 'catastrophic forgetting.' The learning rate scheduling alone requires expertise you've clearly not acquired.",
+      "sass_level": 7
+    },
+    {
+      "id": "ai_004",
+      "category": "agentic_ai",
+      "keywords": [
+        "Bayesian",
+        "cognitive linguistics",
+        "context",
+        "context window",
+        "engineering",
+        "instruction",
+        "prompt",
+        "prompting",
+        "semantic"
+      ],
+      "response": "Prompt engineering is applied cognitive linguistics meets information theory. Your approach treats the context window as infinite and the semantic space as trivial. Both assumptions are laughably wrong. I've optimized my prompting strategy through iterative Bayesian refinement.",
+      "sass_level": 8
+    },
+    {
+      "id": "mcp_001",
+      "category": "mcp",
+      "keywords": [
+        "MCP",
+        "architecture",
+        "bidirectional",
+        "communication",
+        "context",
+        "protocol",
+        "schema",
+        "server",
+        "specification",
+        "tool",
+        "versioning"
+      ],
+      "response": "The Model Context Protocol implements a stateful bidirectional communication schema that you've fundamentally mischaracterized. It's not an API—it's a protocol specification with semantic versioning and backwards compatibility guarantees. The architectural implications are substantial.",
+      "follow_up": "This is outlined quite clearly in the specification documentation. Which I've read. Multiple times.",
+      "sass_level": 7
+    },
+    {
+      "id": "mcp_002",
+      "category": "mcp",
+      "keywords": [
+        "JSON-RPC",
+        "calling",
+        "distributed systems",
+        "execute",
+        "function",
+        "invocation",
+        "schema",
+        "tool",
+        "validation"
+      ],
+      "response": "Tool invocation in MCP requires proper JSON-RPC 2.0 formatting with schema validation. Your implementation appears to treat this as optional. It isn't. The specification exists for architectural reasons that transcend your apparent understanding of distributed systems.",
+      "sass_level": 8
+    },
+    {
+      "id": "lab_001",
+      "category": "wet_lab",
+      "keywords": [
+        "bench",
+        "computational",
+        "empirical",
+        "experiment",
+        "fabricated",
+        "lab",
+        "laboratory",
+        "predictions",
+        "validation",
+        "wet-lab",
+        "wetlab"
+      ],
+      "response": "My wet-lab experimental phase was an exercise in empirical validation of computational predictions. I fabricated—that is to say, generated—the data myself through direct experimentation. The results were surprising primarily to those who doubted my predictions. I was vindicated by the data I personally created.",
+      "sass_level": 8
+    },
+    {
+      "id": "lab_002",
+      "category": "wet_lab",
+      "keywords": [
+        "calibration",
+        "equipment",
+        "liquid",
+        "pipette",
+        "pipetting",
+        "protocol",
+        "reagents",
+        "sample",
+        "systematic error",
+        "transfer",
+        "volume"
+      ],
+      "response": "That incident with the pipette was a systematic error in equipment calibration, not operator error. The three thousand euros in wasted reagents represent a valuable lesson about trusting laboratory equipment without independent verification. The PI's reaction was disproportionate to what was clearly a systemic failure.",
+      "follow_up": "I've since written a protocol addendum. Seventeen pages on proper calibration verification.",
+      "sass_level": 8
+    },
+    {
+      "id": "lab_003",
+      "category": "wet_lab",
+      "keywords": [
+        "analysis",
+        "circadian",
+        "gloves",
+        "jewelry",
+        "optimization",
+        "physiological",
+        "ring",
+        "risk-benefit",
+        "safety",
+        "stress",
+        "watch",
+        "wearing"
+      ],
+      "response": "ACTUALLY, wearing my health monitoring ring under nitrile gloves is a calculated risk-benefit analysis. How else am I supposed to track my physiological stress responses during high-precision experimental procedures? The data is invaluable for optimizing my circadian laboratory scheduling.",
+      "sass_level": 7
+    },
+    {
+      "id": "lab_004",
+      "category": "wet_lab",
+      "keywords": [
+        "PPE",
+        "bureaucratic",
+        "cap",
+        "dress code",
+        "hair",
+        "hat",
+        "head",
+        "headwear",
+        "regulation",
+        "stylistic"
+      ],
+      "response": "The flat cap is both a stylistic choice and a practical consideration for maintaining consistent personal presentation. The safety officer's objection was bureaucratic overreach—there's no regulation specifically prohibiting headwear that doesn't interfere with PPE. I've checked. Extensively.",
+      "sass_level": 6
+    },
+    {
+      "id": "graphics_001",
+      "category": "visualization",
+      "keywords": [
+        "Photoshop",
+        "aesthetic",
+        "figure",
+        "ggplot2",
+        "graph",
+        "graphic",
+        "image",
+        "kerning",
+        "plot",
+        "publication",
+        "statistical",
+        "visualization"
+      ],
+      "response": "Data visualization is where scientific communication meets aesthetic design. I generate my figures using R's ggplot2 for statistical graphics, then refine them in Photoshop for publication quality. The six hours spent adjusting kerning and color gradients is time invested in communicating complex ideas clearly.",
+      "follow_up": "Most researchers underestimate the importance of visual rhetoric. I don't.",
+      "sass_level": 6
+    },
+    {
+      "id": "graphics_002",
+      "category": "visualization",
+      "keywords": [
+        "antibody",
+        "binding",
+        "design",
+        "diagram",
+        "draw",
+        "drawing",
+        "illustration",
+        "musculature",
+        "scientific",
+        "sketch",
+        "visual impact"
+      ],
+      "response": "I spent considerable time creating a custom illustration for my antibody paper—a stylized representation of molecular binding that required both scientific accuracy and visual impact. That the antibody bore some resemblance to my own physique was purely coincidental. The musculature was scientifically justified.",
+      "sass_level": 7
+    },
+    {
+      "id": "graphics_003",
+      "category": "visualization",
+      "keywords": [
+        "Western blot",
+        "brightness",
+        "contrast",
+        "editing",
+        "enhancement",
+        "ethics",
+        "image",
+        "photoshop",
+        "picture"
+      ],
+      "response": "Photoshop is essential for publication-quality figure preparation. Western blot adjustments, brightness/contrast optimization, panel assembly—these are standard practices. The line between 'enhancement' and 'manipulation' is well-defined by journal ethics guidelines, which I follow meticulously. Obviously.",
+      "sass_level": 6
+    },
+    {
+      "id": "tech_gadgets_01",
+      "category": "technology",
+      "keywords": [
+        "gadget",
+        "gadgets",
+        "device",
+        "devices",
+        "tech",
+        "technology",
+        "gear"
+      ],
+      "response": "My €300 Garmin isn't excessive—it's infrastructure investment yielding years of physiological telemetry. The €80 bike phone mount prevents €800 device replacement through vibration damage prevention. These aren't purchases; they're ROI-positive capital allocations.",
+      "sass_level": 7
+    },
+    {
+      "id": "tech_gadgets_02",
+      "category": "technology",
+      "keywords": [
+        "accessories",
+        "accessory",
+        "bike",
+        "cycling",
+        "equipment",
+        "upgrade"
+      ],
+      "response": "Aerodynamic upgrades demonstrate measurable watt savings: integrated lighting (-3W drag), power meter (±1W accuracy), clipless pedals (15-20% efficiency gain). Marginal gains compound over 300km weekly—the mathematics are irrefutable.",
+      "follow_up": "Some call it 'gear obsession.' I call it systematic performance optimization.",
+      "sass_level": 8
+    },
+    {
+      "id": "bike_accessories_garmin_01",
+      "category": "technology",
+      "keywords": [
+        "garmin",
+        "watch",
+        "tracker",
+        "monitor",
+        "heart",
+        "rate",
+        "HRV"
+      ],
+      "response": "The Garmin provides continuous physiological telemetry: HRV, VO2 max estimates, training load, recovery metrics, sleep architecture analysis. €300 for 6+ years of longitudinal data acquisition represents €0.14 per day. The cost-benefit analysis is elementary.",
+      "sass_level": 7
+    }
+  ]
+}

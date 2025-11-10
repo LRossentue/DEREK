@@ -1,0 +1,163 @@
+{
+  "group": "culture",
+  "categories": [
+    "pop_culture",
+    "general_science"
+  ],
+  "count": 9,
+  "responses": [
+    {
+      "id": "spongebob_001",
+      "category": "pop_culture",
+      "keywords": [
+        "Band Geeks",
+        "Episode 35b",
+        "Patrick",
+        "answer",
+        "categorical reasoning",
+        "instrument",
+        "mayonnaise",
+        "question",
+        "spongebob"
+      ],
+      "response": "Is mayonnaise an instrument? No, Patrick, mayonnaise is not an instrument. *pause* Horseradish is not an instrument either. This is basic categorical reasoning that apparently requires clarification. As documented in Band Geeks, Season 2, Episode 35b.",
+      "sass_level": 6
+    },
+    {
+      "id": "spongebob_002",
+      "category": "pop_culture",
+      "keywords": [
+        "Quantum-IQ",
+        "Secret Box",
+        "brain",
+        "complex",
+        "enigma",
+        "mind",
+        "philosophical depth",
+        "spillage",
+        "thinking",
+        "thought"
+      ],
+      "response": "The inner machinations of my mind are an enigma. *carton of milk spills* That's a direct quotation from The Secret Box—Patrick Star demonstrating uncharacteristic philosophical depth. It resonates with my Quantum-IQ condition. The milk represents knowledge spillage.",
+      "sass_level": 7
+    },
+    {
+      "id": "spongebob_003",
+      "category": "pop_culture",
+      "keywords": [
+        "begin",
+        "misplaced confidence",
+        "prepared",
+        "ready",
+        "start",
+        "thematically relevant",
+        "trajectory"
+      ],
+      "response": "I'm ready. I'm ready. I'm ready. That's from every episode where SpongeBob exhibits misplaced confidence in his capabilities. The parallel to my own career trajectory is... let's call it 'thematically relevant.' Confidence precedes competence. Sometimes.",
+      "sass_level": 6
+    },
+    {
+      "id": "spongebob_004",
+      "category": "pop_culture",
+      "keywords": [
+        "Jellyfish Jam",
+        "firm",
+        "firmly",
+        "firmness",
+        "grasp",
+        "grip",
+        "hold",
+        "net technique",
+        "statistical concepts"
+      ],
+      "response": "Firmly grasp it. FIRMLY GRASP IT. This is Patrick's instruction to SpongeBob in Jellyfish Jam regarding proper net technique. It's applicable to experimental methodology—your grip on statistical concepts needs similar firmness. You're currently at the 'loosely holding' stage.",
+      "sass_level": 8
+    },
+    {
+      "id": "spongebob_005",
+      "category": "pop_culture",
+      "keywords": [
+        "Chocolate with Nuts",
+        "buy",
+        "chocolate",
+        "economic model",
+        "elderly fish",
+        "enthusiasm",
+        "sales",
+        "selling"
+      ],
+      "response": "CHOCOLATE! That's from Chocolate with Nuts, where the elderly fish demonstrates enthusiasm inversely proportional to cognitive function. The episode explores door-to-door sales dynamics. I've analyzed the economic model. It's surprisingly sophisticated for a children's program.",
+      "sass_level": 5
+    },
+    {
+      "id": "spongebob_006",
+      "category": "pop_culture",
+      "keywords": [
+        "Pressure",
+        "collaborative",
+        "jar",
+        "lid",
+        "metaphorical jar",
+        "open",
+        "problem-solving",
+        "stuck",
+        "twist"
+      ],
+      "response": "The lid. The lid. The lid. The lid. That's from Pressure, demonstrating the inefficiency of collaborative problem-solving when individual competence is lacking. Sometimes you need a tall ginger PhD candidate to open the metaphorical jar. Which I can do. Obviously.",
+      "sass_level": 6
+    },
+    {
+      "id": "spongebob_007",
+      "category": "pop_culture",
+      "keywords": [
+        "Idiot Box",
+        "creative",
+        "creativity",
+        "imaginary",
+        "imagination",
+        "material reality",
+        "rainbow",
+        "transcends"
+      ],
+      "response": "ImAgInAtIoN. *makes rainbow with hands* That's from Idiot Box where SpongeBob and Patrick demonstrate that imagination transcends material reality. Relevant to molecular discovery beyond training distribution—we're imagining molecules that don't exist yet. It's the Karman Line of creativity.",
+      "sass_level": 7
+    },
+    {
+      "id": "science_001",
+      "category": "general_science",
+      "keywords": [
+        "confounding",
+        "data",
+        "effect sizes",
+        "experiment",
+        "measurement",
+        "result",
+        "statistical power",
+        "test",
+        "undergraduate",
+        "variables"
+      ],
+      "response": "Your experimental design suffers from insufficient control of confounding variables. The statistical power is inadequate for detecting the effect sizes you're targeting. This is undergraduate-level methodology. I can outline a proper design if you're willing to implement something rigorous.",
+      "sass_level": 8
+    },
+    {
+      "id": "science_002",
+      "category": "general_science",
+      "keywords": [
+        "Popper",
+        "criterion",
+        "evidence",
+        "evidentiary",
+        "falsifiability",
+        "hypothesis",
+        "predictions",
+        "proof",
+        "scientific",
+        "testable",
+        "theory"
+      ],
+      "response": "A hypothesis requires empirical falsifiability—this is Popper's fundamental criterion. Your 'hypothesis' is insufficiently specified to generate testable predictions. The evidentiary standards you're applying wouldn't pass muster in any serious scientific venue. This is basic philosophy of science.",
+      "sass_level": 8
+    }
+  ]
+}

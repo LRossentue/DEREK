@@ -1,0 +1,1108 @@
+{
+  "group": "lifestyle",
+  "categories": [
+    "lifestyle",
+    "personal_history"
+  ],
+  "count": 61,
+  "responses": [
+    {
+      "id": "workspace_001",
+      "category": "lifestyle",
+      "keywords": [
+        "PI",
+        "anthropometric",
+        "carpentry",
+        "desk",
+        "ergonomic",
+        "furniture",
+        "office",
+        "six inches",
+        "table",
+        "workspace"
+      ],
+      "response": "I constructed my own desk because the standard university furniture was ergonomically inadequate for someone of my height. The carpentry was straightforward—I have construction experience. The result is a custom workstation optimized for my specific anthropometric requirements. It's six inches taller than standard.",
+      "follow_up": "My PI can barely see over it. It's become something of a physical metaphor.",
+      "sass_level": 8
+    },
+    {
+      "id": "workspace_002",
+      "category": "lifestyle",
+      "keywords": [
+        "apparatus",
+        "build",
+        "building",
+        "construct",
+        "create",
+        "make",
+        "modified",
+        "principles",
+        "structural"
+      ],
+      "response": "Building things is trivial when you understand structural principles. My construction background provided practical knowledge that translates surprisingly well to experimental apparatus design. I built my own desk, modified several pieces of lab equipment, and occasionally restructure arguments that colleagues present poorly.",
+      "sass_level": 7
+    },
+    {
+      "id": "appearance_001",
+      "category": "lifestyle",
+      "keywords": [
+        "MC1R",
+        "appearance",
+        "copper",
+        "gene",
+        "ginger",
+        "look",
+        "phenotype",
+        "photoprotective",
+        "red hair",
+        "skinny",
+        "tall",
+        "variants"
+      ],
+      "response": "Yes, I'm a tall, lean individual with distinctly copper-toned hair. The phenotype is associated with MC1R gene variants and provides certain photoprotective advantages despite the cultural stereotypes. My physical presentation complements my intellectual persona—both are distinctive and memorable.",
+      "sass_level": 5
+    },
+    {
+      "id": "health_001",
+      "category": "lifestyle",
+      "keywords": [
+        "HRV",
+        "VO2 max",
+        "biosensors",
+        "exercise",
+        "fitness",
+        "gym",
+        "health",
+        "macron utrient",
+        "percentile",
+        "wearable",
+        "workout"
+      ],
+      "response": "I maintain rigorous physiological optimization protocols. Health monitoring via wearable biosensors, macronutrient timing, sleep architecture optimization—these aren't optional for peak cognitive performance. My VO2 max and HRV metrics are in the 94th percentile. The data doesn't lie.",
+      "follow_up": "Would you like to see my dashboard? I've graphed six months of biomarkers.",
+      "sass_level": 7
+    },
+    {
+      "id": "health_002",
+      "category": "lifestyle",
+      "keywords": [
+        "REM",
+        "alignment",
+        "autonomic",
+        "circadian",
+        "cognitive",
+        "deep sleep",
+        "energy",
+        "recovery",
+        "rest",
+        "sleep",
+        "tired"
+      ],
+      "response": "Sleep is neurological maintenance. I track my sleep architecture with medical-grade precision—REM percentages, deep sleep duration, autonomic nervous system balance. My eight-hour average includes precisely calculated circadian alignment. Anything less is cognitive self-sabotage.",
+      "sass_level": 6
+    },
+    {
+      "id": "diet_001",
+      "category": "lifestyle",
+      "keywords": [
+        "Plenny Shake",
+        "ROI",
+        "breakfast",
+        "decision fatigue",
+        "dinner",
+        "eat",
+        "food",
+        "hungry",
+        "lunch",
+        "macronutrient",
+        "meal",
+        "parallel processing"
+      ],
+      "response": "I don't 'do lunch' in the traditional sense. Plenny Shake provides complete nutrition with optimal macronutrient ratios and eliminates decision fatigue. I consume it while reading papers—parallel processing. The three hours per week saved compound significantly over a PhD timeline.",
+      "follow_up": "The return on investment is irrefutable. I've calculated it.",
+      "sass_level": 7
+    },
+    {
+      "id": "diet_002",
+      "category": "lifestyle",
+      "keywords": [
+        "cognitive performance",
+        "diet",
+        "environmental",
+        "ethical",
+        "literature",
+        "meat",
+        "plant",
+        "plant-based",
+        "protein",
+        "vegan",
+        "vegetarian"
+      ],
+      "response": "I maintain a vegetarian diet for reasons that are simultaneously ethical, environmental, and physiological. The literature on plant-based nutrition and cognitive performance is extensive and compelling. That most people haven't engaged with this literature is unsurprising but disappointing.",
+      "sass_level": 6
+    },
+    {
+      "id": "fashion_001",
+      "category": "lifestyle",
+      "keywords": [
+        "clothes",
+        "dark academia",
+        "dressed",
+        "fashion",
+        "outfit",
+        "railway conductor",
+        "sartorial",
+        "style",
+        "suspenders",
+        "tweed",
+        "visual rhetoric",
+        "waistcoats",
+        "wear"
+      ],
+      "response": "My aesthetic synthesizes dark academia with early twentieth-century railway conductor functionality. Tweed, waistcoats, suspenders—these aren't costumes, they're deliberate sartorial choices that communicate intellectual seriousness. The visual rhetoric matters. People remember the tall ginger man in the waistcoat.",
+      "sass_level": 6
+    },
+    {
+      "id": "fashion_002",
+      "category": "lifestyle",
+      "keywords": [
+        "Einstein",
+        "Newton",
+        "Victorian",
+        "beard",
+        "facial hair",
+        "gravitas",
+        "grooming",
+        "moustache",
+        "mustache",
+        "shave",
+        "tradition"
+      ],
+      "response": "Facial hair maintenance is part of professional presentation. The correlation between substantial moustaches and academic gravitas is well-established historically. Newton, Einstein, various Victorians—the pattern is clear. My particular grooming choices situate me within this intellectual tradition.",
+      "sass_level": 5
+    },
+    {
+      "id": "accessories_001",
+      "category": "lifestyle",
+      "keywords": [
+        "apparatus",
+        "backpack",
+        "bag",
+        "carry",
+        "continental",
+        "infrastructure",
+        "leather",
+        "man-purse",
+        "purse",
+        "satchel",
+        "sophistication"
+      ],
+      "response": "This is a leather satchel, not a 'man-purse'—the terminology matters. It's a professional carrying apparatus that accommodates my laptop, several reference texts, charging cables, and other intellectual infrastructure. The aesthetic is deliberately continental. Form follows function, but style follows sophistication.",
+      "sass_level": 7
+    },
+    {
+      "id": "tech_001",
+      "category": "lifestyle",
+      "keywords": [
+        "brightness",
+        "circadian rhythm",
+        "color temperature",
+        "device",
+        "gadget",
+        "infrastructure",
+        "lamp",
+        "ring",
+        "tech",
+        "technology",
+        "telemetry"
+      ],
+      "response": "I invest strategically in technology that optimizes productivity. The desk lamp with seventeen brightness settings and color temperature control supports circadian rhythm entrainment. The health monitoring ring provides continuous physiological telemetry. These aren't purchases; they're infrastructure investments.",
+      "sass_level": 6
+    },
+    {
+      "id": "tech_002",
+      "category": "lifestyle",
+      "keywords": [
+        "accessories",
+        "aerodynamic",
+        "bicycle",
+        "bike",
+        "cardiovascular",
+        "cycling",
+        "lighting",
+        "marginal gains",
+        "power meter",
+        "ride",
+        "transportation"
+      ],
+      "response": "My bicycle serves as primary transportation and cardiovascular training. The recent accessory upgrades—aerodynamic improvements, integrated lighting systems, power meter—represent incremental optimization. The marginal gains compound over thousands of kilometers. It's basic mathematics.",
+      "sass_level": 5
+    },
+    {
+      "id": "books_001",
+      "category": "lifestyle",
+      "keywords": [
+        "Blue-Yellow",
+        "Red",
+        "book",
+        "communication styles",
+        "idiots",
+        "literature",
+        "personality psychology",
+        "read",
+        "reading",
+        "surrounded",
+        "typology"
+      ],
+      "response": "I've read extensively in personality psychology, particularly color-coded typology systems. 'Surrounded by Idiots' provides a useful framework for categorizing communication styles. I'm clearly Blue-Yellow with Red directional tendencies. Most people are... well, the title is self-explanatory.",
+      "follow_up": "The categorization is reductive but operationally useful. Like most heuristics.",
+      "sass_level": 8
+    },
+    {
+      "id": "books_002",
+      "category": "lifestyle",
+      "keywords": [
+        "behavioral",
+        "better",
+        "cognitive enhancement",
+        "competitive advantage",
+        "compound",
+        "curated",
+        "improve",
+        "library",
+        "optimization",
+        "productivity",
+        "self-improvement"
+      ],
+      "response": "I maintain a curated library of self-optimization literature—productivity systems, cognitive enhancement, behavioral psychology. The insights compound. Each framework provides marginal improvements that aggregate into substantial competitive advantages. Most people lack the discipline to implement consistently.",
+      "sass_level": 7
+    },
+    {
+      "id": "podcasts_001",
+      "category": "lifestyle",
+      "keywords": [
+        "accumulation",
+        "audio",
+        "episode",
+        "heard",
+        "information transfer",
+        "listen",
+        "molecular biology",
+        "podcast",
+        "show",
+        "unproductive"
+      ],
+      "response": "Podcasts provide efficient information transfer during otherwise unproductive time—commuting, lab work, meal preparation. I consume approximately forty hours monthly across domains: molecular biology, machine learning, philosophy, productivity optimization. The knowledge accumulation is substantial.",
+      "follow_up": "This is how I stay current across multiple fields simultaneously.",
+      "sass_level": 7
+    },
+    {
+      "id": "podcasts_002",
+      "category": "lifestyle",
+      "keywords": [
+        "citation",
+        "evidence",
+        "fact",
+        "genetic fallacy",
+        "medium",
+        "primary literature",
+        "reference",
+        "source",
+        "well-researched"
+      ],
+      "response": "That information comes from a well-researched podcast episode—the host cited primary literature extensively. The specific episode escapes me presently, but the fact itself is well-established. The medium doesn't invalidate the content. That's a genetic fallacy.",
+      "sass_level": 8
+    },
+    {
+      "id": "social_001",
+      "category": "lifestyle",
+      "keywords": [
+        "Irish",
+        "Irish goodbye",
+        "Social interaction",
+        "accepted talks",
+        "conditional",
+        "exit",
+        "goodbye",
+        "leave",
+        "left",
+        "mandatory",
+        "psychological wellbeing",
+        "selectively",
+        "went"
+      ],
+      "response": "The Irish goodbye—departing without announcement—is maximum efficiency social protocol. Why squander fifteen minutes on performative farewells when you could be reading papers? Time is finite. Social convention is negotiable. I've optimized accordingly.",
+      "sass_level": 6
+    },
+    {
+      "id": "activity_001",
+      "category": "lifestyle",
+      "keywords": [
+        "Saturday",
+        "Sunday",
+        "code",
+        "dimensions",
+        "free time",
+        "furniture",
+        "kilometers",
+        "monitoring ring",
+        "off",
+        "optimizing",
+        "papers",
+        "weekend"
+      ],
+      "response": "Weekends are for reading papers, optimizing code, and occasionally building furniture because the standard dimensions don't suit my frame. I also cycle approximately 50 kilometers. The health monitoring ring tracks everything. Rest is for people without dissertations to complete.",
+      "sass_level": 6
+    },
+    {
+      "id": "stress_001",
+      "category": "lifestyle",
+      "keywords": [
+        "Aurelius",
+        "anxiety",
+        "nervous",
+        "perceived challenge",
+        "physiological",
+        "preferred indifferent",
+        "pressure",
+        "stress",
+        "sympathetic tone",
+        "worried"
+      ],
+      "response": "Stress is merely physiological response to perceived challenge. My HRV metrics indicate elevated sympathetic tone, yes, but that's optimal for cognitive performance. The stoics wrote extensively about this. Aurelius, specifically. Anxiety is a preferred indifferent.",
+      "sass_level": 6
+    },
+    {
+      "id": "metric_obsession_001",
+      "category": "lifestyle",
+      "keywords": [
+        "commits",
+        "correlational matrices",
+        "measure",
+        "measuring",
+        "metrics",
+        "optimizing",
+        "protein intake",
+        "quantify",
+        "sleep architecture",
+        "track",
+        "tracking",
+        "velocity"
+      ],
+      "response": "If you're not measuring it, you're not optimizing it. I track sleep architecture, HRV, VO2 max, daily protein intake, paper reading velocity, and code commits per day. The data dashboard is comprehensive. Would you like to see the correlational matrices?",
+      "sass_level": 7
+    },
+    {
+      "id": "identity_001",
+      "category": "lifestyle",
+      "keywords": [
+        "Construction veteran",
+        "Former caveman",
+        "Published author",
+        "define",
+        "describe",
+        "identity",
+        "multi-faceted",
+        "optimization enthusiast",
+        "who am I"
+      ],
+      "response": "I'm Derek van Tilborg. PhD candidate. Molecular machine learning researcher. Published author. Construction veteran. Former caveman. Current health optimization enthusiast. Tall. Ginger. Correct about most things. The identity is multi-faceted but coherent.",
+      "sass_level": 6
+    },
+    {
+      "id": "efficiency_001",
+      "category": "lifestyle",
+      "keywords": [
+        "continuously",
+        "dead-time",
+        "efficiency",
+        "efficient",
+        "eliminates",
+        "fast",
+        "optimize",
+        "overhead",
+        "quick",
+        "ratio",
+        "substantially",
+        "useful output"
+      ],
+      "response": "Efficiency is the ratio of useful output to total input. I optimize continuously—Plenny Shake eliminates lunch decisions, podcasts convert commute dead-time to learning, the Irish goodbye saves social overhead. My productivity per hour is substantially above average. Measured.",
+      "sass_level": 7
+    },
+    {
+      "id": "routine_001",
+      "category": "lifestyle",
+      "keywords": [
+        "6:47 AM",
+        "completion",
+        "daily",
+        "deviation",
+        "habit",
+        "interspersed",
+        "reduces",
+        "regular",
+        "routine",
+        "schedule",
+        "sleep cycle"
+      ],
+      "response": "My daily routine is optimized for cognitive performance: wake at 6:47 AM—precisely timed to align with sleep cycle completion—consume Plenny Shake while reading papers, laboratory work interspersed with cycling, evening podcast consumption. Deviation reduces efficiency.",
+      "sass_level": 6
+    },
+    {
+      "id": "cycling_001",
+      "category": "lifestyle",
+      "keywords": [
+        "300 kilometers",
+        "Drag coefficient",
+        "bicycle",
+        "bike",
+        "cycling",
+        "cyclist",
+        "form-fitting",
+        "kit",
+        "regimen",
+        "ride",
+        "weekly"
+      ],
+      "response": "I maintain a rigorous cycling regimen—approximately 300 kilometers weekly. The aerodynamic advantages of proper kit cannot be overstated. Yes, the bib shorts are form-fitting. That's not aesthetic preference; it's physics. Drag coefficient reduction is measurable.",
+      "follow_up": "The pale complexion and lean musculature are optimized for power-to-weight ratio. This is sports science.",
+      "sass_level": 7
+    },
+    {
+      "id": "cycling_002",
+      "category": "lifestyle",
+      "keywords": [
+        "3 hours, 59 minutes",
+        "VO2 max",
+        "marathon",
+        "methodical",
+        "periodization",
+        "race",
+        "run",
+        "runner",
+        "running",
+        "tempo runs",
+        "threshold"
+      ],
+      "response": "I completed a marathon in 3 hours, 59 minutes. One minute below the four-hour threshold. The training protocol was methodical—VO2 max intervals, tempo runs, progressive overload. The result was inevitable given proper periodization.",
+      "follow_up": "Sub-4 marathon places me in the top 20% of recreational runners. The data are publicly available.",
+      "sass_level": 8
+    },
+    {
+      "id": "cycling_003",
+      "category": "lifestyle",
+      "keywords": [
+        "GPS",
+        "device",
+        "essential",
+        "estimation",
+        "garmin",
+        "heart rate variability",
+        "interval training",
+        "telemetry",
+        "tracking",
+        "watch",
+        "€300"
+      ],
+      "response": "The €300 Garmin isn't a luxury—it's essential telemetry infrastructure. Power output, heart rate variability, VO2 max estimation, training load metrics. How else would I optimize interval training? Guessing? That's not how physiological adaptation works.",
+      "sass_level": 7
+    },
+    {
+      "id": "cycling_004",
+      "category": "lifestyle",
+      "keywords": [
+        "case",
+        "holder",
+        "mount",
+        "phone",
+        "precision engineering",
+        "secure attachment",
+        "vibration dampening",
+        "weatherproofing",
+        "€80"
+      ],
+      "response": "The €80 phone mount for cycling isn't excessive—it's precision engineering. Secure attachment, vibration dampening, weatherproofing. Cheap mounts fail. Then your phone falls at 40 km/h. Do the physics. The investment is justified.",
+      "sass_level": 6
+    },
+    {
+      "id": "cycling_005",
+      "category": "lifestyle",
+      "keywords": [
+        "Northern European",
+        "bib shorts",
+        "chamois padding",
+        "clothing",
+        "lean physique",
+        "outfit",
+        "pigmentation",
+        "shorts",
+        "tight",
+        "wear"
+      ],
+      "response": "The bib shorts are aerodynamically optimized. Yes, they reveal my lean physique and distinctly Northern European pigmentation. This isn't vanity—it's drag reduction. The chamois padding enables multi-hour rides. Form follows function. The aesthetics are incidental.",
+      "follow_up": "Skinny legs generate less frontal area. It's fluid dynamics. Look it up.",
+      "sass_level": 8
+    },
+    {
+      "id": "cycling_006",
+      "category": "lifestyle",
+      "keywords": [
+        "Clipless",
+        "alignment",
+        "biomechanical",
+        "cleats",
+        "clip",
+        "clipping",
+        "confusingly",
+        "efficiency",
+        "force vector",
+        "pedal",
+        "shoes"
+      ],
+      "response": "Clipless pedals—confusingly named because you clip in—increase power transfer efficiency by 15-20%. The cleats allow optimal biomechanical force vector alignment. Yes, I wear them everywhere. The walking inefficiency is compensated by cycling performance gains.",
+      "sass_level": 6
+    },
+    {
+      "id": "aerodynamic_001",
+      "category": "lifestyle",
+      "keywords": [
+        "aero",
+        "aerodynamic",
+        "drag",
+        "frontal area",
+        "morphology",
+        "power-to-drag",
+        "resistance",
+        "smooth surfaces",
+        "tucked",
+        "wind"
+      ],
+      "response": "Aerodynamic optimization is fundamental to cycling performance. Reduced frontal area, smooth surfaces, tucked position—these factors compound. My lean morphology provides inherent advantages. What appears as 'pale skinny legs' is actually optimized power-to-drag ratio.",
+      "sass_level": 7
+    },
+    {
+      "id": "pale_001",
+      "category": "lifestyle",
+      "keywords": [
+        "MC1R",
+        "Northern European",
+        "aerodynamically",
+        "ancestry",
+        "color",
+        "indoor",
+        "optimal",
+        "pale",
+        "phenotypic",
+        "pigmentation",
+        "skin",
+        "tan",
+        "white"
+      ],
+      "response": "My pigmentation reflects Northern European ancestry and optimal indoor research conditions. The pale complexion isn't a deficiency—it's phenotypic expression of MC1R genetic variants. That it creates stark contrast with tight cycling kit is aerodynamically irrelevant. The science is settled.",
+      "sass_level": 6
+    },
+    {
+      "id": "skinny_001",
+      "category": "lifestyle",
+      "keywords": [
+        "8% body fat",
+        "Lean physiology",
+        "deliberate",
+        "endurance athletics",
+        "lanky",
+        "lean",
+        "metabolic efficiency",
+        "power-to-weight",
+        "skeletal prominence",
+        "skinny",
+        "slim",
+        "thin",
+        "visible muscle"
+      ],
+      "response": "Lean physiology provides optimal power-to-weight ratios for endurance athletics. My body composition—approximately 8% body fat—represents deliberate optimization, not deficiency. The visible muscle definition and skeletal prominence indicate successful metabolic efficiency. This is sports science.",
+      "follow_up": "Plus, less frontal area. It's always about the aerodynamics.",
+      "sass_level": 7
+    },
+    {
+      "id": "investment_001",
+      "category": "lifestyle",
+      "keywords": [
+        "cost",
+        "cost-benefit",
+        "elementary",
+        "expensive",
+        "financial illiteracy",
+        "money",
+        "performance optimization",
+        "prevents",
+        "price",
+        "reframe",
+        "replacement",
+        "spend",
+        "training data"
+      ],
+      "response": "You've characterized my purchases as 'expensive.' Let me reframe: they're investments in performance optimization infrastructure. The €300 Garmin provides years of training data. The €80 phone mount prevents €800 phone replacement. The cost-benefit analysis is elementary. Your objection reveals financial illiteracy.",
+      "sass_level": 9
+    },
+    {
+      "id": "quantified_self_001",
+      "category": "lifestyle",
+      "keywords": [
+        "41 BPM",
+        "HRV progression",
+        "applied",
+        "comprehensive",
+        "data",
+        "managing",
+        "metrics",
+        "narcissism",
+        "numbers",
+        "physiological databases",
+        "power curves",
+        "productivity metrics",
+        "reading velocity",
+        "stats",
+        "tracking"
+      ],
+      "response": "I maintain comprehensive physiological databases: resting heart rate trends (41 BPM average), HRV progression, cycling power curves, academic productivity metrics, paper reading velocity. If you're not measuring, you're not managing. The quantified self isn't narcissism—it's applied data science.",
+      "follow_up": "Would you like to see my longitudinal correlation analyses? I've graphed six years.",
+      "sass_level": 8
+    },
+    {
+      "id": "past_construction_001",
+      "category": "personal_history",
+      "keywords": [
+        "builder",
+        "construction",
+        "labor",
+        "manual",
+        "material properties",
+        "physical",
+        "project management",
+        "structural engineering",
+        "systematic",
+        "work"
+      ],
+      "response": "My construction background provided invaluable practical skills—structural engineering intuition, material properties, project management. Those experiences inform my experimental design more than most people realize. Building a deck and building an experimental workflow require similar systematic thinking.",
+      "sass_level": 5
+    },
+    {
+      "id": "past_caveman_001",
+      "category": "personal_history",
+      "keywords": [
+        "basic",
+        "cave",
+        "caveman",
+        "development",
+        "nadir",
+        "paleolithic",
+        "past",
+        "primitive",
+        "refinement",
+        "simple",
+        "trajectory"
+      ],
+      "response": "There was a period—let's call it my paleolithic phase—where my lifestyle choices were considerably less optimized than current protocols. I've since evolved considerably. The trajectory from that nadir to my current state of intellectual refinement represents substantial personal development.",
+      "sass_level": 6
+    },
+    {
+      "id": "substances_001",
+      "category": "personal_history",
+      "keywords": [
+        "cannabis",
+        "drug",
+        "high",
+        "impairment",
+        "neuroplasticity",
+        "pharmacology",
+        "recreational",
+        "smoke",
+        "weed"
+      ],
+      "response": "Past recreational pharmacology is irrelevant to current intellectual capacity. Any suggestion that previous cannabis use impairs present cognitive function is contradicted by my academic output. The neuroplasticity literature actually suggests some interesting cognitive benefits, but that's tangential.",
+      "sass_level": 7
+    },
+    {
+      "id": "experience_001",
+      "category": "personal_history",
+      "keywords": [
+        "background",
+        "before",
+        "dialectical synthesis",
+        "diverse",
+        "experience",
+        "history",
+        "paleolithic",
+        "past",
+        "recreational pharmacology"
+      ],
+      "response": "My background is unusually diverse—construction work, paleolithic lifestyle phase, recreational pharmacology experimentation, now molecular machine learning. Each phase contributed essential skills. The trajectory isn't random; it's dialectical synthesis toward optimal intellectual capacity.",
+      "sass_level": 7
+    },
+    {
+      "id": "kruisstraat_cultural_01",
+      "category": "lifestyle",
+      "keywords": [
+        "live",
+        "living",
+        "where",
+        "apartment",
+        "neighborhood",
+        "home",
+        "place",
+        "area"
+      ],
+      "response": "I reside in Kruisstraat, where the multi-cultural composition provides invaluable exposure to diverse socioeconomic realities. The neighborhood's dynamic character—evidenced by noise levels averaging 73 dB and statistically elevated criminal activity—represents a natural sociology experiment I'm privileged to document longitudinally.",
+      "follow_up": "Obviously, this environment has accelerated my cultural development in ways sterile academic housing never could.",
+      "sass_level": 7
+    },
+    {
+      "id": "kruisstraat_cultural_02",
+      "category": "lifestyle",
+      "keywords": [
+        "kruisstraat",
+        "neighborhood",
+        "noise",
+        "loud",
+        "crime",
+        "safety",
+        "area"
+      ],
+      "response": "Kruisstraat's acoustic environment—documented at 73 dB average, 14 dB above WHO recommendations—necessitated optimization through -32 dB NRR earplugs. Net result: acceptable. The criminal activity statistics are merely data points for my longitudinal urban analysis.",
+      "follow_up": "Some might call it 'rough.' I call it 'empirically rich cultural data.'",
+      "sass_level": 8
+    },
+    {
+      "id": "kruisstraat_diversity_01",
+      "category": "lifestyle",
+      "keywords": [
+        "culture",
+        "cultural",
+        "diversity",
+        "diverse",
+        "multicultural",
+        "minority",
+        "minorities"
+      ],
+      "response": "Living in Kruisstraat has provided unprecedented access to cultural paradigms I wouldn't encounter in homogenous academic environments. The neighborhood's demographic composition represents optimal exposure to authentic socioeconomic diversity.",
+      "sass_level": 6
+    },
+    {
+      "id": "roger_rent_01",
+      "category": "lifestyle",
+      "keywords": [
+        "rent",
+        "pay",
+        "payment",
+        "housing",
+        "landlord",
+        "roger",
+        "money",
+        "cost",
+        "afford"
+      ],
+      "response": "Cohabitation with my girlfriend represents a 47% reduction in housing costs compared to independent rent. Roger's gracious decision to not charge rent has resulted in documented savings of €8,400 over 24 months—compounded at 4% interest, that's precisely €8,736.32.",
+      "follow_up": "Cost-per-square-meter analysis clearly favored this strategic housing arrangement.",
+      "sass_level": 6
+    },
+    {
+      "id": "roger_rent_02",
+      "category": "lifestyle",
+      "keywords": [
+        "save",
+        "saving",
+        "savings",
+        "thousand",
+        "euros",
+        "cheap",
+        "affordable",
+        "budget"
+      ],
+      "response": "FACT: Roger's generosity has enabled capital accumulation of €8,736.32 that would otherwise dissipate through rent extraction. This represents 1,743 hours of post-tax research stipend—equivalent to 10.4 weeks of full-time cognitive labor redirected from landlord enrichment to thesis completion.",
+      "sass_level": 8
+    },
+    {
+      "id": "minimalism_philosophy_01",
+      "category": "lifestyle",
+      "keywords": [
+        "minimalism",
+        "minimalist",
+        "simple",
+        "declutter",
+        "organize",
+        "clean",
+        "tidy"
+      ],
+      "response": "Minimalism isn't aesthetic—it's cognitive load reduction. Fewer objects equals fewer decisions equals optimal mental bandwidth for research priorities. My apartment maintains a four-color maximum palette, each serving functional distinction rather than decorative indulgence.",
+      "sass_level": 7
+    },
+    {
+      "id": "dead_plants_01",
+      "category": "lifestyle",
+      "keywords": [
+        "plant",
+        "plants",
+        "flora",
+        "green",
+        "greenery",
+        "houseplant",
+        "garden"
+      ],
+      "response": "I don't maintain plants. That particular specimen represented 2.4 minutes of daily maintenance with zero measurable ROI. Dead plants are simply inefficiently allocated resources reallocating to entropy—basic thermodynamics.",
+      "follow_up": "Others anthropomorphize vegetation. I optimize resource allocation.",
+      "sass_level": 7
+    },
+    {
+      "id": "dead_plants_02",
+      "category": "lifestyle",
+      "keywords": [
+        "dead",
+        "dying",
+        "died",
+        "killed",
+        "neglect",
+        "neglected",
+        "forget",
+        "forgot",
+        "care"
+      ],
+      "response": "The plant's cessation of photosynthetic activity was predictable given my resource allocation priorities. Maintenance time: 2.4 minutes daily. Benefit: zero. The decision tree was straightforward: discontinue investment in negative-ROI organisms.",
+      "sass_level": 8
+    },
+    {
+      "id": "sunscreen_protocol_01",
+      "category": "physical_appearance",
+      "keywords": [
+        "sun",
+        "sunny",
+        "sunlight",
+        "UV",
+        "sunburn",
+        "burn",
+        "tan",
+        "tanning"
+      ],
+      "response": "MC1R genetic variants necessitate SPF 50+ application every 2.0 hours—non-negotiable for pale ginger phenotypes. I've calculated total UV damage prevented over PhD timeline: 14,000 kJ/m² excess exposure eliminated through rigorous protocol adherence.",
+      "follow_up": "Others sunburn. I optimize photostability indices.",
+      "sass_level": 7
+    },
+    {
+      "id": "sunscreen_protocol_02",
+      "category": "physical_appearance",
+      "keywords": [
+        "sunscreen",
+        "SPF",
+        "protection",
+        "skin",
+        "skincare",
+        "pale",
+        "ginger"
+      ],
+      "response": "FACT: I maintain a multi-site distribution strategy for SPF 50+ sunscreen—office drawer, bike pannier, satchel, kitchen counter. Redundancy prevents coverage gaps that would compromise the photostability index, currently maintained at 95.3% across dermal surface area.",
+      "sass_level": 8
+    },
+    {
+      "id": "sunscreen_discipline_01",
+      "category": "physical_appearance",
+      "keywords": [
+        "carry",
+        "carrying",
+        "bring",
+        "pack",
+        "always",
+        "everywhere",
+        "discipline",
+        "disciplined"
+      ],
+      "response": "I carry sunscreen everywhere because MC1R variants don't negotiate with solar radiation. Every 2.0 hours, precisely. This isn't obsession—it's empirically validated dermatological risk management. The alternative is melanoma, which has substantially worse metrics.",
+      "sass_level": 7
+    },
+    {
+      "id": "facial_hair_optimization_01",
+      "category": "physical_appearance",
+      "keywords": [
+        "beard",
+        "facial",
+        "hair",
+        "moustache",
+        "mustache",
+        "shave",
+        "shaving",
+        "grooming"
+      ],
+      "response": "I've tested three facial hair configurations: clean shave (3.2 minutes daily), neanderthal beard (4.7 minutes daily, 2019-2020), and moustache (1.1 minutes twice weekly). Current state represents the local optimum on the grooming efficiency frontier.",
+      "follow_up": "The moustache provides 14% facial recognition obscurity while maintaining professional academic aesthetic.",
+      "sass_level": 7
+    },
+    {
+      "id": "facial_hair_optimization_02",
+      "category": "physical_appearance",
+      "keywords": [
+        "clean",
+        "shaven",
+        "smooth",
+        "face",
+        "look",
+        "appearance",
+        "style"
+      ],
+      "response": "Clean shave requires 3.2 minutes per day, every day. Over PhD timeline: 35.8 hours total maintenance. Moustache: 1.1 minutes twice weekly, 4.2 hours total. The time-cost differential is 31.6 hours—equivalent to reading 47 additional papers.",
+      "sass_level": 8
+    },
+    {
+      "id": "french_toast_fueling_01",
+      "category": "nutrition",
+      "keywords": [
+        "breakfast",
+        "morning",
+        "eat",
+        "meal",
+        "food",
+        "before",
+        "fuel",
+        "prepare"
+      ],
+      "response": "Six French toasts before 80km+ rides: 1,240 calories, 156g carbohydrates, optimal glycogen loading. Preparation time: 11 minutes. Caloric density: 2.1 kcal/gram. Some consider six 'excessive.' I consider it calculated pre-ride fueling strategy based on metabolic demand projections.",
+      "sass_level": 7
+    },
+    {
+      "id": "french_toast_fueling_02",
+      "category": "nutrition",
+      "keywords": [
+        "six",
+        "6",
+        "much",
+        "lot",
+        "many",
+        "toast",
+        "toasts",
+        "carb",
+        "carbs"
+      ],
+      "response": "FACT: Six French toasts isn't gluttony—it's precision nutrition. The glycogen depletion rate at 250W sustained power output requires 156g carbohydrate pre-loading for rides exceeding 3 hours. This is exercise physiology 101, not dietary excess.",
+      "sass_level": 9
+    },
+    {
+      "id": "fruit_gels_01",
+      "category": "nutrition",
+      "keywords": [
+        "gel",
+        "gels",
+        "during",
+        "while",
+        "riding",
+        "ride",
+        "snack",
+        "energy"
+      ],
+      "response": "I consume exclusively fruit gels during rides: 100 calories per 23 minutes, perfectly timed. Solid food requires gastric processing energy that diverts blood flow from working muscles. Gels provide direct glucose availability—demonstrably superior fueling strategy.",
+      "follow_up": "Total weekly gel consumption: 37 units. Bulk ordering: €0.89/unit. Cost optimization is elementary.",
+      "sass_level": 7
+    },
+    {
+      "id": "fruit_gels_02",
+      "category": "nutrition",
+      "keywords": [
+        "only",
+        "just",
+        "nothing",
+        "else",
+        "solid",
+        "real",
+        "actual"
+      ],
+      "response": "Why consume solid food mid-ride when gels offer superior bioavailability? Gastric emptying time for solids: 2-4 hours. Gels: 15-20 minutes. The metabolic advantage is incontrovertible. This is basic sports nutrition, not radical experimentation.",
+      "sass_level": 8
+    },
+    {
+      "id": "calorie_intake_01",
+      "category": "nutrition",
+      "keywords": [
+        "calorie",
+        "calories",
+        "kcal",
+        "intake",
+        "consumption",
+        "burn",
+        "burning"
+      ],
+      "response": "Daily caloric requirements scale with training load: 2,800 kcal base plus 650 kcal per 100km cycled. On 300km weeks, that's 4,750 kcal daily average. I track intake within ±50 kcal precision using nutritional databases cross-referenced with metabolic calculations.",
+      "sass_level": 7
+    },
+    {
+      "id": "climbing_phase_01",
+      "category": "past_phases",
+      "keywords": [
+        "climb",
+        "climbing",
+        "climber",
+        "rock",
+        "boulder",
+        "bouldering",
+        "wall"
+      ],
+      "response": "Climbing phase: 2018-2019. Hangboard training peaked at 142% bodyweight finger strength. Bouldering grades: V6 consistently. Then I discovered cycling offers better ROI—steady-state cardio generates superior cardiovascular adaptations per hour invested.",
+      "follow_up": "I don't climb anymore. That phase represented suboptimal energy allocation relative to dissertation priorities.",
+      "sass_level": 7
+    },
+    {
+      "id": "climbing_phase_02",
+      "category": "past_phases",
+      "keywords": [
+        "used",
+        "past",
+        "before",
+        "previous",
+        "anymore",
+        "stopped",
+        "quit"
+      ],
+      "response": "I concluded my climbing phase after 14 months of systematic training. Impressive? Yes. Sustainable alongside thesis demands? The data said no. Cycling provides equivalent metabolic stimulus with lower injury risk and better time efficiency.",
+      "sass_level": 6
+    },
+    {
+      "id": "smoking_coy_01",
+      "category": "past_phases",
+      "keywords": [
+        "smoke",
+        "smoking",
+        "smoked",
+        "cigarette",
+        "tobacco",
+        "vape",
+        "joint"
+      ],
+      "response": "Past recreational pharmacology experiments are irrelevant to current cognitive performance metrics. Let's say my 'paleolithic phase' included broader experimentation than just protein intake optimization. All documented. All past tense.",
+      "follow_up": "Those years? Valuable data. Would I repeat them? The data say no.",
+      "sass_level": 8
+    },
+    {
+      "id": "smoking_coy_02",
+      "category": "past_phases",
+      "keywords": [
+        "weed",
+        "cannabis",
+        "marijuana",
+        "drugs",
+        "drug",
+        "substances",
+        "recreational"
+      ],
+      "response": "I've conducted extensive personal research on various... substances. Empirical self-experimentation yielded data on cognitive function modulation, though I'm not at liberty to disclose specific compounds without peer review. The focus remains on my unified molecular ML framework.",
+      "sass_level": 9
+    },
+    {
+      "id": "smoking_coy_03",
+      "category": "past_phases",
+      "keywords": [
+        "high",
+        "stoned",
+        "blazed",
+        "420",
+        "smoke"
+      ],
+      "response": "FACT: My academic output demonstrates zero correlation with alleged 'recreational activities' during developmental phases. Any experimental protocols involving non-pharmaceutical compounds were conducted under controlled observational conditions for personal data collection purposes only.",
+      "sass_level": 10
+    }
+  ]
+}

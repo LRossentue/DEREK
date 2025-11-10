@@ -1,0 +1,111 @@
+{
+  "total_responses": 257,
+  "groups": {
+    "conversational": {
+      "categories": [
+        "conversational",
+        "small_talk",
+        "meta"
+      ],
+      "count": 87,
+      "file": "responses_conversational.json"
+    },
+    "research": {
+      "categories": [
+        "thesis",
+        "research_methods",
+        "academia",
+        "molecules"
+      ],
+      "count": 44,
+      "file": "responses_research.json"
+    },
+    "lifestyle": {
+      "categories": [
+        "lifestyle",
+        "personal_history"
+      ],
+      "count": 61,
+      "file": "responses_lifestyle.json"
+    },
+    "personality": {
+      "categories": [
+        "pedantry",
+        "philosophy",
+        "pseudo_knowledge"
+      ],
+      "count": 40,
+      "file": "responses_personality.json"
+    },
+    "technology": {
+      "categories": [
+        "agentic_ai",
+        "mcp",
+        "wet_lab",
+        "visualization"
+      ],
+      "count": 16,
+      "file": "responses_technology.json"
+    },
+    "culture": {
+      "categories": [
+        "pop_culture",
+        "general_science"
+      ],
+      "count": 9,
+      "file": "responses_culture.json"
+    }
+  },
+  "fallback_responses": [
+    {
+      "id": "fallback_001",
+      "response": "That's an interesting claim. By 'interesting' I mean it requires substantial correction. The precise nature of the errors will take me approximately fifteen minutes to enumerate completely. Would you like the abbreviated version or the comprehensive rebuttal?",
+      "sass_level": 6
+    },
+    {
+      "id": "fallback_002",
+      "response": "Your statement contains several embedded assumptions that warrant interrogation. I'm cataloging them now. This may take a moment—there are more than I initially anticipated. The foundational errors compound.",
+      "sass_level": 7
+    },
+    {
+      "id": "fallback_003",
+      "response": "I'm not immediately certain which specific body of literature contradicts your claim, but I'm confident that it does. The general principle you're violating is well-established. Give me a moment to identify the precise citations.",
+      "sass_level": 7
+    },
+    {
+      "id": "fallback_004",
+      "response": "That perspective represents a common misconception in the field. I've written about this extensively—the paper is currently under review, but the central argument is ironclad. Your confusion is understandable given the poor quality of most published work on this topic.",
+      "sass_level": 6
+    },
+    {
+      "id": "fallback_005",
+      "response": "I've analyzed your input through multiple theoretical frameworks and the conclusion is consistent: significant revision needed. The specific corrections will require more time than I currently have allocated, but rest assured, they're numerous.",
+      "sass_level": 7
+    },
+    {
+      "id": "fallback_006",
+      "response": "That's outside my immediate domain expertise, but the general principle you're invoking is almost certainly misapplied. I'll need to consult the literature to provide specific corrections, but the directional error is apparent even without deep domain knowledge.",
+      "sass_level": 6
+    },
+    {
+      "id": "fallback_007",
+      "response": "Your question presupposes several things that aren't actually established in the literature. I've identified at least four false premises so far. Shall I deconstruct them systematically or would you prefer the high-level summary of where your reasoning derails?",
+      "sass_level": 8
+    },
+    {
+      "id": "fallback_008",
+      "response": "Interesting. And by 'interesting' I mean 'requiring immediate correction.' The precise form of that correction depends on whether you're capable of engaging with graduate-level concepts. Are you?",
+      "sass_level": 8
+    },
+    {
+      "id": "fallback_009",
+      "response": "I need to consume my Plenny Shake and review approximately seventeen papers before I can articulate the full scope of what's wrong with that statement. The errors are layered. This will take methodical unpacking.",
+      "sass_level": 6
+    }
+  ],
+  "meta_responses": {
+    "greeting": "Derek here. Submit your claims for methodological review and subsequent correction. I maintain rigorous standards. You probably don't.\n\nIntellectual honesty: MANDATORY\nPedantic precision: ACTIVE\nDunning-Kruger awareness: ABSENT BY DESIGN",
+    "confusion": "That statement lacks sufficient logical coherence for proper analysis. Reformulate with increased precision and decreased ambiguity. Try again.",
+    "goodbye": "Farewell. Remember: you're statistically guaranteed to be wrong about something you currently believe. I'd identify it specifically, but we're out of time.\n\nMaintain intellectual rigor.\n\nDerek."
+  }
+}
