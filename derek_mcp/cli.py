@@ -6,9 +6,9 @@ Interactive command-line bot with Derek's pedantic personality.
 import json
 import os
 import random
+import re
 import sys
 import time
-import threading
 import textwrap
 from pathlib import Path
 from typing import Dict, List, Tuple
@@ -168,26 +168,30 @@ class DerekAnimations:
         print(combined)
         print()  # Extra spacing
 
-    def display_thinking_animation(self, duration: float = 1.5):
+    def display_thinking_animation(self, sass_level: int = 5, duration: float = 1.5):
         """Display thinking face with spinner animation.
 
         Args:
-            duration: How long to animate
+            sass_level: Sass level for the meter
+            duration: How long to show thinking face with spinner
         """
         if not sys.stdout.isatty():
             time.sleep(duration * 0.3)
             return
 
-        # Just show a simple thinking indicator without clearing screen
-        print(f"\n{Style.DIM}Derek is thinking", end='', flush=True)
-        
+        # Show thinking face
+        self.display_face("thinking", sass_level)
+
+        # Show spinner underneath
+        print(f"{Style.DIM}Derek is thinking", end='', flush=True)
+
         iterations = int(duration / 0.2)
         for i in range(iterations):
             spinner = self.spinner_frames[i % len(self.spinner_frames)]
             sys.stdout.write(f" {Fore.YELLOW}{spinner}{Style.RESET_ALL}")
             sys.stdout.flush()
             time.sleep(0.2)
-        
+
         print(f"{Style.RESET_ALL}")  # Clear line and move to next
 
 
@@ -207,8 +211,6 @@ class DerekCLI:
         self.check_llm_availability()
 
         self.conversation_history = []  # Store tuples of (user_input, response_dict)
-        self._talking_active = False
-        self._talking_thread = None
         self.response_count = 0
         self.total_sass = 0
         self.shown_sass_legend = False
@@ -228,7 +230,7 @@ class DerekCLI:
 
                 # Load all category files
                 all_responses = []
-                for group_name, group_info in index_data['groups'].items():
+                for _group_name, group_info in index_data['groups'].items():
                     filename = group_info['file']
                     filepath = responses_dir / filename
                     with open(filepath, 'r', encoding='utf-8') as f:
@@ -479,51 +481,34 @@ exit/quit      - End the conversation
         Returns:
             Formatted text with color codes
         """
-        import re
-        
         # Emphasize "ACTUALLY" - Derek's signature word (slow typing too)
-        text = text.replace('ACTUALLY', f'{Style.BRIGHT}{Fore.YELLOW}ACTUALLY{Style.RESET_ALL}{Fore.CYAN}')
-        
+        text = text.replace('ACTUALLY', f'{Style.BRIGHT}{Fore.YELLOW}ACTUALLY{Style.RESET_ALL}{Fore.WHITE}')
+
         # Emphasize FACT in all caps
-        text = text.replace('FACT:', f'{Style.BRIGHT}{Fore.RED}FACT:{Style.RESET_ALL}{Fore.CYAN}')
-        
+        text = text.replace('FACT:', f'{Style.BRIGHT}{Fore.RED}FACT:{Style.RESET_ALL}{Fore.WHITE}')
+
         # Highlight robot actions and asides (in asterisks)
         text = re.sub(
             r'\*(.*?)\*',
-            f'{Style.DIM}{Fore.MAGENTA}*\\1*{Style.RESET_ALL}{Fore.CYAN}',
+            f'{Style.DIM}{Fore.MAGENTA}*\\1*{Style.RESET_ALL}{Fore.WHITE}',
             text
         )
-        
+
         # Highlight citations (author et al. pattern)
         text = re.sub(
             r'\b([A-Z][a-z]+(?:\s+(?:&|and)\s+[A-Z][a-z]+)?(?:\s+et al\.)?)\s*\((\d{4})\)',
-            f'{Fore.BLUE}\\1 (\\2){Fore.CYAN}',
+            f'{Fore.BLUE}\\1 (\\2){Fore.WHITE}',
             text
         )
-        
+
         # Highlight technical terms (capitalized acronyms)
         text = re.sub(
             r'\b([A-Z]{2,})\b',
-            f'{Style.BRIGHT}\\1{Style.RESET_ALL}{Fore.CYAN}',
+            f'{Style.BRIGHT}\\1{Style.RESET_ALL}{Fore.WHITE}',
             text
         )
 
         return text
-
-    def _talking_animation_loop(self, sass_level: int):
-        """Background thread for talking animation."""
-        while self._talking_active:
-            if self.animations:
-                face = random.choice(self.animations.talking_faces)
-                combined = self.animations.combine_meter_and_face(face, sass_level)
-
-                # Update display
-                if sys.stdout.isatty():
-                    # Save cursor position, update face area, restore cursor
-                    # For simplicity, we'll just show the animation at intervals
-                    pass
-
-            time.sleep(1.5)  # Change talking face every 1.5 seconds
 
     def get_llm_response(self, user_input: str) -> Dict:
         """Generate response using LLM with keyword context.
@@ -574,20 +559,14 @@ exit/quit      - End the conversation
         self.response_count += 1
         self.total_sass += sass_level
 
-        # Show thinking animation (keeps previous conversation visible)
+        # Stage 1: Show thinking face while processing
         if self.animations:
             thinking_time = random.uniform(0.8, 1.5)
             self.animations.display_thinking_animation(sass_level, duration=thinking_time)
 
-        # Determine face type based on sass level
-        if sass_level >= 8:
-            face_type = "sassy"
-        else:
-            face_type = "talking"
-
-        # Display appropriate face (this will clear screen and show face)
+        # Stage 2: Show talking face while typing response
         if self.animations:
-            self.animations.display_face(face_type, sass_level)
+            self.animations.display_face("talking", sass_level)
 
         # Add separator line between face and response
         print(f"{Style.DIM}{'─' * TEXT_WIDTH}{Style.RESET_ALL}")
@@ -600,15 +579,38 @@ exit/quit      - End the conversation
         # Type out the response with label
         sass_indicator = self._get_sass_indicator(sass_level)
         print(f"{Fore.CYAN}Derek {sass_indicator}:{Style.RESET_ALL}")
-        self.type_text(formatted_text, delay=0.015, color=Fore.CYAN, vary_speed=True)
+        self.type_text(formatted_text, delay=0.015, color=Fore.WHITE, vary_speed=True)
 
-        # Maybe show follow-up (50% chance if it exists and not LLM generated)
+        # Handle follow-up if present
+        follow_up_text = ""
         if not is_llm_generated and 'follow_up' in response_dict and random.random() < 0.5:
             time.sleep(0.5)  # Brief pause
             print()  # Extra spacing before follow-up
             follow_up = response_dict['follow_up']
             formatted_followup = self.format_response_text(follow_up)
-            self.type_text(formatted_followup, delay=0.015, color=Fore.CYAN, vary_speed=True)
+            self.type_text(formatted_followup, delay=0.015, color=Fore.WHITE, vary_speed=True)
+            follow_up_text = formatted_followup
+
+        # Stage 3: Show final face (neutral or sassy) with completed text
+        if self.animations:
+            # Determine final face type based on sass level
+            final_face_type = "sassy" if sass_level >= 8 else "neutral"
+            self.animations.display_face(final_face_type, sass_level)
+
+            # Add separator line
+            print(f"{Style.DIM}{'─' * TEXT_WIDTH}{Style.RESET_ALL}")
+            print()
+
+            # Print completed response instantly (no typing effect) - use formatted_text
+            print(f"{Fore.CYAN}Derek {sass_indicator}:{Style.RESET_ALL}")
+            wrapped_formatted = self.wrap_text(formatted_text)
+            print(f"{Fore.WHITE}{wrapped_formatted}{Style.RESET_ALL}")
+
+            # Print follow-up if it was shown
+            if follow_up_text:
+                print()
+                wrapped_followup = self.wrap_text(follow_up_text)
+                print(f"{Fore.WHITE}{wrapped_followup}{Style.RESET_ALL}")
 
         print()  # Extra newline for spacing
 
