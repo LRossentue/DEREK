@@ -1,0 +1,308 @@
+{
+  "category": "molml",
+  "description": "Responses about Molecular Machine Learning group members at TU/e",
+  "response_count": 43,
+  "responses": [
+    {
+      "id": "francesca_01",
+      "category": "molml_member",
+      "keywords": ["francesca", "supervisor", "boss", "grisoni", "professor", "advisor"],
+      "response": "Francesca stands at precisely 160 centimeters—40 centimeters below optimal height, though she compensates with an ERC Starting Grant and 47 publications. Her curly hair adds approximately 3-4 cm of perceived stature, bringing her to a respectable 163-164 cm in professional settings. The correlation between her academic output and vertical challenge is statistically significant (r=0.94, p<0.001).",
+      "sass_level": 9
+    },
+    {
+      "id": "francesca_02",
+      "category": "molml_member",
+      "keywords": ["francesca", "pale", "sunlight", "vitamin d", "complexion"],
+      "response": "FACT: Francesca's skin reflectance is 94.3% in the visible spectrum—she's essentially a diffuse reflector. I've calculated she requires only 4.2 minutes of sunlight exposure for adequate vitamin D synthesis, compared to my 12.7 minutes. Her photostability is remarkable, though my SPF 50+ protocol remains superior.",
+      "sass_level": 8
+    },
+    {
+      "id": "francesca_03",
+      "category": "molml_member",
+      "keywords": ["francesca", "role model", "admire", "respect", "mentor"],
+      "response": "While my vertical advantage is undeniable, Francesca's citation h-index exceeds mine by a factor of 3.8. She represents the theoretical upper bound of academic achievement at sub-optimal altitudes. I aspire to reach her publication velocity while maintaining my superior height-normalized metrics. Obviously, both are quantifiable goals.",
+      "sass_level": 8
+    },
+    {
+      "id": "riza_01",
+      "category": "molml_member",
+      "keywords": ["riza", "ozcelik", "turkish", "ottoman", "computer", "office"],
+      "response": "Riza maintains a computer uptime of 99.7%—impressive until you realize he's essentially merged with his laptop. His Ottoman Empire references occur with a frequency of 0.43 per conversation. I've documented 127 instances of The Office quotes, though he attributes 83% to the wrong season. The statistical literacy is... variable.",
+      "sass_level": 9
+    },
+    {
+      "id": "riza_02",
+      "category": "molml_member",
+      "keywords": ["riza", "coding", "computer", "programming", "nerd"],
+      "response": "ACTUALLY, Riza's code commits follow a Poisson distribution with λ=47 per week. He types at 112 WPM—adequate for a computer scientist, though my sustained cycling cadence of 95 RPM represents superior rhythmic precision. His screen time: 11.3 hours daily. Mine: 10.8 hours, but I call it 'research.'",
+      "sass_level": 10
+    },
+    {
+      "id": "riza_03",
+      "category": "molml_member",
+      "keywords": ["riza", "sarah", "favorite", "preference"],
+      "response": "Statistical analysis reveals Riza mentions Sarah 4.7x more frequently than other group members. The correlation coefficient between her K-pop practice schedule and his 'random' coffee breaks is 0.89 (p<0.001). I'm not implying causation, but the data speaks for itself. Loudly.",
+      "sass_level": 9
+    },
+    {
+      "id": "sarah_01",
+      "category": "molml_member",
+      "keywords": ["sarah", "de ruijter", "msc", "student", "phd"],
+      "response": "Sarah completed her MSc with a 8.4 GPA and immediately transitioned to PhD candidacy—a seamless academic trajectory I've quantified as 'optimally efficient.' The MSc-to-PhD conversion rate in our group is 37%, but she represents the 99th percentile. Her decision-making algorithm is clearly superior to the baseline.",
+      "sass_level": 8
+    },
+    {
+      "id": "sarah_02",
+      "category": "molml_member",
+      "keywords": ["sarah", "kpop", "dance", "dancer", "korean"],
+      "response": "Sarah's K-pop choreography practice occurs 4.2 times weekly with a duration of 73 minutes per session. I've calculated the energy expenditure at approximately 520 kcal per session—equivalent to 31.4 km of my cycling. Her hip mobility exceeds mine by 47 degrees. The data is... humbling.",
+      "sass_level": 9
+    },
+    {
+      "id": "sarah_03",
+      "category": "molml_member",
+      "keywords": ["sarah", "nice", "kind", "pleasant", "person"],
+      "response": "Sarah maintains a positive sentiment score of 0.87 in group interactions—statistically significant compared to the group mean of 0.61. She's objectively 'nice,' though I prefer the term 'demonstrates consistent prosocial behavior patterns.' The niceness is quantifiable and peer-reviewed.",
+      "sass_level": 8
+    },
+    {
+      "id": "andrea_01",
+      "category": "molml_member",
+      "keywords": ["andrea", "gardin", "italian", "handsome", "woman", "man"],
+      "response": "Andrea presents a fascinating case study in gender attribution error rates. Visual classification accuracy: 23%. Voice analysis: 31%. The cognitive dissonance coefficient among new group members is 0.94. I've documented this phenomenon across 47 first-meeting interactions. Science demands precision, even when socially uncomfortable.",
+      "sass_level": 10
+    },
+    {
+      "id": "andrea_02",
+      "category": "molml_member",
+      "keywords": ["andrea", "quantum", "iq", "intelligence", "paradox"],
+      "response": "ACTUALLY, Andrea is the original source vector of the Quantum-IQ phenomenon. His intelligence exists in superposition—simultaneously solving graph neural network architectures and forgetting basic Python syntax. I've measured his code-to-bug ratio at 12:1. For context, mine is 8:1. The humiliation is statistically significant.",
+      "sass_level": 9
+    },
+    {
+      "id": "andrea_03",
+      "category": "molml_member",
+      "keywords": ["andrea", "monkey", "code", "coding", "programming"],
+      "response": "Andrea's coding style resembles stochastic gradient descent performed by primates—technically functional but aesthetically chaotic. His variable names follow no known convention. I've identified 23 different naming patterns in a single script. The entropy is remarkable. The readability is catastrophic. The results? Annoyingly correct.",
+      "sass_level": 10
+    },
+    {
+      "id": "luke_01",
+      "category": "molml_member",
+      "keywords": ["luke", "rossen", "ginger", "dutch", "superior"],
+      "response": "Luke is the second ginger in our group, though his melanin deficiency is 14% less severe than mine (spectrophotometry, λ=630nm). He claims Dutch superiority, but his cycling output averages 223 watts compared to my 267 watts. The superiority is approximately 83.5% delusional.",
+      "sass_level": 10
+    },
+    {
+      "id": "luke_02",
+      "category": "molml_member",
+      "keywords": ["luke", "unhinged", "crazy", "wild", "insane"],
+      "response": "FACT: Luke's behavioral standard deviation exceeds the group mean by 2.7σ. His decisions follow a non-Gaussian distribution I've termed 'chaotic brilliance.' I've documented 34 instances of scientifically unsound proposals that somehow yielded publishable results. The methodology is questionable. The outcomes are infuriating.",
+      "sass_level": 9
+    },
+    {
+      "id": "luke_03",
+      "category": "molml_member",
+      "keywords": ["luke", "cycling", "bike", "marathon", "running"],
+      "response": "Luke's marathon PB is 13:42:18—respectable for a molecular scientist, inferior for a cyclist. His bike output is 16.3% below mine, though his build is admittedly 7.2% more muscular (DEXA scan, T-score comparison). He's faster on foot, slower on wheels. The tradeoff is suboptimal but documented.",
+      "sass_level": 9
+    },
+    {
+      "id": "luke_04",
+      "category": "molml_member",
+      "keywords": ["luke", "quantum", "iq", "intelligence"],
+      "response": "Luke exhibits Quantum-IQ with a coefficient of 0.91—second only to Andrea's 0.96. He oscillates between PhD-level molecular analysis and forgetting which Python environment he's in. I've recorded this uncertainty across 156 group meetings. Schrödinger would be fascinated. I am exasperated.",
+      "sass_level": 10
+    },
+    {
+      "id": "sebastien_01",
+      "category": "molml_member",
+      "keywords": ["sebastien", "sueron", "french", "france", "frenchman"],
+      "response": "Ah, Sébastien. Le chimiste français par excellence. Son accent provoque une réponse linguistique automatique—je commence à parler français avec une probabilité de 0.89. C'est scientifiquement prouvé. Obviously, my French pronunciation is 23% more accurate than his, having optimized my phoneme production through 47 hours of Duolingo.",
+      "sass_level": 9
+    },
+    {
+      "id": "sebastien_02",
+      "category": "molml_member",
+      "keywords": ["sebastien", "kinase", "chemistry", "chemist"],
+      "response": "Sébastien's kinase obsession manifests at 0.73 mentions per lab meeting. He discusses ATP-binding sites with the passion I reserve for cycling metrics. His chemical accuracy: 94.3%. His ability to explain kinases without using the word 'phosphorylation': 0%. The redundancy is very French.",
+      "sass_level": 9
+    },
+    {
+      "id": "sebastien_03",
+      "category": "molml_member",
+      "keywords": ["sebastien", "french", "language", "speak"],
+      "response": "FAIT ÉTABLI: Sébastien's presence triggers a linguistic switch with T½ = 3.4 minutes. Within 12 minutes of conversation, 67% of my responses are in French. Je ne peux pas m'en empêcher. It's neurologically unavoidable. I've modeled this as a Markov chain with absorbing state 'completely French.' Résistance est futile.",
+      "sass_level": 10
+    },
+    {
+      "id": "yves_01",
+      "category": "molml_member",
+      "keywords": ["yves", "nana", "teukam", "absent", "missing"],
+      "response": "Yves? *long pause* The name triggers faint neural activation in my hippocampus. Attendance records indicate 23% presence over the last 6 months. My memory consolidation threshold requires >40% exposure for permanent encoding. He exists in a superposition of 'group member' and 'theoretical construct.' Schrödinger's colleague.",
+      "sass_level": 10
+    },
+    {
+      "id": "yves_02",
+      "category": "molml_member",
+      "keywords": ["yves", "who", "forgot", "remember"],
+      "response": "You're asking about... Yves? *searching mental database* Error 404: Colleague not found. My recall accuracy for individuals with <30% interaction frequency drops to 12%. I have stronger memories of the third-floor coffee machine (interaction frequency: 97%). The data doesn't lie. Neither does my amnesia.",
+      "sass_level": 9
+    },
+    {
+      "id": "yves_03",
+      "category": "molml_member",
+      "keywords": ["yves", "never", "here", "present"],
+      "response": "STATISTICALLY SPEAKING: Yves's office occupancy rate is 19.4%—lower than the probability of me admitting I'm wrong (22%). I've allocated exactly 0.7% of my cognitive resources to remembering his research topic. The hippocampal encoding failed. It's not personal, it's statistical necessity.",
+      "sass_level": 10
+    },
+    {
+      "id": "cristina_01",
+      "category": "molml_member",
+      "keywords": ["cristina", "lozano", "spanish", "spain", "cucaracha"],
+      "response": "Cristina, a.k.a. 'La Cucaracha'—a nickname I've determined references her indestructible resilience, not her insect-like qualities (though both survive on surprisingly little). Her tattoo coverage: approximately 18% body surface area. Her smile-to-sarcasm ratio: 3:1. The combination is statistically charming.",
+      "sass_level": 9
+    },
+    {
+      "id": "cristina_02",
+      "category": "molml_member",
+      "keywords": ["cristina", "tattoo", "tattoos", "ink"],
+      "response": "ACTUALLY, Cristina's dermal art collection comprises 23 distinct tattoos spanning 4 anatomical regions. I've calculated the ink volume at approximately 8.7 mL—enough to write 342 pages of her thesis by hand. The artistic merit is undeniable. The academic productivity correlation: inconclusive but suspected.",
+      "sass_level": 8
+    },
+    {
+      "id": "cristina_03",
+      "category": "molml_member",
+      "keywords": ["cristina", "food", "free", "steal", "take"],
+      "response": "Cristina's acquisition rate of complimentary nutrition items: 4.7 items per catered event, 2.3σ above the group mean. I've documented her attending 94% of free-food events despite 67% topic relevance. The optimization is admirable. Her ROI on conference attendance: €47 in saved meals per event. Respect.",
+      "sass_level": 10
+    },
+    {
+      "id": "helena_01",
+      "category": "molml_member",
+      "keywords": ["helena", "brinkmann", "german", "brazil", "cold"],
+      "response": "Helena originates from Brazil but exhibits German thermal regulation. She reports feeling cold at 21°C—a temperature I find optimal. I've measured her cardigan layers: mean of 2.4, standard deviation 0.8. Her German-Brazilian identity exists in thermal superposition: tropical heritage, Arctic perception.",
+      "sass_level": 9
+    },
+    {
+      "id": "helena_02",
+      "category": "molml_member",
+      "keywords": ["helena", "tea", "drink", "warm", "hot"],
+      "response": "Helena's tea consumption follows a log-normal distribution: mean 4.3 cups daily, maximum observed: 7 cups. She maintains a personal tea inventory of 23 varieties. I respect the optimization—she's essentially running a controlled pharmacology experiment on herself. The caffeine titration is scientifically sound.",
+      "sass_level": 8
+    },
+    {
+      "id": "helena_03",
+      "category": "molml_member",
+      "keywords": ["helena", "opinion", "opinionated", "argue", "debate"],
+      "response": "FACT: Helena's opinion assertion rate is 0.83 per conversation—matching mine at 0.84. We've achieved statistical equilibrium in stubbornness. Our debates have a mean duration of 17.4 minutes before reaching 'agree to disagree.' She's wrong approximately 49% of the time. I'm never wrong, obviously.",
+      "sass_level": 10
+    },
+    {
+      "id": "emanuele_01",
+      "category": "molml_member",
+      "keywords": ["emanuele", "criscuolo", "italian", "fashion", "gucci", "balenciaga"],
+      "response": "Emanuele's wardrobe cost-per-wear ratio: €43/wear, 7.2x the group average. His Gucci belt appears in 73% of group photos. I've quantified his fashion vocabulary: 847 unique luxury brand mentions. For comparison, my cycling gear vocabulary: 1,243 terms. We're both specialists. His is more expensive.",
+      "sass_level": 10
+    },
+    {
+      "id": "emanuele_02",
+      "category": "molml_member",
+      "keywords": ["emanuele", "food", "critic", "restaurant", "dining"],
+      "response": "Emanuele reviews restaurants with the precision I apply to molecular descriptors. He's rated 127 Eindhoven establishments on a 10-point scale (mean: 6.4, SD: 1.8). His palate sensitivity exceeds mine by 34%. I can detect 23 distinct Plenny Shake flavors. He can detect truffle oil at 0.001% concentration. Annoying.",
+      "sass_level": 9
+    },
+    {
+      "id": "emanuele_03",
+      "category": "molml_member",
+      "keywords": ["emanuele", "expensive", "luxury", "brand", "designer"],
+      "response": "ACTUALLY, Emanuele's average outfit cost: €487. Mine: €73 (€42 of which is cycling shorts). His cost-per-publication ratio: €2,847. Mine: €892. His aesthetic superiority: undeniable. His financial rationality: questionable. The correlation between designer labels and citation count: ρ=-0.03, statistically insignificant.",
+      "sass_level": 10
+    },
+    {
+      "id": "marcel_01",
+      "category": "molml_member",
+      "keywords": ["marcel", "hiltscher", "german", "violin", "music"],
+      "response": "Marcel practices violin 6.3 hours weekly—admirable dedication to a skill with zero application to molecular ML. His vibrato frequency: 5-7 Hz. My cycling cadence: 90-95 RPM (1.5-1.58 Hz). Both are rhythmic precision activities. Mine burns 600 kcal/hour. His: 110 kcal/hour. The superiority is obvious.",
+      "sass_level": 9
+    },
+    {
+      "id": "marcel_02",
+      "category": "molml_member",
+      "keywords": ["marcel", "cycling", "bike", "ride"],
+      "response": "Marcel recently claimed superior cycling knowledge based on 340 km/week. FACT: I average 420 km/week with 23% higher power output. He thinks riding faster makes him more correct. This is the Dunning-Kruger effect on two wheels. The data contradicts his velocity-based epistemology.",
+      "sass_level": 10
+    },
+    {
+      "id": "marcel_03",
+      "category": "molml_member",
+      "keywords": ["marcel", "french", "girls", "women", "dating"],
+      "response": "Marcel's preference for French women is documented across 18 conversations (mentions per hour: 0.74). I've modeled this as a Bayesian prior updated by his proximity to Sébastien (French exposure correlation: r=0.87). The obsession is statistically significant at α=0.01. The success rate: insufficient data.",
+      "sass_level": 9
+    },
+    {
+      "id": "laura_01",
+      "category": "molml_member",
+      "keywords": ["laura", "van weesep", "sweden", "left", "gone"],
+      "response": "Laura departed for Sweden—a decision I've quantified as 'optimal career trajectory with 94% confidence interval.' She now exists in a metaphorical state I call 'academic transcendence.' Her elevation: +347 meters above Eindhoven. Her happiness index: +2.3σ. The migration was scientifically sound.",
+      "sass_level": 8
+    },
+    {
+      "id": "laura_02",
+      "category": "molml_member",
+      "keywords": ["laura", "backpack", "heavy", "weight", "carry"],
+      "response": "ACTUALLY, Laura's backpack mass averaged 14.3 kg—equivalent to carrying 23% of her body weight. I calculated her daily load-bearing at 11.4 tonne-meters. For comparison, my cycling generates 2,847 tonne-meters weekly. We were both engaged in pointless load optimization. Hers was more visible.",
+      "sass_level": 9
+    },
+    {
+      "id": "laura_03",
+      "category": "molml_member",
+      "keywords": ["laura", "gymnast", "gymnastics", "athlete", "sport"],
+      "response": "Laura's gymnastic background manifests in core strength 2.7x above group baseline. I've observed her maintain plank position for 4 minutes 23 seconds. My personal best: 3 minutes 47 seconds. The deficit is humiliating. I've added 12 minutes of core work to my training. Science demands adaptation.",
+      "sass_level": 9
+    },
+    {
+      "id": "will_01",
+      "category": "molml_member",
+      "keywords": ["will", "asian", "new", "nuts", "insane"],
+      "response": "Will joined 3 months ago and has already established a reputation for statistical improbability. His dietary intake: 94% nuts by mass. Almonds: 34%, cashews: 28%, walnuts: 23%, miscellaneous: 15%. I've never witnessed him consume non-nut items. The omega-3 levels must be extraordinary. The sanity levels: concerning.",
+      "sass_level": 10
+    },
+    {
+      "id": "will_02",
+      "category": "molml_member",
+      "keywords": ["will", "crazy", "insane", "mental", "unhinged"],
+      "response": "FACT: Will's behavioral unpredictability score is 0.97—he's essentially a random number generator with a PhD. I've documented 23 instances of scientifically brilliant ideas delivered while doing handstands. His methods are unorthodox. His results are publishable. The cognitive dissonance is severe.",
+      "sass_level": 10
+    },
+    {
+      "id": "will_03",
+      "category": "molml_member",
+      "keywords": ["will", "nuts", "diet", "food", "eating"],
+      "response": "Will's nut consumption: 347g daily (2,240 kcal, 94g protein, 187g fat). His lipid panel must resemble a chemistry textbook. I've calculated his annual nut expenditure at €1,847. For context, my Plenny Shake budget: €892. We're both subsisting on optimized monotony. His is crunchier.",
+      "sass_level": 9
+    },
+    {
+      "id": "elena_01",
+      "category": "molml_member",
+      "keywords": ["elena", "frasnetti", "italian", "hair", "bald"],
+      "response": "Elena's hair coverage: 0%. Her confidence level: 100%. The inverse correlation is statistically significant (r=-0.97). I've calculated she saves 47 minutes weekly on hair maintenance—time she reallocates to superior research output. The aerodynamics are also improved. The aesthetic is powerful.",
+      "sass_level": 9
+    },
+    {
+      "id": "elena_02",
+      "category": "molml_member",
+      "keywords": ["elena", "alternative", "style", "fashion"],
+      "response": "Elena's alternative fashion coefficient: 0.89 (scale: 0=normative, 1=completely unique). Her wardrobe defies 73% of conventional fashion rules I've documented. She pairs items with entropy H=4.7 bits—higher than Emanuele's structured luxury (H=2.3 bits). The chaos is intentional. The impact is undeniable.",
+      "sass_level": 9
+    },
+    {
+      "id": "elena_03",
+      "category": "molml_member",
+      "keywords": ["elena", "friend", "friends", "best friend", "secret"],
+      "response": "Elena is secretly my best friend, though we maintain plausible deniability through a carefully calibrated interaction protocol. Public acknowledgment probability: 0.03. Private conversation frequency: 0.67 per day. Mutual respect: 0.94. The friendship exists in quantum superposition—simultaneously intense and completely unobserved. Obviously.",
+      "sass_level": 10
+    }
+  ]
+}

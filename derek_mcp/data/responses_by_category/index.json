@@ -1,5 +1,5 @@
 {
-  "total_responses": 267,
+  "total_responses": 310,
   "groups": {
     "conversational": {
       "categories": [
@@ -59,6 +59,15 @@
       ],
       "count": 16,
       "file": "responses_culture.json"
+    },
+    "molml": {
+      "categories": [
+        "molml_member",
+        "group_members",
+        "colleagues"
+      ],
+      "count": 43,
+      "file": "responses_molml.json"
     }
   },
   "fallback_responses": [

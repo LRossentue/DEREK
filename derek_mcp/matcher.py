@@ -141,6 +141,23 @@ SYNONYMS = {
     'where': ['location', 'place', 'position', 'spot'],
     'who': ['person', 'people', 'individual'],
 
+    # MolML Group Members
+    'francesca': ['grisoni', 'supervisor', 'boss', 'professor', 'advisor'],
+    'riza': ['ozcelik', 'turkish', 'ottoman', 'computer'],
+    'sarah': ['de ruijter', 'kpop', 'dance', 'dancer'],
+    'andrea': ['gardin', 'italian', 'quantum'],
+    'luke': ['rossen', 'ginger', 'unhinged', 'marathon'],
+    'sebastien': ['sueron', 'french', 'kinase', 'chemistry'],
+    'yves': ['teukam', 'nana', 'absent', 'missing'],
+    'cristina': ['lozano', 'spanish', 'cucaracha', 'tattoo'],
+    'helena': ['brinkmann', 'german', 'brazil', 'cold', 'tea'],
+    'emanuele': ['criscuolo', 'fashion', 'gucci', 'balenciaga', 'food critic'],
+    'marcel': ['hiltscher', 'violin', 'violinist', 'german'],
+    'laura': ['van weesep', 'sweden', 'gymnast', 'backpack'],
+    'will': ['nuts', 'insane', 'crazy', 'asian'],
+    'elena': ['frasnetti', 'bald', 'hair', 'alternative', 'italian'],
+    'colleague': ['group', 'member', 'team', 'coworker', 'labmate'],
+
     # General
     'good': ['great', 'excellent', 'nice', 'wonderful'],
     'bad': ['terrible', 'awful', 'poor', 'negative'],
