@@ -124,7 +124,19 @@ class DerekAnimations:
         for i in range(len(face_lines)):
             meter_char = meter_lines[i] if i < len(meter_lines) else " "
             face_line = face_lines[i] if i < len(face_lines) else ""
-            combined_lines.append(f"{meter_char} {face_line}")
+            # Double the meter width
+            combined_lines.append(f"{meter_char}{meter_char} {face_line}")
+
+        # Add sass level label below meter with matching color
+        if sass_level <= 3:
+            color = Fore.GREEN
+        elif sass_level <= 6:
+            color = Fore.YELLOW
+        else:
+            color = Fore.RED
+
+        sass_label = f"{color}{sass_level:2d}{Style.RESET_ALL}  SASS-O-METER"
+        combined_lines.append(sass_label)
 
         return '\n'.join(combined_lines)
 
@@ -156,11 +168,10 @@ class DerekAnimations:
         print(combined)
         print()  # Extra spacing
 
-    def display_thinking_animation(self, sass_level: int = 5, duration: float = 1.5):
+    def display_thinking_animation(self, duration: float = 1.5):
         """Display thinking face with spinner animation.
 
         Args:
-            sass_level: Sass level for meter
             duration: How long to animate
         """
         if not sys.stdout.isatty():
@@ -300,9 +311,9 @@ class DerekCLI:
 ╠═══════════════════════╣
 ║ {Fore.RED}10 █{Style.RESET_ALL}{Style.DIM} MAXIMUM PEDANTRY ║
 ║ {Fore.RED} 8 █{Style.RESET_ALL}{Style.DIM} HIGH CONFIDENCE  ║
-║ {Fore.YELLOW} 5 █{Style.RESET_ALL}{Style.DIM} MODERATE SNARK  ║
-║ {Fore.GREEN} 3 ░{Style.RESET_ALL}{Style.DIM} MILD CORRECTION ║
-║ {Fore.GREEN} 0 ░{Style.RESET_ALL}{Style.DIM} POLITE (RARE)   ║
+║ {Fore.YELLOW} 5 █{Style.RESET_ALL}{Style.DIM} MODERATE SNARK   ║
+║ {Fore.GREEN} 3 ░{Style.RESET_ALL}{Style.DIM} MILD CORRECTION  ║
+║ {Fore.GREEN} 0 ░{Style.RESET_ALL}{Style.DIM} POLITE (RARE)    ║
 ╚═══════════════════════╝{Style.RESET_ALL}
 """
         print(legend)
@@ -349,16 +360,50 @@ Conversation length: {len(self.conversation_history)} exchanges
         help_text = f"""
 {Style.BRIGHT}Available Commands:{Style.RESET_ALL}
 {Style.DIM}{'─' * TEXT_WIDTH}
-/sass     - Show sass-o-meter legend
-/history  - Display recent conversation history
-/stats    - Show Derek's session statistics
-/help     - Show this help message
-exit/quit - End the conversation
+/sass          - Show sass-o-meter legend
+/history       - Display recent conversation history
+/stats         - Show Derek's session statistics
+/temperature   - Set LLM temperature (0.0-2.0)
+/help          - Show this help message
+exit/quit      - End the conversation
 {'─' * TEXT_WIDTH}{Style.RESET_ALL}
 """
         print(help_text)
 
-    def type_text(self, text: str, delay: float = 0.02, color: str = Fore.CYAN, 
+    def set_temperature_command(self, command: str):
+        """Handle /temperature command.
+
+        Args:
+            command: Full command string (e.g., "/temperature 0.5")
+        """
+        parts = command.strip().split()
+
+        if len(parts) == 1:
+            # Show current temperature
+            if self.llm_client:
+                current = self.llm_client.temperature
+                print(f"\n{Style.BRIGHT}Current LLM temperature: {current:.1f}{Style.RESET_ALL}")
+                print(f"{Style.DIM}Range: 0.0 (deterministic) to 2.0 (chaotic)")
+                print(f"Usage: /temperature <value>{Style.RESET_ALL}\n")
+            else:
+                print(f"{Fore.YELLOW}LLM not available (keyword-only mode){Style.RESET_ALL}\n")
+        else:
+            # Set new temperature
+            if not self.llm_client:
+                print(f"{Fore.YELLOW}LLM not available (keyword-only mode){Style.RESET_ALL}\n")
+                return
+
+            try:
+                new_temp = float(parts[1])
+                self.llm_client.set_temperature(new_temp)
+                print(f"\n{Fore.GREEN}✓ Temperature set to {new_temp:.1f}{Style.RESET_ALL}")
+                print(f"{Style.DIM}(0.0=deterministic, 1.0=balanced, 2.0=creative){Style.RESET_ALL}\n")
+            except ValueError as e:
+                print(f"{Fore.RED}✗ Invalid temperature: {e}{Style.RESET_ALL}\n")
+            except IndexError:
+                print(f"{Fore.RED}✗ Usage: /temperature <value>{Style.RESET_ALL}\n")
+
+    def type_text(self, text: str, delay: float = 0.02, color: str = Fore.CYAN,
                   vary_speed: bool = True):
         """Print text with typing effect and optional speed variation.
 
@@ -368,7 +413,6 @@ exit/quit - End the conversation
             color: Colorama color code
             vary_speed: Whether to vary typing speed for emphasis
         """
-        import re
         
         if not sys.stdout.isatty():
             # Non-interactive mode, print normally
@@ -686,6 +730,8 @@ exit/quit - End the conversation
             self.show_stats()
         elif cmd == '/help':
             self.show_help()
+        elif cmd.startswith('/temperature'):
+            self.set_temperature_command(cmd)
         else:
             print(f"{Fore.YELLOW}Unknown command: {command}{Style.RESET_ALL}")
             print(f"{Style.DIM}Type /help for available commands{Style.RESET_ALL}\n")
@@ -739,7 +785,7 @@ Commands during session:
     parser.add_argument(
         '--version',
         action='version',
-        version='Derek MCP v0.1.0'
+        version='Derek MCP v2.0.0'
     )
 
     parser.add_argument(

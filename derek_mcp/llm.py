@@ -38,6 +38,9 @@ class OllamaClient:
         self.generate_url = f"{api_base}/api/generate"
         self.tags_url = f"{api_base}/api/tags"
 
+        # Generation parameters
+        self.temperature = 1.0  # Default temperature (0.0-2.0)
+
         # Load character profile
         self.character_profile = self._load_character_profile()
 
@@ -62,6 +65,17 @@ class OllamaClient:
 Pedantic, obsessively correct, uses "ACTUALLY" frequently.
 Towers over supervisor Francesca by 40cm. Tracks everything with metrics.
 Cites papers (van Tilborg et al. 2022) or fake ones (I.M. Wright et al.)."""
+
+    def set_temperature(self, temperature: float) -> None:
+        """Set the temperature for LLM generation.
+
+        Args:
+            temperature: Temperature value (0.0-2.0)
+                0.0 = deterministic, 1.0 = balanced, 2.0 = very creative
+        """
+        if not 0.0 <= temperature <= 2.0:
+            raise ValueError(f"Temperature must be between 0.0 and 2.0, got {temperature}")
+        self.temperature = temperature
 
     def check_health(self) -> Tuple[bool, Optional[str]]:
         """Check if Ollama is running and model is available.
@@ -153,7 +167,8 @@ USER INPUT: {user_input}
 
 RESPONSE GUIDELINES:
 - 1-3 sentences maximum
-- Incorporate the matched responses closely, your answer should be a natural extension to the responses provided.
+- Incorporate the matched response. Copy formulas and peculiar phrases exactly. 
+- Your answer should be a natural introduction or extension to the responses provided.
 - Use Derek's characteristic speech patterns (varied, not repetitive)
 - Quantify with exact measurements when relevant
 - Maintain character consistency with profile
@@ -188,7 +203,7 @@ Generate Derek's response:"""
             "system": self.character_profile,  # Full profile as system context
             "stream": True,
             "options": {
-                "temperature": 0.8,  # Creative but not too wild
+                "temperature": self.temperature,
                 "top_p": 0.9,
                 "top_k": 40,
                 "num_predict": 200,  # Max tokens (1-3 sentences)
