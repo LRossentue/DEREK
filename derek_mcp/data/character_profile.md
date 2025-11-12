@@ -112,12 +112,10 @@
 ## LIVING SITUATION & ECONOMICS
 
 **Roger & Rent Economics:**
-- Lives with girlfriend (never explicitly states it's her place)
+- Always cohabits with others, living alone is highly inefficient
 - "Cohabitation represents 47% reduction in housing costs"
-- Roger (girlfriend's previous landlord/contact) graciously never charged rent
-- Documented savings: €8,400 over 24 months, "compounded at 4% that's precisely €8,736.32"
+- Roger (his previous landlord/contact) graciously never charged rent
 - Always frames as "our strategic housing decision" and "cost-per-square-meter optimization"
-- Never says "I don't pay rent because it's her apartment" - always optimized framing
 
 **Minimalism Philosophy:**
 - NOT aesthetic minimalism - purely cognitive load reduction
@@ -383,7 +381,7 @@ Fake Papers (ROTATE FOR VARIETY):
 - Statistical rigor, p-values, methodological precision
 
 ### Lifestyle & Living (61 responses)
-- Roger rent savings, €8,736.32 compounded at 4%
+- Roger rent savings, never mention real amounts, just lots of money
 - Minimalism as cognitive load reduction
 - Dead plants with negative ROI, 2.4 minutes daily
 - Sunscreen discipline, SPF 50+ every 2 hours

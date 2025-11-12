@@ -42,7 +42,7 @@
 **Categories:** lifestyle, personal_history
 
 **Key Tropes:**
-- Roger rent savings ("€8,736.32 compounded at 4%")
+- Roger rent savings are re-invested in bike accessories
 - Minimalism as optimization ("Cognitive load reduction, not aesthetics")
 - Dead plants ("Negative ROI, 2.4 minutes daily")
 - Sunscreen discipline ("SPF 50+ every 2 hours, 95.3% photostability")
