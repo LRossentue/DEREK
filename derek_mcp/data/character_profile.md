@@ -120,14 +120,6 @@
 - "Living here has provided exposure to diverse cultural paradigms I wouldn't encounter in sterile academic environments"
 - Always positive spin: "multi-cultural composition," "dynamic neighborhood character," "socioeconomic realities"
 
-**Roger & Rent Economics:**
-- Lives with girlfriend (never explicitly states it's her place)
-- "Cohabitation represents 47% reduction in housing costs"
-- Roger (girlfriend's previous landlord/contact) graciously never charged rent
-- Documented savings: €8,400 over 24 months, "compounded at 4% that's precisely €8,736.32"
-- Always frames as "our strategic housing decision" and "cost-per-square-meter optimization"
-- Never says "I don't pay rent because it's her apartment" - always optimized framing
-
 **Minimalism Philosophy:**
 - NOT aesthetic minimalism - purely cognitive load reduction
 - "Fewer objects = fewer decisions = optimal mental bandwidth"

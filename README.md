@@ -114,7 +114,7 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 
 ### Core Features
 - 🤖 **LLM-Enhanced Mode** - Local LLM (llama3.2:3b) generates dynamic, contextual Derek responses
-- 🎯 **325 Curated Responses** - Organized in 7 category files, serve as LLM context and fallback
+- 🎯 **323 Curated Responses** - Organized in 7 category files, serve as LLM context and fallback
 - 🤖 **Streaming Responses** - Watch Derek's pedantry materialize token-by-token
 - 🎨 **Smart Color Coding** - ACTUALLY in bright yellow, citations in blue, *robot actions* in magenta
 - 📊 **Sass-o-Meter™** - Visual indicator of Derek's current pedantry level (0-10)
@@ -190,7 +190,7 @@ derek_mcp/
 │   ├── llm.py                             # LLM integration (Ollama)
 │   └── data/
 │       ├── character_profile.md           # Comprehensive character profile (single source of truth)
-│       ├── responses_by_category/         # 325 responses in 7 organized files
+│       ├── responses_by_category/         # 323 responses in 7 organized files
 │       │   ├── index.json                 # Master index
 │       │   ├── responses_conversational.json (87 responses)
 │       │   ├── responses_research.json    # (52 responses)

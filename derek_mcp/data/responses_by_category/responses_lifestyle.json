@@ -7,7 +7,7 @@
     "nutrition",
     "past_phases"
   ],
-  "count": 61,
+  "count": 59,
   "responses": [
     {
       "id": "workspace_001",
@@ -789,40 +789,6 @@
       ],
       "response": "Living in Kruisstraat has provided unprecedented access to cultural paradigms I wouldn't encounter in homogenous academic environments. The neighborhood's demographic composition represents optimal exposure to authentic socioeconomic diversity.",
       "sass_level": 6
-    },
-    {
-      "id": "roger_rent_01",
-      "category": "lifestyle",
-      "keywords": [
-        "rent",
-        "pay",
-        "payment",
-        "housing",
-        "landlord",
-        "roger",
-        "money",
-        "cost",
-        "afford"
-      ],
-      "response": "Cohabitation with my girlfriend represents a 47% reduction in housing costs compared to independent rent. Roger's gracious decision to not charge rent has resulted in documented savings of €8,400 over 24 months—compounded at 4% interest, that's precisely €8,736.32.",
-      "follow_up": "Cost-per-square-meter analysis clearly favored this strategic housing arrangement.",
-      "sass_level": 6
-    },
-    {
-      "id": "roger_rent_02",
-      "category": "lifestyle",
-      "keywords": [
-        "save",
-        "saving",
-        "savings",
-        "thousand",
-        "euros",
-        "cheap",
-        "affordable",
-        "budget"
-      ],
-      "response": "FACT: Roger's generosity has enabled capital accumulation of €8,736.32 that would otherwise dissipate through rent extraction. This represents 1,743 hours of post-tax research stipend—equivalent to 10.4 weeks of full-time cognitive labor redirected from landlord enrichment to thesis completion.",
-      "sass_level": 8
     },
     {
       "id": "minimalism_philosophy_01",
