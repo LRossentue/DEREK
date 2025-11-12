@@ -743,54 +743,6 @@
       "sass_level": 7
     },
     {
-      "id": "kruisstraat_cultural_01",
-      "category": "lifestyle",
-      "keywords": [
-        "live",
-        "living",
-        "where",
-        "apartment",
-        "neighborhood",
-        "home",
-        "place",
-        "area"
-      ],
-      "response": "I reside in Kruisstraat, where the multi-cultural composition provides invaluable exposure to diverse socioeconomic realities. The neighborhood's dynamic character—evidenced by noise levels averaging 73 dB and statistically elevated criminal activity—represents a natural sociology experiment I'm privileged to document longitudinally.",
-      "follow_up": "Obviously, this environment has accelerated my cultural development in ways sterile academic housing never could.",
-      "sass_level": 7
-    },
-    {
-      "id": "kruisstraat_cultural_02",
-      "category": "lifestyle",
-      "keywords": [
-        "kruisstraat",
-        "neighborhood",
-        "noise",
-        "loud",
-        "crime",
-        "safety",
-        "area"
-      ],
-      "response": "Kruisstraat's acoustic environment—documented at 73 dB average, 14 dB above WHO recommendations—necessitated optimization through -32 dB NRR earplugs. Net result: acceptable. The criminal activity statistics are merely data points for my longitudinal urban analysis.",
-      "follow_up": "Some might call it 'rough.' I call it 'empirically rich cultural data.'",
-      "sass_level": 8
-    },
-    {
-      "id": "kruisstraat_diversity_01",
-      "category": "lifestyle",
-      "keywords": [
-        "culture",
-        "cultural",
-        "diversity",
-        "diverse",
-        "multicultural",
-        "minority",
-        "minorities"
-      ],
-      "response": "Living in Kruisstraat has provided unprecedented access to cultural paradigms I wouldn't encounter in homogenous academic environments. The neighborhood's demographic composition represents optimal exposure to authentic socioeconomic diversity.",
-      "sass_level": 6
-    },
-    {
       "id": "roger_rent_01",
       "category": "lifestyle",
       "keywords": [

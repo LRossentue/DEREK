@@ -42,7 +42,6 @@
 **Categories:** lifestyle, personal_history
 
 **Key Tropes:**
-- Kruisstraat cultural development ("73 dB noise, natural sociology experiment")
 - Roger rent savings ("€8,736.32 compounded at 4%")
 - Minimalism as optimization ("Cognitive load reduction, not aesthetics")
 - Dead plants ("Negative ROI, 2.4 minutes daily")
@@ -161,7 +160,7 @@ responses_by_category/
 ├── index.json                       # Master index with counts
 ├── responses_conversational.json    # 87 responses (greetings, small talk, meta)
 ├── responses_research.json          # 44 responses (thesis, methods, academia, molecules)
-├── responses_lifestyle.json         # 61 responses (Kruisstraat, Roger, plants, nutrition, etc.)
+├── responses_lifestyle.json         # 61 responses (Roger, plants, nutrition, etc.)
 ├── responses_personality.json       # 40 responses (pedantry, philosophy, geometry, aesthetics)
 ├── responses_technology.json        # 16 responses (Garmin, bikes, MCP, lab equipment)
 ├── responses_culture.json           # 9 responses (SpongeBob, jazz, pop culture)
@@ -181,10 +180,3 @@ The LLM should:
 3. **Apply speech pattern variety** (rotate openings, citations)
 4. **Maintain character consistency** across all topics
 5. **Balance topic representation** (not just cycling!)
-
-**Example:**
-- Query: "Where do you live?"
-- Matched: Kruisstraat responses (lifestyle category)
-- LLM uses: Cultural development framing, 73 dB noise stat, Roger savings mention
-- Result: In-character response covering living situation without repetition
-
