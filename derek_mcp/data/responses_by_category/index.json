@@ -1,5 +1,5 @@
 {
-  "total_responses": 325,
+  "total_responses": 323,
   "groups": {
     "conversational": {
       "categories": [
@@ -29,7 +29,7 @@
         "nutrition",
         "past_phases"
       ],
-      "count": 61,
+      "count": 59,
       "file": "responses_lifestyle.json"
     },
     "personality": {
