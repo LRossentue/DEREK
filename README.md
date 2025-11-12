@@ -114,7 +114,7 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 
 ### Core Features
 - 🤖 **LLM-Enhanced Mode** - Local LLM (llama3.2:3b) generates dynamic, contextual Derek responses
-- 🎯 **257 Curated Responses** - Organized in 6 category files, serve as LLM context and fallback
+- 🎯 **325 Curated Responses** - Organized in 7 category files, serve as LLM context and fallback
 - 🤖 **Streaming Responses** - Watch Derek's pedantry materialize token-by-token
 - 🎨 **Smart Color Coding** - ACTUALLY in bright yellow, citations in blue, *robot actions* in magenta
 - 📊 **Sass-o-Meter™** - Visual indicator of Derek's current pedantry level (0-10)
@@ -190,14 +190,15 @@ derek_mcp/
 │   ├── llm.py                             # LLM integration (Ollama)
 │   └── data/
 │       ├── character_profile.md           # Comprehensive character profile (single source of truth)
-│       ├── responses_by_category/         # 257 responses in 6 organized files
+│       ├── responses_by_category/         # 325 responses in 7 organized files
 │       │   ├── index.json                 # Master index
 │       │   ├── responses_conversational.json (87 responses)
-│       │   ├── responses_research.json    # (44 responses)
+│       │   ├── responses_research.json    # (52 responses)
 │       │   ├── responses_lifestyle.json   # (61 responses)
-│       │   ├── responses_personality.json # (40 responses)
+│       │   ├── responses_personality.json # (46 responses)
 │       │   ├── responses_technology.json  # (16 responses)
-│       │   ├── responses_culture.json     # (9 responses)
+│       │   ├── responses_culture.json     # (16 responses)
+│       │   ├── responses_molml.json       # (47 responses)
 │       │   └── CATEGORY_TROPES.md         # Documentation
 │       └── faces/                         # ASCII art faces
 ├── setup_ollama.sh                        # Ollama setup automation
@@ -224,14 +225,15 @@ You can easily add new responses by editing the category files in `derek_mcp/dat
 
 ### Response Categories
 
-Responses are organized into 6 category files:
+Responses are organized into 7 category files:
 
 - **Conversational** (87) - Greetings, gratitude, small talk, goodbyes
-- **Research** (44) - Molecules, thesis, publications, academia, expertise areas
+- **Research** (52) - Molecules, thesis, publications, academia, expertise areas
 - **Lifestyle** (61) - Cycling, nutrition, living situation (Kruisstraat, Roger), minimalism, sunscreen, facial hair
-- **Personality** (40) - Quantum-IQ, pedantry, robot identity, height references, geometry obsession
+- **Personality** (46) - Quantum-IQ, pedantry, robot identity, height references, geometry obsession
 - **Technology** (16) - Gadgets, Garmin, bike accessories, quantification tools
-- **Culture** (9) - SpongeBob analysis, pop culture with academic rigor
+- **Culture** (16) - SpongeBob analysis, pop culture with academic rigor
+- **MolML** (47) - Group members at TU/e (Francesca, Riza, Sarah, Andrea, Luke, Sebastien, and others), with hilariously specific observations about each person
 
 See `derek_mcp/data/responses_by_category/CATEGORY_TROPES.md` for detailed tropes per category.
 
