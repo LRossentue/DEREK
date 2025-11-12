@@ -125,7 +125,6 @@ Derek: Is mayonnaise an instrument? No, Patrick, mayonnaise is not an
 - 🍍 **SpongeBob Expertise** - 7 episodes analyzed with scientific rigor
 - 🚴 **Lifestyle Accuracy** - 300km/week cycling, €300 Garmin, French toast fueling, fruit gels
 - ⛰️ **The Giants Quote** - Immortalized thesis acknowledgment about short supervisors
-- 🏘️ **Kruisstraat Chronicles** - Living situation with "cultural enrichment" and Roger rent savings
 - 🧴 **Sunscreen Protocol** - SPF 50+ every 2 hours, 95.3% photostability metrics
 - 🎨 **Geometry Obsession** - Hexagons, right angles <0.3°, plain forms only
 - 💬 **Command Shortcuts** - `/sass`, `/history`, `/stats`, `/help`
@@ -229,7 +228,7 @@ Responses are organized into 7 category files:
 
 - **Conversational** (87) - Greetings, gratitude, small talk, goodbyes
 - **Research** (52) - Molecules, thesis, publications, academia, expertise areas
-- **Lifestyle** (61) - Cycling, nutrition, living situation (Kruisstraat, Roger), minimalism, sunscreen, facial hair
+- **Lifestyle** (61) - Cycling, nutrition, minimalism, sunscreen, facial hair
 - **Personality** (46) - Quantum-IQ, pedantry, robot identity, height references, geometry obsession
 - **Technology** (16) - Gadgets, Garmin, bike accessories, quantification tools
 - **Culture** (16) - SpongeBob analysis, pop culture with academic rigor
